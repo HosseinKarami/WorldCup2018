@@ -1,0 +1,142 @@
+.main{
+  .timeline{
+    background: whitesmoke;
+    width: 1200px;
+    margin: 1rem auto;
+    border-radius: 5px;
+    .timeline-content{
+      padding: 1rem;
+      h4{
+        color: #0f4583;
+        font-size: 2rem;
+        margin: 0;
+        padding-right: 2rem;
+        font-weight: 400;
+      }
+      .matchlist{
+        border: 1px solid #9ec9e3;
+        .nav-pills{
+          height: 62px;
+          padding-left: 1px;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          li{
+            text-align: center;
+            margin: 0;
+            background-color: #f2f2f2;
+            height: 62px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            &.small-cell{
+              width: 3.125%;
+            }
+            &.restday{
+              background-color: #fff;
+              color: #ccc;
+              .restday-wrap{
+                padding: 0;
+                background-color: #fff;
+                display: block;
+                height: 62px;
+                //margin-left: -1px;
+                .day-literal{
+                  font-size: .7rem;
+                }
+                .day{
+                  color: #ccc;
+                  line-height: 15px;
+                  margin-bottom: 6px;
+                }
+              }
+            }
+            &:last-child{
+              &::after{
+                display: none;
+              }
+              &::before{
+                display: none;
+              }
+            }
+            &::before{
+              content: "";
+              display: block;
+              width: 1px;
+              height: 30px;
+              background-color: #9ec9e3;
+              position: absolute;
+              left: -1px;
+              top: 7px;
+              z-index: 1;
+            }
+            &::after{
+              content: "";
+              display: block;
+              width: 1px;
+              height: 14px;
+              background-color: #d9d9d9;
+              position: absolute;
+              left: -1px;
+              bottom: 3px;
+              z-index: 1;
+            }
+            a{
+              padding: 0;
+              background-color: #fff;
+              display: block;
+              height: 62px;
+              color: #0087e6;
+              text-decoration: none;
+              outline: none;
+              //margin-left: -1px;
+
+              
+              .day-literal{
+                font-size: .7rem;
+              }
+              .day{
+                color: #666;
+                line-height: 15px;
+                margin-bottom: 6px;
+              }
+              .matchday-item{
+                background-color: #f2f2f2;
+                height: 20px;
+                .match-dot-container{
+                  line-height: 8px;
+                  text-align: center;
+                  &.matches-4{
+                    padding: 5px 22% 0;
+                    .match-dot{
+                      margin-top: 0;
+                    }
+                  }
+                  .match-dot{
+                    color: #0087e6;
+                    display: inline-block;
+                    width: 7px;
+                    height: 7px;
+                    position: relative;
+                    margin-top: 8px;
+                    
+                    &:before{
+                      font-size: 16px;
+                      content: "\2022";
+                      display: block;
+                      width: 7px;
+                      height: 7px;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
