@@ -48,6 +48,9 @@
           a{
             display: flex;
             justify-content: center;
+            h4{
+              font-weight: 300;
+            }
           }
           &.selected{
             background: #0f3e7966;

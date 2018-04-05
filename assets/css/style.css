@@ -66,12 +66,7 @@ html {
 
 body {
   font: 400 1em/1.6 IRANSans;
-  color: #f9f9f9;
-  -webkit-transition: all ease-out 600ms;
-  -o-transition: all ease-out 600ms;
-  transition: all ease-out 600ms;
-  -webkit-animation: fadeDown 1s ease;
-          animation: fadeDown 1s ease;
+  color: #292929;
   background: url(../img/darkbg.png) repeat;
   background-color: #0f4583; }
 
@@ -548,6 +543,8 @@ img {
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center; }
+            .header .header-content .nav ul li a h4 {
+              font-weight: 300; }
           .header .header-content .nav ul li.selected {
             background: #0f3e7966; }
           .header .header-content .nav ul li:hover {
@@ -558,122 +555,286 @@ img {
   margin: 0;
   padding: 0; }
 
-.main .timeline {
-  background: whitesmoke;
-  width: 1200px;
-  margin: 1rem auto;
-  border-radius: 5px; }
-  .main .timeline .timeline-content {
-    padding: 1rem; }
-    .main .timeline .timeline-content h4 {
-      color: #0f4583;
-      font-size: 2rem;
-      margin: 0;
-      padding-right: 2rem;
-      font-weight: 400; }
-    .main .timeline .timeline-content .matchlist {
-      border: 1px solid #9ec9e3; }
-      .main .timeline .timeline-content .matchlist .nav-pills {
-        height: 62px;
-        padding-left: 1px;
-        margin: 0;
-        padding: 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex; }
-        .main .timeline .timeline-content .matchlist .nav-pills li {
-          text-align: center;
-          margin: 0;
-          background-color: #f2f2f2;
-          height: 62px;
+.main {
+  padding: 1rem 0; }
+  .main .all-matches {
+    background: #FFF;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 2rem 1rem; }
+    .main .all-matches .matches-selection {
+      padding: 1rem; }
+      .main .all-matches .matches-selection .nav {
+        border: none; }
+        .main .all-matches .matches-selection .nav .nav-item {
+          padding: .5rem;
+          text-decoration: none;
+          font-size: 1rem;
+          font-weight: 500;
+          border: none;
+          color: #495057;
+          border-bottom: 2px solid transparent; }
+          .main .all-matches .matches-selection .nav .nav-item.active {
+            color: #0f4583;
+            border-bottom: 2px solid #0f4583; }
+    .main .all-matches .tab-content {
+      padding: 0 1rem; }
+      .main .all-matches .tab-content #accordion .card .contents {
+        margin-right: 0;
+        position: relative;
+        height: auto; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .main .all-matches .tab-content #accordion .card .contents {
+            margin-right: 0; } }
+        @media only screen and (min-width: 481.6px) {
+          .main .all-matches .tab-content #accordion .card .contents {
+            margin-right: 0; } }
+        @media only screen and (min-width: 768px) {
+          .main .all-matches .tab-content #accordion .card .contents {
+            margin-right: 0; } }
+        @media only screen and (min-width: 1000px) {
+          .main .all-matches .tab-content #accordion .card .contents {
+            margin-right: 370px; } }
+        @media only screen and (min-width: 1300px) {
+          .main .all-matches .tab-content #accordion .card .contents {
+            margin-right: 370px; } }
+        .main .all-matches .tab-content #accordion .card .contents .team-a {
+          width: 37%;
+          display: table-cell; }
+          .main .all-matches .tab-content #accordion .card .contents .team-a ul {
+            list-style: none;
+            margin-right: -30px;
+            width: 50%; }
+            .main .all-matches .tab-content #accordion .card .contents .team-a ul li {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              padding-bottom: .5rem; }
+              .main .all-matches .tab-content #accordion .card .contents .team-a ul li img {
+                margin-left: 1rem;
+                width: 16px; }
+              .main .all-matches .tab-content #accordion .card .contents .team-a ul li span {
+                font-size: .9rem; }
+        .main .all-matches .tab-content #accordion .card .contents .team-b {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 50%;
+          display: table-cell; }
+          .main .all-matches .tab-content #accordion .card .contents .team-b ul {
+            list-style: none;
+            margin-right: -39px; }
+            .main .all-matches .tab-content #accordion .card .contents .team-b ul li {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              padding-bottom: .5rem; }
+              .main .all-matches .tab-content #accordion .card .contents .team-b ul li img {
+                margin-left: 1rem;
+                width: 16px; }
+              .main .all-matches .tab-content #accordion .card .contents .team-b ul li span {
+                font-size: .9rem; }
+      .main .all-matches .tab-content #accordion .card .matches-date {
+        font-size: 1.2rem;
+        line-height: 50px;
+        height: 50px;
+        padding-right: 10px;
+        border-bottom: solid 1px #474747;
+        color: #474747;
+        font-weight: 500; }
+      .main .all-matches .tab-content #accordion .card .card-header {
+        border-bottom: 1px solid #dcdcdc;
+        cursor: pointer; }
+        .main .all-matches .tab-content #accordion .card .card-header .row {
           position: relative;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column; }
-          .main .timeline .timeline-content .matchlist .nav-pills li.small-cell {
-            width: 3.125%; }
-          .main .timeline .timeline-content .matchlist .nav-pills li.restday {
-            background-color: #fff;
-            color: #ccc; }
-            .main .timeline .timeline-content .matchlist .nav-pills li.restday .restday-wrap {
-              padding: 0;
-              background-color: #fff;
-              display: block;
-              height: 62px; }
-              .main .timeline .timeline-content .matchlist .nav-pills li.restday .restday-wrap .day-literal {
-                font-size: .7rem; }
-              .main .timeline .timeline-content .matchlist .nav-pills li.restday .restday-wrap .day {
-                color: #ccc;
-                line-height: 15px;
-                margin-bottom: 6px; }
-          .main .timeline .timeline-content .matchlist .nav-pills li:last-child::after {
-            display: none; }
-          .main .timeline .timeline-content .matchlist .nav-pills li:last-child::before {
-            display: none; }
-          .main .timeline .timeline-content .matchlist .nav-pills li::before {
-            content: "";
-            display: block;
-            width: 1px;
-            height: 30px;
-            background-color: #9ec9e3;
-            position: absolute;
-            left: -1px;
-            top: 7px;
-            z-index: 1; }
-          .main .timeline .timeline-content .matchlist .nav-pills li::after {
-            content: "";
-            display: block;
-            width: 1px;
-            height: 14px;
-            background-color: #d9d9d9;
-            position: absolute;
-            left: -1px;
-            bottom: 3px;
-            z-index: 1; }
-          .main .timeline .timeline-content .matchlist .nav-pills li a {
-            padding: 0;
-            background-color: #fff;
-            display: block;
-            height: 62px;
-            color: #0087e6;
-            text-decoration: none;
-            outline: none; }
-            .main .timeline .timeline-content .matchlist .nav-pills li a .day-literal {
-              font-size: .7rem; }
-            .main .timeline .timeline-content .matchlist .nav-pills li a .day {
-              color: #666;
-              line-height: 15px;
-              margin-bottom: 6px; }
-            .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item {
-              background-color: #f2f2f2;
-              height: 20px; }
-              .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item .match-dot-container {
-                line-height: 8px;
-                text-align: center; }
-                .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item .match-dot-container.matches-4 {
-                  padding: 5px 22% 0; }
-                  .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item .match-dot-container.matches-4 .match-dot {
-                    margin-top: 0; }
-                .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item .match-dot-container .match-dot {
-                  color: #0087e6;
-                  display: inline-block;
-                  width: 7px;
-                  height: 7px;
-                  position: relative;
-                  margin-top: 8px; }
-                  .main .timeline .timeline-content .matchlist .nav-pills li a .matchday-item .match-dot-container .match-dot:before {
-                    font-size: 16px;
-                    content: "\2022";
-                    display: block;
-                    width: 7px;
-                    height: 7px;
-                    position: absolute;
-                    top: 0;
-                    left: 0; }
+          font-size: 12px;
+          line-height: 19px;
+          min-height: 83px;
+          padding: .5rem;
+          border-radius: 5px;
+          margin-bottom: .5rem; }
+          .main .all-matches .tab-content #accordion .card .card-header .row:hover {
+            background-color: rgba(0, 0, 0, 0.03); }
+          .main .all-matches .tab-content #accordion .card .card-header .row .info {
+            width: 380px;
+            min-height: 80px;
+            text-align: right;
+            float: none; }
+            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .info {
+                float: none; } }
+            @media only screen and (min-width: 481.6px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .info {
+                float: none; } }
+            @media only screen and (min-width: 768px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .info {
+                float: none; } }
+            @media only screen and (min-width: 1000px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .info {
+                float: right; } }
+            @media only screen and (min-width: 1300px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .info {
+                float: right; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .info h5, .main .all-matches .tab-content #accordion .card .card-header .row .info h6 {
+              margin: 0;
+              font-size: 1rem;
+              line-height: 26px;
+              color: #494949;
+              font-weight: 400; }
+            .main .all-matches .tab-content #accordion .card .card-header .row .info h5:first-child {
+              font-weight: bold; }
+          .main .all-matches .tab-content #accordion .card .card-header .row .content {
+            margin-right: 0;
+            position: relative;
+            height: 5rem; }
+            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .content {
+                margin-right: 0; } }
+            @media only screen and (min-width: 481.6px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .content {
+                margin-right: 0; } }
+            @media only screen and (min-width: 768px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .content {
+                margin-right: 0; } }
+            @media only screen and (min-width: 1000px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .content {
+                margin-right: 370px; } }
+            @media only screen and (min-width: 1300px) {
+              .main .all-matches .tab-content #accordion .card .card-header .row .content {
+                margin-right: 370px; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+              position: absolute;
+              right: 0;
+              top: 1.5rem;
+              width: 53px;
+              border: 1px solid #e2e2e2; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+                  top: 1.5rem;
+                  width: 53px; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
+                  top: 1rem;
+                  width: 70px; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+              position: absolute;
+              right: 4rem;
+              top: 1.8rem;
+              font-size: 1rem; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+                  right: 4rem;
+                  font-size: 1rem; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+                  right: 6rem;
+                  font-size: 1rem; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+                  right: 6rem;
+                  font-size: 2rem; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+                  right: 6rem;
+                  font-size: 2rem; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
+                  right: 6rem;
+                  font-size: 2rem; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .content .points {
+              text-align: center;
+              width: 100%;
+              position: absolute;
+              top: 1.8rem; }
+              .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                font-size: 1rem;
+                line-height: 26px;
+                color: #dd4606; }
+                @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                  .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                    font-size: 1rem; } }
+                @media only screen and (min-width: 481.6px) {
+                  .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                    font-size: 1rem; } }
+                @media only screen and (min-width: 768px) {
+                  .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                    font-size: 27px; } }
+                @media only screen and (min-width: 1000px) {
+                  .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                    font-size: 27px; } }
+                @media only screen and (min-width: 1300px) {
+                  .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
+                    font-size: 27px; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+              position: absolute;
+              left: 4rem;
+              top: 1.8rem;
+              font-size: 1rem; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+                  left: 4rem;
+                  font-size: 1rem; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+                  left: 6rem;
+                  font-size: 1rem; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+                  left: 6rem;
+                  font-size: 2rem; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+                  left: 6rem;
+                  font-size: 2rem; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
+                  left: 6rem;
+                  font-size: 2rem; } }
+            .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+              position: absolute;
+              left: 0;
+              top: 1.5rem;
+              width: 53px;
+              border: 1px solid #e2e2e2; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+                  top: 1.5rem;
+                  width: 53px; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+                  top: 1rem;
+                  width: 70px; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
+                  top: 1rem;
+                  width: 70px; } }
 
 /**
 *
@@ -834,3 +995,65 @@ This set of fonts are used in this project under the license: (.....)
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15ms linear;
+  -o-transition: opacity 0.15ms linear;
+  transition: opacity 0.15ms linear; }
+
+.fade.show {
+  opacity: 1; }
+
+.collapse {
+  display: none; }
+
+.collapse.show {
+  display: block; }
+
+tr.collapse.show {
+  display: table-row; }
+
+tbody.collapse.show {
+  display: table-row-group; }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden; }
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6; }
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px; }
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #e9ecef #e9ecef #dee2e6; }
+
+.nav-tabs .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent; }
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff; }
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }

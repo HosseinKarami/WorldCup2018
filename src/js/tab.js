@@ -1,617 +1,251 @@
-/* ========================================================================
- * Bootstrap: affix.js v3.3.7
- * http://getbootstrap.com/javascript/#affix
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v4.0.0): tab.js
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * --------------------------------------------------------------------------
+ */
+var Tab = function ($) {
+  /**
+   * ------------------------------------------------------------------------
+   * Constants
+   * ------------------------------------------------------------------------
+   */
+  var NAME = 'tab';
+  var VERSION = '4.0.0';
+  var DATA_KEY = 'bs.tab';
+  var EVENT_KEY = "." + DATA_KEY;
+  var DATA_API_KEY = '.data-api';
+  var JQUERY_NO_CONFLICT = $.fn[NAME];
+  var TRANSITION_DURATION = 150;
+  var Event = {
+    HIDE: "hide" + EVENT_KEY,
+    HIDDEN: "hidden" + EVENT_KEY,
+    SHOW: "show" + EVENT_KEY,
+    SHOWN: "shown" + EVENT_KEY,
+    CLICK_DATA_API: "click" + EVENT_KEY + DATA_API_KEY
+  };
+  var ClassName = {
+    DROPDOWN_MENU: 'dropdown-menu',
+    ACTIVE: 'active',
+    DISABLED: 'disabled',
+    FADE: 'fade',
+    SHOW: 'show'
+  };
+  var Selector = {
+    DROPDOWN: '.dropdown',
+    NAV_LIST_GROUP: '.nav, .list-group',
+    ACTIVE: '.active',
+    ACTIVE_UL: '> li > .active',
+    DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
+    DROPDOWN_TOGGLE: '.dropdown-toggle',
+    DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active'
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
+  };
+
+  var Tab =
+    /*#__PURE__*/
+    function () {
+      function Tab(element) {
+        this._element = element;
+      } // Getters
 
 
-+function ($) {
-    'use strict';
-  
-    // AFFIX CLASS DEFINITION
-    // ======================
-  
-    var Affix = function (element, options) {
-      this.options = $.extend({}, Affix.DEFAULTS, options)
-  
-      this.$target = $(this.options.target)
-        .on('scroll.bs.affix.data-api', $.proxy(this.checkPosition, this))
-        .on('click.bs.affix.data-api',  $.proxy(this.checkPositionWithEventLoop, this))
-  
-      this.$element     = $(element)
-      this.affixed      = null
-      this.unpin        = null
-      this.pinnedOffset = null
-  
-      this.checkPosition()
-    }
-  
-    Affix.VERSION  = '3.3.7'
-  
-    Affix.RESET    = 'affix affix-top affix-bottom'
-  
-    Affix.DEFAULTS = {
-      offset: 0,
-      target: window
-    }
-  
-    Affix.prototype.getState = function (scrollHeight, height, offsetTop, offsetBottom) {
-      var scrollTop    = this.$target.scrollTop()
-      var position     = this.$element.offset()
-      var targetHeight = this.$target.height()
-  
-      if (offsetTop != null && this.affixed == 'top') return scrollTop < offsetTop ? 'top' : false
-  
-      if (this.affixed == 'bottom') {
-        if (offsetTop != null) return (scrollTop + this.unpin <= position.top) ? false : 'bottom'
-        return (scrollTop + targetHeight <= scrollHeight - offsetBottom) ? false : 'bottom'
-      }
-  
-      var initializing   = this.affixed == null
-      var colliderTop    = initializing ? scrollTop : position.top
-      var colliderHeight = initializing ? targetHeight : height
-  
-      if (offsetTop != null && scrollTop <= offsetTop) return 'top'
-      if (offsetBottom != null && (colliderTop + colliderHeight >= scrollHeight - offsetBottom)) return 'bottom'
-  
-      return false
-    }
-  
-    Affix.prototype.getPinnedOffset = function () {
-      if (this.pinnedOffset) return this.pinnedOffset
-      this.$element.removeClass(Affix.RESET).addClass('affix')
-      var scrollTop = this.$target.scrollTop()
-      var position  = this.$element.offset()
-      return (this.pinnedOffset = position.top - scrollTop)
-    }
-  
-    Affix.prototype.checkPositionWithEventLoop = function () {
-      setTimeout($.proxy(this.checkPosition, this), 1)
-    }
-  
-    Affix.prototype.checkPosition = function () {
-      if (!this.$element.is(':visible')) return
-  
-      var height       = this.$element.height()
-      var offset       = this.options.offset
-      var offsetTop    = offset.top
-      var offsetBottom = offset.bottom
-      var scrollHeight = Math.max($(document).height(), $(document.body).height())
-  
-      if (typeof offset != 'object')         offsetBottom = offsetTop = offset
-      if (typeof offsetTop == 'function')    offsetTop    = offset.top(this.$element)
-      if (typeof offsetBottom == 'function') offsetBottom = offset.bottom(this.$element)
-  
-      var affix = this.getState(scrollHeight, height, offsetTop, offsetBottom)
-  
-      if (this.affixed != affix) {
-        if (this.unpin != null) this.$element.css('top', '')
-  
-        var affixType = 'affix' + (affix ? '-' + affix : '')
-        var e         = $.Event(affixType + '.bs.affix')
-  
-        this.$element.trigger(e)
-  
-        if (e.isDefaultPrevented()) return
-  
-        this.affixed = affix
-        this.unpin = affix == 'bottom' ? this.getPinnedOffset() : null
-  
-        this.$element
-          .removeClass(Affix.RESET)
-          .addClass(affixType)
-          .trigger(affixType.replace('affix', 'affixed') + '.bs.affix')
-      }
-  
-      if (affix == 'bottom') {
-        this.$element.offset({
-          top: scrollHeight - height - offsetBottom
-        })
-      }
-    }
-  
-  
-    // AFFIX PLUGIN DEFINITION
-    // =======================
-  
-    function Plugin(option) {
-      return this.each(function () {
-        var $this   = $(this)
-        var data    = $this.data('bs.affix')
-        var options = typeof option == 'object' && option
-  
-        if (!data) $this.data('bs.affix', (data = new Affix(this, options)))
-        if (typeof option == 'string') data[option]()
-      })
-    }
-  
-    var old = $.fn.affix
-  
-    $.fn.affix             = Plugin
-    $.fn.affix.Constructor = Affix
-  
-  
-    // AFFIX NO CONFLICT
-    // =================
-  
-    $.fn.affix.noConflict = function () {
-      $.fn.affix = old
-      return this
-    }
-  
-  
-    // AFFIX DATA-API
-    // ==============
-  
-    $(window).on('load', function () {
-      $('[data-spy="affix"]').each(function () {
-        var $spy = $(this)
-        var data = $spy.data()
-  
-        data.offset = data.offset || {}
-  
-        if (data.offsetBottom != null) data.offset.bottom = data.offsetBottom
-        if (data.offsetTop    != null) data.offset.top    = data.offsetTop
-  
-        Plugin.call($spy, data)
-      })
-    })
-  
-  }(jQuery);
-  
-/* ========================================================================
- * Bootstrap: transition.js v3.3.7
- * http://getbootstrap.com/javascript/#transitions
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+      var _proto = Tab.prototype;
 
+      // Public
+      _proto.show = function show() {
+        var _this = this;
 
-+function ($) {
-    'use strict';
-  
-    // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
-    // ============================================================
-  
-    function transitionEnd() {
-      var el = document.createElement('bootstrap')
-  
-      var transEndEventNames = {
-        WebkitTransition : 'webkitTransitionEnd',
-        MozTransition    : 'transitionend',
-        OTransition      : 'oTransitionEnd otransitionend',
-        transition       : 'transitionend'
-      }
-  
-      for (var name in transEndEventNames) {
-        if (el.style[name] !== undefined) {
-          return { end: transEndEventNames[name] }
+        if (this._element.parentNode && this._element.parentNode.nodeType === Node.ELEMENT_NODE && $(this._element).hasClass(ClassName.ACTIVE) || $(this._element).hasClass(ClassName.DISABLED)) {
+          return;
         }
-      }
-  
-      return false // explicit for ie8 (  ._.)
-    }
-  
-    // http://blog.alexmaccaw.com/css-transitions
-    $.fn.emulateTransitionEnd = function (duration) {
-      var called = false
-      var $el = this
-      $(this).one('bsTransitionEnd', function () { called = true })
-      var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
-      setTimeout(callback, duration)
-      return this
-    }
-  
-    $(function () {
-      $.support.transition = transitionEnd()
-  
-      if (!$.support.transition) return
-  
-      $.event.special.bsTransitionEnd = {
-        bindType: $.support.transition.end,
-        delegateType: $.support.transition.end,
-        handle: function (e) {
-          if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+
+        var target;
+        var previous;
+        var listElement = $(this._element).closest(Selector.NAV_LIST_GROUP)[0];
+        var selector = Util.getSelectorFromElement(this._element);
+
+        if (listElement) {
+          var itemSelector = listElement.nodeName === 'UL' ? Selector.ACTIVE_UL : Selector.ACTIVE;
+          previous = $.makeArray($(listElement).find(itemSelector));
+          previous = previous[previous.length - 1];
         }
-      }
-    })
-  
-  }(jQuery);
-  
 
-/* ========================================================================
- * Bootstrap: tab.js v3.3.7
- * http://getbootstrap.com/javascript/#tabs
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+        var hideEvent = $.Event(Event.HIDE, {
+          relatedTarget: this._element
+        });
+        var showEvent = $.Event(Event.SHOW, {
+          relatedTarget: previous
+        });
 
+        if (previous) {
+          $(previous).trigger(hideEvent);
+        }
 
-+function ($) {
-    'use strict';
-  
-    // TAB CLASS DEFINITION
-    // ====================
-  
-    var Tab = function (element) {
-      // jscs:disable requireDollarBeforejQueryAssignment
-      this.element = $(element)
-      // jscs:enable requireDollarBeforejQueryAssignment
-    }
-  
-    Tab.VERSION = '3.3.7'
-  
-    Tab.TRANSITION_DURATION = 150
-  
-    Tab.prototype.show = function () {
-      var $this    = this.element
-      var $ul      = $this.closest('ul:not(.dropdown-menu)')
-      var selector = $this.data('target')
-  
-      if (!selector) {
-        selector = $this.attr('href')
-        selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
-      }
-  
-      if ($this.parent('li').hasClass('actives')) return
-  
-      var $previous = $ul.find('.actives:last a')
-      var hideEvent = $.Event('hide.bs.tab', {
-        relatedTarget: $this[0]
-      })
-      var showEvent = $.Event('show.bs.tab', {
-        relatedTarget: $previous[0]
-      })
-  
-      $previous.trigger(hideEvent)
-      $this.trigger(showEvent)
-  
-      if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) return
-  
-      var $target = $(selector)
-  
-      this.activate($this.closest('li'), $ul)
-      this.activate($target, $target.parent(), function () {
-        $previous.trigger({
-          type: 'hidden.bs.tab',
-          relatedTarget: $this[0]
-        })
-        $this.trigger({
-          type: 'shown.bs.tab',
-          relatedTarget: $previous[0]
-        })
-      })
-    }
-  
-    Tab.prototype.activate = function (element, container, callback) {
-      var $active    = container.find('> .actives')
-      var transition = callback
-        && $.support.transition
-        && ($active.length && $active.hasClass('fade') || !!container.find('> .fade').length)
-  
-      function next() {
-        $active
-          .removeClass('actives')
-          .find('> .dropdown-menu > .actives')
-            .removeClass('actives')
-          .end()
-          .find('[data-toggle="tab"]')
-            .attr('aria-expanded', false)
-  
-        element
-          .addClass('actives')
-          .find('[data-toggle="tab"]')
-            .attr('aria-expanded', true)
-  
-        if (transition) {
-          element[0].offsetWidth // reflow for transition
-          element.addClass('in')
+        $(this._element).trigger(showEvent);
+
+        if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) {
+          return;
+        }
+
+        if (selector) {
+          target = $(selector)[0];
+        }
+
+        this._activate(this._element, listElement);
+
+        var complete = function complete() {
+          var hiddenEvent = $.Event(Event.HIDDEN, {
+            relatedTarget: _this._element
+          });
+          var shownEvent = $.Event(Event.SHOWN, {
+            relatedTarget: previous
+          });
+          $(previous).trigger(hiddenEvent);
+          $(_this._element).trigger(shownEvent);
+        };
+
+        if (target) {
+          this._activate(target, target.parentNode, complete);
         } else {
-          element.removeClass('fade')
+          complete();
         }
-  
-        if (element.parent('.dropdown-menu').length) {
-          element
-            .closest('li.dropdown')
-              .addClass('actives')
-            .end()
-            .find('[data-toggle="tab"]')
-              .attr('aria-expanded', true)
+      };
+
+      _proto.dispose = function dispose() {
+        $.removeData(this._element, DATA_KEY);
+        this._element = null;
+      }; // Private
+
+
+      _proto._activate = function _activate(element, container, callback) {
+        var _this2 = this;
+
+        var activeElements;
+
+        if (container.nodeName === 'UL') {
+          activeElements = $(container).find(Selector.ACTIVE_UL);
+        } else {
+          activeElements = $(container).children(Selector.ACTIVE);
         }
-  
-        callback && callback()
-      }
-  
-      $active.length && transition ?
-        $active
-          .one('bsTransitionEnd', next)
-          .emulateTransitionEnd(Tab.TRANSITION_DURATION) :
-        next()
-  
-      $active.removeClass('in')
-    }
-  
-  
-    // TAB PLUGIN DEFINITION
-    // =====================
-  
-    function Plugin(option) {
-      return this.each(function () {
-        var $this = $(this)
-        var data  = $this.data('bs.tab')
-  
-        if (!data) $this.data('bs.tab', (data = new Tab(this)))
-        if (typeof option == 'string') data[option]()
-      })
-    }
-  
-    var old = $.fn.tab
-  
-    $.fn.tab             = Plugin
-    $.fn.tab.Constructor = Tab
-  
-  
-    // TAB NO CONFLICT
-    // ===============
-  
-    $.fn.tab.noConflict = function () {
-      $.fn.tab = old
-      return this
-    }
-  
-  
-    // TAB DATA-API
-    // ============
-  
-    var clickHandler = function (e) {
-      e.preventDefault()
-      Plugin.call($(this), 'show')
-    }
-  
-    $(document)
-      .on('click.bs.tab.data-api', '[data-toggle="tab"]', clickHandler)
-      .on('click.bs.tab.data-api', '[data-toggle="pill"]', clickHandler)
-  
-  }(jQuery);
-  
-  /* ========================================================================
- * Bootstrap: carousel.js v3.3.7
- * http://getbootstrap.com/javascript/#carousel
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
+        var active = activeElements[0];
+        var isTransitioning = callback && Util.supportsTransitionEnd() && active && $(active).hasClass(ClassName.FADE);
+
+        var complete = function complete() {
+          return _this2._transitionComplete(element, active, callback);
+        };
+
+        if (active && isTransitioning) {
+          $(active).one(Util.TRANSITION_END, complete).emulateTransitionEnd(TRANSITION_DURATION);
+        } else {
+          complete();
+        }
+      };
+
+      _proto._transitionComplete = function _transitionComplete(element, active, callback) {
+        if (active) {
+          $(active).removeClass(ClassName.SHOW + " " + ClassName.ACTIVE);
+          var dropdownChild = $(active.parentNode).find(Selector.DROPDOWN_ACTIVE_CHILD)[0];
+
+          if (dropdownChild) {
+            $(dropdownChild).removeClass(ClassName.ACTIVE);
+          }
+
+          if (active.getAttribute('role') === 'tab') {
+            active.setAttribute('aria-selected', false);
+          }
+        }
+
+        $(element).addClass(ClassName.ACTIVE);
+
+        if (element.getAttribute('role') === 'tab') {
+          element.setAttribute('aria-selected', true);
+        }
+
+        Util.reflow(element);
+        $(element).addClass(ClassName.SHOW);
+
+        if (element.parentNode && $(element.parentNode).hasClass(ClassName.DROPDOWN_MENU)) {
+          var dropdownElement = $(element).closest(Selector.DROPDOWN)[0];
+
+          if (dropdownElement) {
+            $(dropdownElement).find(Selector.DROPDOWN_TOGGLE).addClass(ClassName.ACTIVE);
+          }
+
+          element.setAttribute('aria-expanded', true);
+        }
+
+        if (callback) {
+          callback();
+        }
+      }; // Static
 
 
-+function ($) {
-  'use strict';
+      Tab._jQueryInterface = function _jQueryInterface(config) {
+        return this.each(function () {
+          var $this = $(this);
+          var data = $this.data(DATA_KEY);
 
-  // CAROUSEL CLASS DEFINITION
-  // =========================
+          if (!data) {
+            data = new Tab(this);
+            $this.data(DATA_KEY, data);
+          }
 
-  var Carousel = function (element, options) {
-    this.$element    = $(element)
-    this.$indicators = this.$element.find('.carousel-indicators')
-    this.options     = options
-    this.paused      = null
-    this.sliding     = null
-    this.interval    = null
-    this.$active     = null
-    this.$items      = null
+          if (typeof config === 'string') {
+            if (typeof data[config] === 'undefined') {
+              throw new TypeError("No method named \"" + config + "\"");
+            }
 
-    this.options.keyboard && this.$element.on('keydown.bs.carousel', $.proxy(this.keydown, this))
+            data[config]();
+          }
+        });
+      };
 
-    this.options.pause == 'hover' && !('ontouchstart' in document.documentElement) && this.$element
-      .on('mouseenter.bs.carousel', $.proxy(this.pause, this))
-      .on('mouseleave.bs.carousel', $.proxy(this.cycle, this))
-  }
+      _createClass(Tab, null, [{
+        key: "VERSION",
+        get: function get() {
+          return VERSION;
+        }
+      }]);
 
-  Carousel.VERSION  = '3.3.7'
-
-  Carousel.TRANSITION_DURATION = 600
-
-  Carousel.DEFAULTS = {
-    interval: 5000,
-    pause: 'hover',
-    wrap: true,
-    keyboard: true
-  }
-
-  Carousel.prototype.keydown = function (e) {
-    if (/input|textarea/i.test(e.target.tagName)) return
-    switch (e.which) {
-      case 37: this.prev(); break
-      case 39: this.next(); break
-      default: return
-    }
-
-    e.preventDefault()
-  }
-
-  Carousel.prototype.cycle = function (e) {
-    e || (this.paused = false)
-
-    this.interval && clearInterval(this.interval)
-
-    this.options.interval
-      && !this.paused
-      && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
-
-    return this
-  }
-
-  Carousel.prototype.getItemIndex = function (item) {
-    this.$items = item.parent().children('.item')
-    return this.$items.index(item || this.$active)
-  }
-
-  Carousel.prototype.getItemForDirection = function (direction, active) {
-    var activeIndex = this.getItemIndex(active)
-    var willWrap = (direction == 'prev' && activeIndex === 0)
-                || (direction == 'next' && activeIndex == (this.$items.length - 1))
-    if (willWrap && !this.options.wrap) return active
-    var delta = direction == 'prev' ? -1 : 1
-    var itemIndex = (activeIndex + delta) % this.$items.length
-    return this.$items.eq(itemIndex)
-  }
-
-  Carousel.prototype.to = function (pos) {
-    var that        = this
-    var activeIndex = this.getItemIndex(this.$active = this.$element.find('.item.active'))
-
-    if (pos > (this.$items.length - 1) || pos < 0) return
-
-    if (this.sliding)       return this.$element.one('slid.bs.carousel', function () { that.to(pos) }) // yes, "slid"
-    if (activeIndex == pos) return this.pause().cycle()
-
-    return this.slide(pos > activeIndex ? 'next' : 'prev', this.$items.eq(pos))
-  }
-
-  Carousel.prototype.pause = function (e) {
-    e || (this.paused = true)
-
-    if (this.$element.find('.next, .prev').length && $.support.transition) {
-      this.$element.trigger($.support.transition.end)
-      this.cycle(true)
-    }
-
-    this.interval = clearInterval(this.interval)
-
-    return this
-  }
-
-  Carousel.prototype.next = function () {
-    if (this.sliding) return
-    return this.slide('next')
-  }
-
-  Carousel.prototype.prev = function () {
-    if (this.sliding) return
-    return this.slide('prev')
-  }
-
-  Carousel.prototype.slide = function (type, next) {
-    var $active   = this.$element.find('.item.active')
-    var $next     = next || this.getItemForDirection(type, $active)
-    var isCycling = this.interval
-    var direction = type == 'next' ? 'left' : 'right'
-    var that      = this
-
-    if ($next.hasClass('active')) return (this.sliding = false)
-
-    var relatedTarget = $next[0]
-    var slideEvent = $.Event('slide.bs.carousel', {
-      relatedTarget: relatedTarget,
-      direction: direction
-    })
-    this.$element.trigger(slideEvent)
-    if (slideEvent.isDefaultPrevented()) return
-
-    this.sliding = true
-
-    isCycling && this.pause()
-
-    if (this.$indicators.length) {
-      this.$indicators.find('.active').removeClass('active')
-      var $nextIndicator = $(this.$indicators.children()[this.getItemIndex($next)])
-      $nextIndicator && $nextIndicator.addClass('active')
-    }
-
-    var slidEvent = $.Event('slid.bs.carousel', { relatedTarget: relatedTarget, direction: direction }) // yes, "slid"
-    if ($.support.transition && this.$element.hasClass('slide')) {
-      $next.addClass(type)
-      $next[0].offsetWidth // force reflow
-      $active.addClass(direction)
-      $next.addClass(direction)
-      $active
-        .one('bsTransitionEnd', function () {
-          $next.removeClass([type, direction].join(' ')).addClass('active')
-          $active.removeClass(['active', direction].join(' '))
-          that.sliding = false
-          setTimeout(function () {
-            that.$element.trigger(slidEvent)
-          }, 0)
-        })
-        .emulateTransitionEnd(Carousel.TRANSITION_DURATION)
-    } else {
-      $active.removeClass('active')
-      $next.addClass('active')
-      this.sliding = false
-      this.$element.trigger(slidEvent)
-    }
-
-    isCycling && this.cycle()
-
-    return this
-  }
+      return Tab;
+    }();
+  /**
+   * ------------------------------------------------------------------------
+   * Data Api implementation
+   * ------------------------------------------------------------------------
+   */
 
 
-  // CAROUSEL PLUGIN DEFINITION
-  // ==========================
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, function (event) {
+    event.preventDefault();
 
-  function Plugin(option) {
-    return this.each(function () {
-      var $this   = $(this)
-      var data    = $this.data('bs.carousel')
-      var options = $.extend({}, Carousel.DEFAULTS, $this.data(), typeof option == 'object' && option)
-      var action  = typeof option == 'string' ? option : options.slide
+    Tab._jQueryInterface.call($(this), 'show');
+  });
+  /**
+   * ------------------------------------------------------------------------
+   * jQuery
+   * ------------------------------------------------------------------------
+   */
 
-      if (!data) $this.data('bs.carousel', (data = new Carousel(this, options)))
-      if (typeof option == 'number') data.to(option)
-      else if (action) data[action]()
-      else if (options.interval) data.pause().cycle()
-    })
-  }
+  $.fn[NAME] = Tab._jQueryInterface;
+  $.fn[NAME].Constructor = Tab;
 
-  var old = $.fn.carousel
+  $.fn[NAME].noConflict = function () {
+    $.fn[NAME] = JQUERY_NO_CONFLICT;
+    return Tab._jQueryInterface;
+  };
 
-  $.fn.carousel             = Plugin
-  $.fn.carousel.Constructor = Carousel
-
-
-  // CAROUSEL NO CONFLICT
-  // ====================
-
-  $.fn.carousel.noConflict = function () {
-    $.fn.carousel = old
-    return this
-  }
-
-
-  // CAROUSEL DATA-API
-  // =================
-
-  var clickHandler = function (e) {
-    var href
-    var $this   = $(this)
-    var $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) // strip for ie7
-    if (!$target.hasClass('carousel')) return
-    var options = $.extend({}, $target.data(), $this.data())
-    var slideIndex = $this.attr('data-slide-to')
-    if (slideIndex) options.interval = false
-
-    Plugin.call($target, options)
-
-    if (slideIndex) {
-      $target.data('bs.carousel').to(slideIndex)
-    }
-
-    e.preventDefault()
-  }
-
-  $(document)
-    .on('click.bs.carousel.data-api', '[data-slide]', clickHandler)
-    .on('click.bs.carousel.data-api', '[data-slide-to]', clickHandler)
-
-  $(window).on('load', function () {
-    $('[data-ride="carousel"]').each(function () {
-      var $carousel = $(this)
-      Plugin.call($carousel, $carousel.data())
-    })
-  })
-
-}(jQuery);
+  return Tab;
+}($);
+//# sourceMappingURL=tab.js.map

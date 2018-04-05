@@ -1,134 +1,303 @@
 .main{
-  .timeline{
-    background: whitesmoke;
+  padding: 1rem 0;
+  .all-matches{
+    background: #FFF;
     width: 1200px;
-    margin: 1rem auto;
+    margin: 0 auto;
     border-radius: 5px;
-    .timeline-content{
+    padding: 2rem 1rem;
+    .matches-selection{
       padding: 1rem;
-      h4{
-        color: #0f4583;
-        font-size: 2rem;
-        margin: 0;
-        padding-right: 2rem;
-        font-weight: 400;
+      .nav{
+        border: none;
+        .nav-item{
+          padding: .5rem;
+          text-decoration: none;
+          font-size: 1rem;
+          font-weight: 500;
+          border: none;
+          color: #495057;
+          border-bottom: 2px solid transparent;
+          &.active{
+            color: #0f4583;
+            border-bottom: 2px solid #0f4583;
+          }
+        }
       }
-      .matchlist{
-        border: 1px solid #9ec9e3;
-        .nav-pills{
-          height: 62px;
-          padding-left: 1px;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          li{
-            text-align: center;
-            margin: 0;
-            background-color: #f2f2f2;
-            height: 62px;
+    }
+    .tab-content{
+      padding: 0 1rem;
+      #accordion{
+        .card{
+          .contents{
+            margin-right: 0;
             position: relative;
-            display: flex;
-            flex-direction: column;
-            &.small-cell{
-              width: 3.125%;
+            height: auto;
+            @include phone{
+              margin-right: 0;
             }
-            &.restday{
-              background-color: #fff;
-              color: #ccc;
-              .restday-wrap{
-                padding: 0;
-                background-color: #fff;
-                display: block;
-                height: 62px;
-                //margin-left: -1px;
-                .day-literal{
-                  font-size: .7rem;
+            @include tablet{
+              margin-right: 0;
+            }
+            @include desktop{
+              margin-right: 0;
+            }
+            @include largedesktop{
+              margin-right: 370px;
+            }
+            @include biglargedesktop{
+              margin-right: 370px;
+            }
+            .team-a{
+              width: 37%;
+              display: table-cell;
+              ul{
+                list-style: none;
+                margin-right: -30px;
+                width: 50%;
+                li{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: .5rem;
+                  img{
+                    margin-left: 1rem;
+                    width: 16px;
+                  }
+                  span{
+                    font-size: .9rem;
+                  }
                 }
-                .day{
-                  color: #ccc;
-                  line-height: 15px;
-                  margin-bottom: 6px;
+              }
+            }
+            .team-b{
+              @include position(absolute, 0px 0 0 0px);
+              width: 50%;
+              display: table-cell;
+              ul{
+                list-style: none;
+                margin-right: -39px;
+                li{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: .5rem;
+                  img{
+                    margin-left: 1rem;
+                    width: 16px;
+                  }
+                  span{
+                    font-size: .9rem;
+                  }
                 }
               }
             }
-            &:last-child{
-              &::after{
-                display: none;
+          }
+          .matches-date{
+            font-size: 1.2rem;
+            line-height: 50px;
+            height: 50px;
+            padding-right: 10px;
+            border-bottom: solid 1px #474747;
+            color: #474747;
+            font-weight: 500;
+          }
+          .card-header{
+            border-bottom: 1px solid #dcdcdc;
+            cursor: pointer;
+            .row{
+              position: relative;
+              font-size: 12px;
+              line-height: 19px;
+              //transition: 100ms linear 0s;
+              min-height: 83px;
+              padding: .5rem;
+              border-radius: 5px;
+              margin-bottom: .5rem;
+              &:hover{
+                background-color: rgba(0, 0, 0, 0.03);
               }
-              &::before{
-                display: none;
+              .info{
+                width: 380px;
+                min-height: 80px;
+                text-align: right;
+                float: none;
+                @include phone{
+                  float: none;
+                }
+                @include tablet{
+                  float: none;
+                }
+                @include desktop{
+                  float: none;
+                }
+                @include largedesktop{
+                  float: right;
+                }
+                @include biglargedesktop{
+                  float: right;
+                }
+                h5,h6{
+                  margin: 0;
+                  font-size: 1rem;
+                  line-height: 26px;
+                  color: #494949;
+                  font-weight: 400;
+                }
+                h5:first-child{
+                  font-weight: bold;
+                }
               }
-            }
-            &::before{
-              content: "";
-              display: block;
-              width: 1px;
-              height: 30px;
-              background-color: #9ec9e3;
-              position: absolute;
-              left: -1px;
-              top: 7px;
-              z-index: 1;
-            }
-            &::after{
-              content: "";
-              display: block;
-              width: 1px;
-              height: 14px;
-              background-color: #d9d9d9;
-              position: absolute;
-              left: -1px;
-              bottom: 3px;
-              z-index: 1;
-            }
-            a{
-              padding: 0;
-              background-color: #fff;
-              display: block;
-              height: 62px;
-              color: #0087e6;
-              text-decoration: none;
-              outline: none;
-              //margin-left: -1px;
-
-              
-              .day-literal{
-                font-size: .7rem;
-              }
-              .day{
-                color: #666;
-                line-height: 15px;
-                margin-bottom: 6px;
-              }
-              .matchday-item{
-                background-color: #f2f2f2;
-                height: 20px;
-                .match-dot-container{
-                  line-height: 8px;
-                  text-align: center;
-                  &.matches-4{
-                    padding: 5px 22% 0;
-                    .match-dot{
-                      margin-top: 0;
+              .content{
+                margin-right: 0;
+                position: relative;
+                height: 5rem;
+                @include phone{
+                  margin-right: 0;
+                }
+                @include tablet{
+                  margin-right: 0;
+                }
+                @include desktop{
+                  margin-right: 0;
+                }
+                @include largedesktop{
+                  margin-right: 370px;
+                }
+                @include biglargedesktop{
+                  margin-right: 370px;
+                }
+                .team-a{
+                  img{
+                    position: absolute;
+                    right: 0;
+                    top: 1.5rem;
+                    width: 53px;
+                    border: 1px solid #e2e2e2;
+                    @include phone{
+                      top: 1.5rem;
+                      width: 53px;
+                    }
+                    @include tablet{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include desktop{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include largedesktop{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include biglargedesktop{
+                      top: 1rem;
+                      width: 70px;
                     }
                   }
-                  .match-dot{
-                    color: #0087e6;
-                    display: inline-block;
-                    width: 7px;
-                    height: 7px;
-                    position: relative;
-                    margin-top: 8px;
-                    
-                    &:before{
-                      font-size: 16px;
-                      content: "\2022";
-                      display: block;
-                      width: 7px;
-                      height: 7px;
-                      position: absolute;
-                      top: 0;
-                      left: 0;
+                  span{
+                    position: absolute;
+                    right: 4rem;
+                    top: 1.8rem;
+                    font-size: 1rem;
+                    @include phone{
+                      right: 4rem;
+                      font-size: 1rem;
+                    }
+                    @include tablet{
+                      right: 6rem;
+                      font-size: 1rem;
+                    }
+                    @include desktop{
+                      right: 6rem;
+                      font-size: 2rem;
+                    }
+                    @include largedesktop{
+                      right: 6rem;
+                      font-size: 2rem;
+                    }
+                    @include biglargedesktop{
+                      right: 6rem;
+                      font-size: 2rem;
+                    }
+                  }
+                }
+                .points{
+                  text-align: center;
+                  width: 100%;
+                  position: absolute;
+                  top: 1.8rem;
+                  span{
+                    font-size: 1rem;
+                    line-height: 26px;
+                    color: #dd4606;
+                    @include phone{
+                      font-size: 1rem;
+                    }
+                    @include tablet{
+                      font-size: 1rem;
+                    }
+                    @include desktop{
+                      font-size: 27px;
+                    }
+                    @include largedesktop{
+                      font-size: 27px;
+                    }
+                    @include biglargedesktop{
+                      font-size: 27px;
+                    }
+                  }
+                }
+                .team-b{
+                  span{
+                    position: absolute;
+                    left: 4rem;
+                    top: 1.8rem;
+                    font-size: 1rem;
+                    @include phone{
+                      left: 4rem;
+                      font-size: 1rem;
+                    }
+                    @include tablet{
+                      left: 6rem;
+                      font-size: 1rem;
+                    }
+                    @include desktop{
+                      left: 6rem;
+                      font-size: 2rem;
+                    }
+                    @include largedesktop{
+                      left: 6rem;
+                      font-size: 2rem;
+                    }
+                    @include biglargedesktop{
+                      left: 6rem;
+                      font-size: 2rem;
+                    }
+                  }
+                  img{
+                    position: absolute;
+                    left: 0;
+                    top: 1.5rem;
+                    width: 53px;
+                    border: 1px solid #e2e2e2;
+                    @include phone{
+                      top: 1.5rem;
+                      width: 53px;
+                    }
+                    @include tablet{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include desktop{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include largedesktop{
+                      top: 1rem;
+                      width: 70px;
+                    }
+                    @include biglargedesktop{
+                      top: 1rem;
+                      width: 70px;
                     }
                   }
                 }
@@ -139,4 +308,144 @@
       }
     }
   }
+  // .timeline{
+  //   background: whitesmoke;
+  //   width: 1200px;
+  //   margin: 1rem auto;
+  //   border-radius: 5px;
+  //   .timeline-content{
+  //     padding: 1rem;
+  //     h4{
+  //       color: #0f4583;
+  //       font-size: 2rem;
+  //       margin: 0;
+  //       padding-right: 2rem;
+  //       font-weight: 400;
+  //     }
+  //     .matchlist{
+  //       border: 1px solid #9ec9e3;
+  //       .nav-pills{
+  //         height: 62px;
+  //         padding-left: 1px;
+  //         margin: 0;
+  //         padding: 0;
+  //         display: flex;
+  //         li{
+  //           text-align: center;
+  //           margin: 0;
+  //           background-color: #f2f2f2;
+  //           height: 62px;
+  //           position: relative;
+  //           display: flex;
+  //           flex-direction: column;
+  //           &.small-cell{
+  //             width: 3.125%;
+  //           }
+  //           &.restday{
+  //             background-color: #fff;
+  //             color: #ccc;
+  //             .restday-wrap{
+  //               padding: 0;
+  //               background-color: #fff;
+  //               display: block;
+  //               height: 62px;
+  //               //margin-left: -1px;
+  //               .day-literal{
+  //                 font-size: .7rem;
+  //               }
+  //               .day{
+  //                 color: #ccc;
+  //                 line-height: 15px;
+  //                 margin-bottom: 6px;
+  //               }
+  //             }
+  //           }
+  //           &:last-child{
+  //             &::after{
+  //               display: none;
+  //             }
+  //             &::before{
+  //               display: none;
+  //             }
+  //           }
+  //           &::before{
+  //             content: "";
+  //             display: block;
+  //             width: 1px;
+  //             height: 30px;
+  //             background-color: #9ec9e3;
+  //             position: absolute;
+  //             left: -1px;
+  //             top: 7px;
+  //             z-index: 1;
+  //           }
+  //           &::after{
+  //             content: "";
+  //             display: block;
+  //             width: 1px;
+  //             height: 14px;
+  //             background-color: #d9d9d9;
+  //             position: absolute;
+  //             left: -1px;
+  //             bottom: 3px;
+  //             z-index: 1;
+  //           }
+  //           a{
+  //             padding: 0;
+  //             background-color: #fff;
+  //             display: block;
+  //             height: 62px;
+  //             color: #0087e6;
+  //             text-decoration: none;
+  //             outline: none;
+  //             //margin-left: -1px;
+
+              
+  //             .day-literal{
+  //               font-size: .7rem;
+  //             }
+  //             .day{
+  //               color: #666;
+  //               line-height: 15px;
+  //               margin-bottom: 6px;
+  //             }
+  //             .matchday-item{
+  //               background-color: #f2f2f2;
+  //               height: 20px;
+  //               .match-dot-container{
+  //                 line-height: 8px;
+  //                 text-align: center;
+  //                 &.matches-4{
+  //                   padding: 5px 22% 0;
+  //                   .match-dot{
+  //                     margin-top: 0;
+  //                   }
+  //                 }
+  //                 .match-dot{
+  //                   color: #0087e6;
+  //                   display: inline-block;
+  //                   width: 7px;
+  //                   height: 7px;
+  //                   position: relative;
+  //                   margin-top: 8px;
+                    
+  //                   &:before{
+  //                     font-size: 16px;
+  //                     content: "\2022";
+  //                     display: block;
+  //                     width: 7px;
+  //                     height: 7px;
+  //                     position: absolute;
+  //                     top: 0;
+  //                     left: 0;
+  //                   }
+  //                 }
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }

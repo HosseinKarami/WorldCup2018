@@ -12,7 +12,7 @@ var gulp = require('gulp'),
     package = require('./package.json');
 
 var paths = {
-    scripts: ['node_modules/jquery/dist/jquery.min.js', 'src/js/scripts.js']
+    scripts: ['node_modules/jquery/dist/jquery.min.js', 'src/js/util.js', 'src/js/tab.js', 'src/js/collapse.js', 'src/js/scripts.js']
 };
 var banner = [
   '/*!\n' +
@@ -31,12 +31,12 @@ gulp.task('css', function () {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 4 version'))
-    .pipe(gulp.dest('app/assets/css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(cssnano())
     .pipe(rename({ suffix: '.min' }))
     .pipe(header(banner, { package : package }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('app/assets/css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.reload({stream:true}));
 });
 
@@ -45,13 +45,13 @@ gulp.task('js',function(){
     .pipe(sourcemaps.init())
     .pipe(header(banner, { package : package }))
     .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('app/assets/js'))
+    .pipe(gulp.dest('assets/js'))
     .pipe(uglify())
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(header(banner, { package : package }))
     .pipe(concat('scripts.min.js'))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('app/assets/js'))
+    .pipe(gulp.dest('assets/js'))
     .pipe(browserSync.reload({stream:true, once: true}));
 });
 
