@@ -58,7 +58,7 @@ gulp.task('js',function(){
 gulp.task('browser-sync', ['css', 'js'], function() {
     browserSync.init({
         server: {
-            baseDir: "app"
+            baseDir: "./"
         }
     });
 });
@@ -69,5 +69,5 @@ gulp.task('bs-reload', function () {
 gulp.task('default', ['css', 'js', 'browser-sync'], function () {
     gulp.watch("src/scss/**/*.scss", ['css']);
     gulp.watch("src/js/*.js", ['js']);
-    gulp.watch("app/*.html", ['bs-reload']);
+    gulp.watch("*.html", ['bs-reload']);
 });
