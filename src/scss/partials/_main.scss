@@ -143,13 +143,17 @@
                   font-weight: 400;
                 }
                 h5:first-child{
+                  font-size: .8rem;
+                  font-weight: 300;
+                }
+                h5:nth-child(2){
                   font-weight: bold;
                 }
               }
               .content{
                 margin-right: 0;
                 position: relative;
-                height: 5rem;
+                height: 7.5rem;
                 @include phone{
                   margin-right: 0;
                 }
@@ -177,26 +181,26 @@
                       width: 53px;
                     }
                     @include tablet{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include desktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include largedesktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include biglargedesktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                   }
                   span{
                     position: absolute;
                     right: 4rem;
-                    top: 1.8rem;
+                    top: 2.8rem;
                     font-size: 1rem;
                     @include phone{
                       right: 4rem;
@@ -224,7 +228,7 @@
                   text-align: center;
                   width: 100%;
                   position: absolute;
-                  top: 1.8rem;
+                  top: 2.8rem;
                   span{
                     font-size: 1rem;
                     line-height: 26px;
@@ -250,7 +254,7 @@
                   span{
                     position: absolute;
                     left: 4rem;
-                    top: 1.8rem;
+                    top: 2.8rem;
                     font-size: 1rem;
                     @include phone{
                       left: 4rem;
@@ -284,19 +288,19 @@
                       width: 53px;
                     }
                     @include tablet{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include desktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include largedesktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                     @include biglargedesktop{
-                      top: 1rem;
+                      top: 2rem;
                       width: 70px;
                     }
                   }
