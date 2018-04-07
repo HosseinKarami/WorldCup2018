@@ -27,7 +27,7 @@ tbody.collapse.show {
   position: relative;
   height: 0;
   overflow: hidden;
-  //transition: height 0.35ms ease;
+  transition: height 0.35s ease;
 }
 
 
@@ -74,3 +74,7 @@ tbody.collapse.show {
 .tab-content > .active {
   display: block;
 }
+
+
+
+

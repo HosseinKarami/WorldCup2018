@@ -67,6 +67,11 @@ html {
 body {
   font: 400 1em/1.6 IRANSans;
   color: #292929;
+  -webkit-transition: all ease-out 600ms;
+  -o-transition: all ease-out 600ms;
+  transition: all ease-out 600ms;
+  -webkit-animation: fadeDown 1s ease;
+          animation: fadeDown 1s ease;
   background: url(../img/darkbg.png) repeat;
   background-color: #0f4583; }
 
@@ -656,10 +661,12 @@ img {
           position: relative;
           font-size: 12px;
           line-height: 19px;
+          -webkit-transition: .3s transform ease-in-out;
+          -o-transition: .3s transform ease-in-out;
+          transition: .3s transform ease-in-out;
           min-height: 83px;
           padding: .5rem;
-          border-radius: 5px;
-          margin-bottom: .5rem; }
+          border-radius: 5px; }
           .main .all-matches .tab-content #accordion .card .card-header .row:hover {
             background-color: rgba(0, 0, 0, 0.03); }
           .main .all-matches .tab-content #accordion .card .card-header .row .info {
@@ -1023,7 +1030,10 @@ tbody.collapse.show {
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease; }
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }

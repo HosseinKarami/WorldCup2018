@@ -14,14 +14,14 @@ layout: default
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade active show" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
       <div id="accordion">
-         {% for item in site.data.matches %}
+         {% for item in site.data.matches %} {% if item.level != 'secondstage' %}
         <div class="card">
           <h4 class="matches-date">{{ item.date }}</h4>
            {% for itm in item.groups %}
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+          <div class="card-header" id="{{itm.label}}">
+            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#{{ itm.id }}" aria-expanded="false" aria-controls="{{ itm.id }}">
               <article class="info">
-                <h5>پنجشنبه ۲۴ خرداد - ساعت ۱۹:۳۰</h5>
+                <h5>{{itm.dates}}</h5>
                 <h5>{{ itm.group }}</h5>
                 <h5>ورزشگاه {{ itm.stadium }}</h5>
                 <h6>شهر {{ itm.city }}</h6>
@@ -42,7 +42,7 @@ layout: default
             </div>
           </div>
            {% if itm.pts1 == 'zero' %} {% else %}
-          <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion" style="">
+          <div id="{{ itm.id }}" class="contents collapse" aria-labelledby="{{itm.label}}" data-parent="#accordion" style="">
             <div class="team-a">
               <ul>
                 {% if itm.pts1 == '0' %} {% else %}
@@ -64,7 +64,7 @@ layout: default
               </ul>
             </div>
             <div class="team-b">
-              <ul>
+              <ul> 
                 {% if itm.pts2 == '0' %} {% else %}
                 <li>
                   <img src="{{ site.url }}/assets/img/goal.png" alt="">
@@ -87,11 +87,11 @@ layout: default
           {% endif %}
            {% endfor %}
         </div>
-         {% endfor %} 
+         {% endif %} {% endfor %} 
       </div>
     </div>
     <div class="tab-pane fade" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
-      <!-- <div id="accordion">
+      <div id="accordion">
         {% for item in site.data.matches %} {% if item.level == 'secondstage' %}
         <div class="card">
           <h4 class="matches-date">{{ item.date }}</h4>
@@ -163,10 +163,10 @@ layout: default
             </div>
           </div>
           {% endif %}
+           {% endfor %}
         </div>
-        {% endfor %} {% endif %} {% endfor %}
-      </div> -->
-      تست
+         {% endif %} {% endfor %}
+      </div>
     </div>
   </div>
 </section>

@@ -108,10 +108,11 @@
               font-size: 12px;
               line-height: 19px;
               //transition: 100ms linear 0s;
+              transition: .3s transform ease-in-out;
               min-height: 83px;
               padding: .5rem;
               border-radius: 5px;
-              margin-bottom: .5rem;
+              //margin-bottom: .5rem;
               &:hover{
                 background-color: rgba(0, 0, 0, 0.03);
               }
