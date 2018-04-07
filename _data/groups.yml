@@ -1,0 +1,311 @@
+- group: A
+  teams:
+  - team: برزیل
+    flag: assets/img/flags/bra.png
+    played: "3"
+    won: "2"
+    draw: "1"
+    lost: "0"
+    GF: "7"
+    GA: "2"
+    points: "7"
+  - team: مکزیک
+    flag: assets/img/flags/mex.png
+    played: "3"
+    won: "2"
+    draw: "1"
+    lost: "0"
+    GF: "4"
+    GA: "1"
+    points: "7"
+  - team: کرواسی
+    flag: assets/img/flags/cro.png
+    played: "3"
+    won: "1"
+    draw: "0"
+    lost: "2"
+    GF: "6"
+    GA: "6"
+    points: "3"
+  - team: کامرون
+    flag: assets/img/flags/cmr.png
+    played: "3"
+    won: "0"
+    draw: "0"
+    lost: "3"
+    GF: "1"
+    GA: "9"
+    points: "0"
+
+- group: B
+  teams:
+  - team: هلند
+    flag: assets/img/flags/ned.png
+    played: "3"
+    won: "3"
+    draw: "0"
+    lost: "0"
+    GF: "10"
+    GA: "3"
+    points: "9"
+  - team: شیلی
+    flag: assets/img/flags/chi.png
+    played: "3"
+    won: "2"
+    draw: "0"
+    lost: "1"
+    GF: "5"
+    GA: "3"
+    points: "6"
+  - team: اسپانیا
+    flag: assets/img/flags/esp.png
+    played: "3"
+    won: "1"
+    draw: "0"
+    lost: "2"
+    GF: "4"
+    GA: "7"
+    points: "3"
+  - team: استرالیا
+    flag: assets/img/flags/aus.png
+    played: "3"
+    won: "0"
+    draw: "0"
+    lost: "3"
+    GF: "3"
+    GA: "9"
+    points: "0"
+
+- group: C
+  teams:
+  - team: کلمبیا
+    flag: assets/img/flags/col.png
+    played: "3"
+    won: "3"
+    draw: "0"
+    lost: "0"
+    GF: "9"
+    GA: "2"
+    points: "9"
+  - team: یونان
+    flag: assets/img/flags/gre.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "2"
+    GA: "4"
+    points: "4"
+  - team: ساحل عاج
+    flag: assets/img/flags/civ.png
+    played: "3"
+    won: "1"
+    draw: "0"
+    lost: "2"
+    GF: "4"
+    GA: "5"
+    points: "3"
+  - team: ژاپن
+    flag: assets/img/flags/jpn.png
+    played: "3"
+    won: "0"
+    draw: "1"
+    lost: "2"
+    GF: "2"
+    GA: "6"
+    points: "1"
+
+- group: D
+  teams:
+  - team: کاستاريکا
+    flag: assets/img/flags/crc.png
+    played: "3"
+    won: "2"
+    draw: "1"
+    lost: "0"
+    GF: "4"
+    GA: "1"
+    points: "7"
+  - team: اروگوئه
+    flag: assets/img/flags/uru.png
+    played: "3"
+    won: "2"
+    draw: "0"
+    lost: "1"
+    GF: "4"
+    GA: "4"
+    points: "6"
+  - team: ایتالیا
+    flag: assets/img/flags/ita.png
+    played: "3"
+    won: "1"
+    draw: "0"
+    lost: "2"
+    GF: "2"
+    GA: "3"
+    points: "3"
+  - team: انگلیس
+    flag: assets/img/flags/eng.png
+    played: "3"
+    won: "0"
+    draw: "1"
+    lost: "2"
+    GF: "2"
+    GA: "4"
+    points: "1"
+
+- group: E
+  teams:
+  - team: فرانسه
+    flag: assets/img/flags/fra.png
+    played: "3"
+    won: "2"
+    draw: "1"
+    lost: "0"
+    GF: "8"
+    GA: "2"
+    points: "7"
+  - team: سوئیس
+    flag: assets/img/flags/sui.png
+    played: "3"
+    won: "2"
+    draw: "0"
+    lost: "1"
+    GF: "7"
+    GA: "6"
+    points: "6"
+  - team: اکوادور
+    flag: assets/img/flags/ecu.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "3"
+    GA: "3"
+    points: "4"
+  - team: هندوراس
+    flag: assets/img/flags/hon.png
+    played: "3"
+    won: "0"
+    draw: "0"
+    lost: "3"
+    GF: "1"
+    GA: "8"
+    points: "0"
+
+- group: F
+  teams:
+  - team: آرژانتین
+    flag: assets/img/flags/arg.png
+    played: "3"
+    won: "3"
+    draw: "0"
+    lost: "0"
+    GF: "6"
+    GA: "3"
+    points: "9"
+  - team: نیجریه
+    flag: assets/img/flags/nga.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "3"
+    GA: "3"
+    points: "4"
+  - team: بوسني هرزگوين
+    flag: assets/img/flags/bih.png
+    played: "3"
+    won: "1"
+    draw: "0"
+    lost: "2"
+    GF: "4"
+    GA: "4"
+    points: "3"
+  - team: ایران
+    flag: assets/img/flags/irn.png
+    played: "3"
+    won: "0"
+    draw: "1"
+    lost: "2"
+    GF: "1"
+    GA: "4"
+    points: "1"
+
+- group: G
+  teams:
+  - team: آلمان
+    flag: assets/img/flags/ger.png
+    played: "3"
+    won: "2"
+    draw: "1"
+    lost: "0"
+    GF: "7"
+    GA: "2"
+    points: "7"
+  - team: آمریکا
+    flag: assets/img/flags/usa.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "4"
+    GA: "4"
+    points: "4"
+  - team: پرتغال
+    flag: assets/img/flags/por.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "4"
+    GA: "7"
+    points: "4"
+  - team: غنا
+    flag: assets/img/flags/gha.png
+    played: "3"
+    won: "0"
+    draw: "1"
+    lost: "2"
+    GF: "4"
+    GA: "6"
+    points: "1"
+
+- group: H
+  teams:
+  - team: بلژیک
+    flag: assets/img/flags/bel.png
+    played: "3"
+    won: "3"
+    draw: "0"
+    lost: "0"
+    GF: "4"
+    GA: "1"
+    points: "9"
+  - team: الجزایر
+    flag: assets/img/flags/alg.png
+    played: "3"
+    won: "1"
+    draw: "1"
+    lost: "1"
+    GF: "6"
+    GA: "5"
+    points: "4"
+  - team: روسیه
+    flag: assets/img/flags/rus.png
+    played: "3"
+    won: "0"
+    draw: "2"
+    lost: "1"
+    GF: "2"
+    GA: "3"
+    points: "2"
+  - team: کره جنوبی
+    flag: assets/img/flags/kor.png
+    played: "3"
+    won: "0"
+    draw: "1"
+    lost: "2"
+    GF: "3"
+    GA: "6"
+    points: "1"

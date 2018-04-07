@@ -1,0 +1,10 @@
+# Site settings
+title: FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸
+email: hi@fifawc.ir
+description: "آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید."
+baseurl: "http://localhost:3000"
+url: "http://localhost:3000"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

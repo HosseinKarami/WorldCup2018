@@ -1,182 +1,172 @@
-<!doctype html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, minimal-ui">
-    <link href="assets/css/style.min.css" rel="stylesheet">
-    <meta property="og:url" content="http://fifawc.ir/">
-    <meta property="og:title" content="FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸">
-    <meta property="og:description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
-    <meta property="og:image" content="http://fifawc.ir/assets/img/FifaWorldCup.png">
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-content">
-        <div class="logo">
-          <a href="/">
-            <img src="assets/img/logo.png" alt="2018 FIFA World Cup Russia" width="100">
-            <h4>جام جهانی روسیه ۲۰۱۸</h4>
-          </a>
-        </div>
-        <nav class="nav nav-list">
-          <ul>
-            <li class="selected">
-              <a href="/">
-                <h4>مسابقات</h4>
-              </a>
-            </li>
-            <li class="">
-              <a href="/teams">
-                <h4>تیم‌ها</h4>
-              </a>
-            </li>
-            <li class="">
-              <a href="/groups">
-                <h4>گروه‌ها</h4>
-              </a>
-            </li>
-            <li class="">
-              <a href="/stadiums">
-                <h4>ورزشگاه‌ها</h4>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main" role="main">
-      <section class="all-matches">
-        <nav class="matches-selection">
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
-              aria-selected="true">مرحله گروهی</a>
-            <a class="nav-item nav-link" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
-              aria-selected="false">مرحله حذفی</a>
-          </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
-            <div id="accordion">
-              <div class="card">
-                <h4 class="matches-date">پنجشنبه ۲۴ خرداد</h4>
-                <div class="card-header" id="game1">
-                  <div class="row btn btn-link" data-toggle="collapse" data-target="#rusksa" aria-expanded="true" aria-controls="rusksa">
-                    <article class="info">
-                      <h5>پنجشنبه ۲۴ خرداد - ساعت ۱۹:۳۰</h5>
-                      <h5>گروه A</h5>
-                      <h5>ورزشگاه لوژنیکی</h5>
-                      <h6>شهر مسکو</h6>
-                    </article>
-                    <article class="content">
-                      <div class="team-a">
-                        <img src="assets/img/flags/rus.png" alt="روسیه">
-                        <span>روسیه</span>
-                      </div>
-                      <div class="points">
-                        <span> ۱ (۳) - (۲) ۱ </span>
-                      </div>
-                      <div class="team-b">
-                        <span>عربستان</span>
-                        <img src="assets/img/flags/ksa.png" alt="عربستان">
-                      </div>
-                    </article>
-                  </div>
+--- 
+layout: default
+---
+
+<section class="all-matches">
+  <nav class="matches-selection">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active show" id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
+        aria-selected="true">مرحله گروهی</a>
+      <a class="nav-item nav-link" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
+        aria-selected="false">مرحله حذفی</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade active show" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
+      <div id="accordion">
+         {% for item in site.data.matches %}
+        <div class="card">
+          <h4 class="matches-date">{{ item.date }}</h4>
+           {% for itm in item.groups %}
+          <div class="card-header" id="game1">
+            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+              <article class="info">
+                <h5>پنجشنبه ۲۴ خرداد - ساعت ۱۹:۳۰</h5>
+                <h5>{{ itm.group }}</h5>
+                <h5>ورزشگاه {{ itm.stadium }}</h5>
+                <h6>شهر {{ itm.city }}</h6>
+              </article>
+              <article class="content">
+                <div class="team-a">
+                  <img src="{{ itm.flag1}}" alt="{{ itm.team1 }}">
+                  <span>{{ itm.team1 }}</span>
                 </div>
-              
-                <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion">
-                  <div class="team-a">
-                    <ul>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/goal.png" alt="">
-                        <span>داويد لوئيز ('18)</span>
-                      </li>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/YellowCard.png" alt="">
-                        <span>هالک ('55), لوئيز گوستاوو ('60), جو ('93), دنی آلوز ('105)</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="team-b">
-                    <ul>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/goal.png" alt="">
-                        <span>الكسيس سانچز ('32)</span>
-                      </li>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/YellowCard.png" alt="">
-                        <span>اگنيو منا ('17), فرانچسکو سيلوا ('40), مائوريسيو پينيا ('102)</span>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="points">
+                  <span> {% if itm.pts1 == 'zero' %}{{ itm.time }} {% else %} {{ itm.pts1 }} - {{ itm.pts2 }} {% endif %} </span>
                 </div>
-              </div>
-              <div class="card">
-                <h4 class="matches-date">جمعه ۲۵ خرداد</h4>
-                <div class="card-header" id="game2">
-                  <div class="row btn btn-link" data-toggle="collapse" data-target="#egyuru" aria-expanded="true" aria-controls="egyuru">
-                    <article class="info">
-                      <h5>گروه A</h5>
-                      <h5>ورزشگاه لوژنیکی</h5>
-                      <h6>شهر مسکو</h6>
-                    </article>
-                    <article class="content">
-                      <div class="team-a">
-                        <img src="assets/img/flags/egy.png" alt="مصر">
-                        <span>مصر</span>
-                      </div>
-                      <div class="points">
-                        <span> ۱۶:۳۰ </span>
-                      </div>
-                      <div class="team-b">
-                        <span>اروگوئه</span>
-                        <img src="assets/img/flags/uru.png" alt="اروگوئه">
-                      </div>
-                    </article>
-                  </div>
+                <div class="team-b">
+                  <span>{{ itm.team2 }}</span>
+                  <img src="{{ itm.flag2}}" alt="{{ itm.team2 }}">
                 </div>
-              
-                <div id="egyuru" class="contents collapse" aria-labelledby="game2" data-parent="#accordion">
-                  <div class="team-a">
-                    <ul>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/goal.png" alt="">
-                        <span>داويد لوئيز ('18)</span>
-                      </li>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/YellowCard.png" alt="">
-                        <span>هالک ('55), لوئيز گوستاوو ('60), جو ('93), دنی آلوز ('105)</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="team-b">
-                    <ul>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/goal.png" alt="">
-                        <span>الكسيس سانچز ('32)</span>
-                      </li>
-                      <li>
-                        <img src="http://fifawc.ir/assets/img/YellowCard.png" alt="">
-                        <span>اگنيو منا ('17), فرانچسکو سيلوا ('40), مائوريسيو پينيا ('102)</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              </article>
             </div>
           </div>
-          <div class="tab-pane fade" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
-            
-            مرحله حذفی
+           {% if itm.pts1 == 'zero' %} {% else %}
+          <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion" style="">
+            <div class="team-a">
+              <ul>
+                {% if itm.pts1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                  <span>{{ itm.goal1 }}</span>
+                </li>
+                {% endif %} {% if itm.yellow1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                  <span>{{ itm.yellow1 }}</span>
+                </li>
+                {% endif %} {% if itm.red1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                  <span>{{ itm.red1 }}</span>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+            <div class="team-b">
+              <ul>
+                {% if itm.pts2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                  <span>{{ itm.goal2 }}</span>
+                </li>
+                {% endif %} {% if itm.yellow2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                  <span>{{ itm.yellow2 }}</span>
+                </li>
+                {% endif %} {% if itm.red2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                  <span>{{ itm.red2 }}</span>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
           </div>
+          {% endif %}
+           {% endfor %}
         </div>
-      </section>
-    </main>
-    <footer class="footer" role="contentinfo">
-
-    </footer>
-    <script src="assets/js/scripts.min.js"></script>
-  </body>
-</html>
+         {% endfor %} 
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
+      <!-- <div id="accordion">
+        {% for item in site.data.matches %} {% if item.level == 'secondstage' %}
+        <div class="card">
+          <h4 class="matches-date">{{ item.date }}</h4>
+          {% for itm in item.groups %}
+          <div class="card-header" id="game1">
+            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+              <article class="info">
+                <h5>پنجشنبه ۲۴ خرداد - ساعت ۱۹:۳۰</h5>
+                <h5>{{ itm.group }}</h5>
+                <h5>ورزشگاه {{ itm.stadium }}</h5>
+                <h6>شهر {{ itm.city }}</h6>
+              </article>
+              <article class="content">
+                <div class="team-a">
+                  <img src="{{ itm.flag1}}" alt="{{ itm.team1 }}">
+                  <span>{{ itm.team1 }}</span>
+                </div>
+                <div class="points">
+                  <span> {% if itm.pts1 == 'zero' %}{{ itm.time }} {% else %} {{ itm.pts1 }} - {{ itm.pts2 }} {% endif %} </span>
+                </div>
+                <div class="team-b">
+                  <span>{{ itm.team2 }}</span>
+                  <img src="{{ itm.flag2}}" alt="{{ itm.team2 }}">
+                </div>
+              </article>
+            </div>
+          </div>
+          {% if itm.pts1 == 'zero' %} {% else %}
+          <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion" style="">
+            <div class="team-a">
+              <ul>
+                {% if itm.pts1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                  <span>{{ itm.goal1 }}</span>
+                </li>
+                {% endif %} {% if itm.yellow1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                  <span>{{ itm.yellow1 }}</span>
+                </li>
+                {% endif %} {% if itm.red1 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                  <span>{{ itm.red1 }}</span>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+            <div class="team-b">
+              <ul>
+                {% if itm.pts2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                  <span>{{ itm.goal2 }}</span>
+                </li>
+                {% endif %} {% if itm.yellow2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                  <span>{{ itm.yellow2 }}</span>
+                </li>
+                {% endif %} {% if itm.red2 == '0' %} {% else %}
+                <li>
+                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                  <span>{{ itm.red2 }}</span>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %} {% endif %} {% endfor %}
+      </div> -->
+      تست
+    </div>
+  </div>
+</section>
