@@ -732,23 +732,23 @@ img {
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
               position: absolute;
               right: 4rem;
-              top: 2.8rem;
+              top: 2.9rem;
               font-size: 1rem; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
@@ -756,25 +756,25 @@ img {
                   font-size: 1rem; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 6rem;
+                  right: 5rem;
                   font-size: 1rem; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 6rem;
+                  right: 5rem;
                   font-size: 2rem; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 6rem;
+                  right: 5rem;
                   font-size: 2rem; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 6rem;
+                  right: 5rem;
                   font-size: 2rem; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .points {
               text-align: center;
               width: 100%;
               position: absolute;
-              top: 2.8rem; }
+              top: 2.9rem; }
               .main .all-matches .tab-content #accordion .card .card-header .row .content .points span {
                 font-size: 1rem;
                 line-height: 26px;
@@ -797,7 +797,7 @@ img {
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
               position: absolute;
               left: 4rem;
-              top: 2.8rem;
+              top: 2.9rem;
               font-size: 1rem; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
@@ -805,19 +805,19 @@ img {
                   font-size: 1rem; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 6rem;
+                  left: 5rem;
                   font-size: 1rem; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 6rem;
+                  left: 5rem;
                   font-size: 2rem; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 6rem;
+                  left: 5rem;
                   font-size: 2rem; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 6rem;
+                  left: 5rem;
                   font-size: 2rem; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
               position: absolute;
@@ -832,19 +832,19 @@ img {
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
                   top: 2rem;
-                  width: 70px; } }
+                  width: 60px; } }
 
 /**
 *

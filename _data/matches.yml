@@ -340,797 +340,962 @@
     stadium: سنت پترزبورگ
     city: سنت پترزبورگ
 
-- date: پنج‌شنبه 29 خرداد
+- date: چهارشنبه ۳۰ خرداد
   groups:
-  - group: گروه A
-    team1: کامرون
-    team2: كرواسي
-    flag1: assets/img/flags/cmr.png
-    flag2: assets/img/flags/cro.png
-    pts1: "0"
-    pts2: "4"
-    goal1: ""
-    goal2: "ايويکا اوليچ ('11), ايوان پريسيچ ('48), ماريو ماندژوکيچ ('61, '73)"
-    yellow1: "0"
-    yellow2: "ادواردو داسيلوا ('89)"
-    red1: "الکساندر سانگ ('40)"
-    red2: "0"
-    time: "02:30"
-    stadium: Arena Amazonia
-    city: Manaus
-  - group: گروه C
-    team1: كلمبيا
-    team2: ساحل عاج
-    flag1: assets/img/flags/col.png
-    flag2: assets/img/flags/civ.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "جيمز رودريگز ('64), خوان کوئينترو ('70)"
-    goal2: "ژروينيو ('73)"
-    yellow1: "0"
-    yellow2: "ديدير ژوکورا ('55), شيخ تيوته ('90)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Nacional
-    city: Brasilia
-  - group: گروه D
-    team1: اروگوئه
-    team2: انگليس
-    flag1: assets/img/flags/uru.png
-    flag2: assets/img/flags/eng.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "لوئيس سوارز ('39, '85)"
-    goal2: "وين رونی ('75)"
-    yellow1: "ديگو گودين ('9)"
-    yellow2: "استيون جرارد ('68)"
-    red1: "0"
-    red2: "0"
-    time: "23:30"
-    stadium: Arena de Sao Paulo
-    city: Sao Paulo
-
-- date: جمعه 30 خرداد
-  groups:
-  - group: گروه C
-    team1: ژاپن
-    team2: يونان
-    flag1: assets/img/flags/jpn.png
-    flag2: assets/img/flags/gre.png
-    pts1: "0"
-    pts2: "0"
-    goal1: ""
-    goal2: ""
-    yellow1: "ماکوتو هاسه به ('12)"
-    yellow2: "کاستوس کاتسورانيس ('27, '38), گئورگيوس ساماراس ('55), واسيليس توروسيديس ('89)"
-    red1: "0"
-    red2: "کاستوس کاتسورانيس ('38)"
-    time: "02:30"
-    stadium: Estadio das Dunas
-    city: Natal
-  - group: گروه D
-    team1: ايتاليا
-    team2: کاستاريکا
-    flag1: assets/img/flags/ita.png
-    flag2: assets/img/flags/crc.png
-    pts1: "0"
-    pts2: "1"
-    goal1: ""
-    goal2: "برايان رويز ('44)"
-    yellow1: "ماريو بالوتلی ('69)"
-    yellow2: "خوزه ميگوئل کوبرو ('71)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena Pernambuco
-    city: Recife
-  - group: گروه E
-    team1: سوئيس
-    team2: فرانسه
-    flag1: assets/img/flags/sui.png
-    flag2: assets/img/flags/fra.png
-    pts1: "2"
-    pts2: "5"
-    goal1: "بلريم ژمايلی ('81), گرانيت ژاکا ('87)"
-    goal2: "اوليور جيرود ('17), بليز ماتوئيدي ('18), متيو وابوئه نا ('40), کريم بنزما ('67), موسی سيسوکو ('73)"
-    yellow1: "0"
-    yellow2: "يوهان کابايه ('88)"
-    red1: "0"
-    red2: "0"
-    time: "23:30"
-    stadium: Arena Fonte Nova
-    city: Salvador
-
-- date: شنبه 31 خرداد
-  groups:
-  - group: گروه E
-    team1: هندوراس
-    team2: اكوادور
-    flag1: assets/img/flags/hon.png
-    flag2: assets/img/flags/ecu.png
-    pts1: "1"
-    pts2: "2"
-    goal1: "کارلوس کاستلی ('31)"
-    goal2: "اينر والنسيا ('34, '65)"
-    yellow1: "ويکتور برناردز ('7), جری بنسون ('45 +)"
-    yellow2: "آنتونيو والنسيا ('57), اينر والنسيا ('73), جفرسون مونترو ('80)"
-    red1: "0"
-    red2: "0"
-    time: "02:30"
-    stadium: Arena da Baixada
-    city: Curitiba
-  - group: گروه F
-    team1: آرژانتين
-    team2: ايران
-    flag1: assets/img/flags/arg.png
-    flag2: assets/img/flags/irn.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "ليونل مسی ('90 +)"
-    goal2: ""
-    yellow1: "0"
-    yellow2: "جواد نکونام ('53), مسعود شجاعی ('73)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Mineirao
-    city: Belo Horizonte
-  - group: گروه G
-    team1: آلمان
-    team2: غنا
-    flag1: assets/img/flags/ger.png
-    flag2: assets/img/flags/gha.png
-    pts1: "2"
-    pts2: "2"
-    goal1: "ماريو گوتزه ('51), ميروسلاو کلوزه ('71)"
-    goal2: "آندره آيه وو ('54), آساموآ جيان ('63)"
-    yellow1: "0"
-    yellow2: "سولی مونتاری ('90 +)"
-    red1: "0"
-    red2: "0"
-    time: "23:30"
-    stadium: Estadio Castelao
-    city: Fortaleza
-
-- date: يکشنبه 01 تير
-  groups:
-  - group: گروه F
-    team1: نيجريه
-    team2: بوسني هرزگوين
-    flag1: assets/img/flags/nga.png
-    flag2: assets/img/flags/bih.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "پيتر اودموينگی ('29)"
-    goal2: ""
-    yellow1: "جان اوبي مايكل ('81)"
-    yellow2: "هريس مدون ژانين ('6)"
-    red1: "0"
-    red2: "0"
-    time: "02:30"
-    stadium: Arena Pantanal
-    city: Cuiaba
-  - group: گروه H
-    team1: بلژیک
-    team2: روسيه
-    flag1: assets/img/flags/bel.png
-    flag2: assets/img/flags/rus.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "ديووک اوريجی ('88)"
-    goal2: ""
-    yellow1: "اکسل ويتسل ('54), توبی آلدرويرلد ('73)"
-    yellow2: "دنيس گلوشاکف ('38)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Maracanã - Estádio Jornalista Mário Filho
-    city: Rio De Janeiro
-  - group: گروه H
-    team1: كره جنوبي
-    team2: الجزاير
-    flag1: assets/img/flags/kor.png
-    flag2: assets/img/flags/alg.png
-    pts1: "2"
-    pts2: "4"
-    goal1: "سان هيونگ مين ('50), کو جه چئول ('72)"
-    goal2: "اسلام السليمانی ('26), رفيق هليچه ('28), عبدالمومن دابو ('38), ياسيان براهيمی ('62)"
-    yellow1: "لی يونگ ('54), هان کوک يونگ ('69)"
-    yellow2: "مجيد بوقرا ('67)"
-    red1: "0"
-    red2: "0"
-    time: "23:30"
-    stadium: Estadio Beira-Rio
-    city: Porto Alegre
-
-- date: دوشنبه 02 تير
-  groups:
-  - group: گروه G
-    team1: آمريكا
-    team2: پرتغال
-    flag1: assets/img/flags/usa.png
-    flag2: assets/img/flags/por.png
-    pts1: "2"
-    pts2: "2"
-    goal1: "ژرماين ژونس ('64), کلين دمپسی ('81)"
-    goal2: "نانی ('5), سيلوسر وارلا ('90 +)"
-    yellow1: "ژرماين ژونس ('75)"
-    yellow2: "0"
-    red1: "0"
-    red2: "0"
-    time: "02:30"
-    stadium: Arena Amazonia
-    city: Manaus
   - group: گروه B
-    team1: هلند
-    team2: شيلي
-    flag1: assets/img/flags/ned.png
-    flag2: assets/img/flags/chi.png
-    pts1: "2"
-    pts2: "0"
-    goal1: "لروی فر ('77), ممفيس دپای ('90 +)"
-    goal2: ""
-    yellow1: "دالی بليند ('64)"
-    yellow2: "فرانچسکو سيلوا ('25)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena de Sao Paulo
-    city: Sao Paulo
-  - group: گروه B
-    team1: استراليا
-    team2: اسپانيا
-    flag1: assets/img/flags/aus.png
-    flag2: assets/img/flags/esp.png
-    pts1: "0"
-    pts2: "3"
-    goal1: ""
-    goal2: "داويد ويا ('36), فرناندو تورس ('69), خوآن ماتا ('82)"
-    yellow1: "متئو اسپيرانوويچ ('88), مايل ژديناک ('90 +)"
-    yellow2: "سرخيو راموس ('62)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena da Baixada
-    city: Curitiba
-
-- date: سه‌شنبه 03 تير
-  groups:
-  - group: گروه A
-    team1: کامرون
-    team2: برزيل
-    flag1: assets/img/flags/cmr.png
-    flag2: assets/img/flags/bra.png
-    pts1: "1"
-    pts2: "4"
-    goal1: "ژوئل ماتيپ ('26)"
-    goal2: "نيمار ('17, '35), فرد ('49), فردينانديو ('84)"
-    yellow1: "يانگ انو ('11), ادگار سالی ('75), استفان امبيا ('80)"
-    yellow2: "0"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Estadio Nacional
-    city: Brasilia
-  - group: گروه A
-    team1: كرواسي
-    team2: مکزيک
-    flag1: assets/img/flags/cro.png
-    flag2: assets/img/flags/mex.png
-    pts1: "1"
-    pts2: "3"
-    goal1: "ايوان پريسيچ ('87)"
-    goal2: "رافائل مارکز ('72), آندرس گواردادو ('75), خاوير هرناندز ('82)"
-    yellow1: "ايوان راکيتيچ ('9)"
-    yellow2: "رافائل مارکز ('39), خوزه وازکوئز ('66)"
-    red1: "آنته ربيک ('89)"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Pernambuco
-    city: Recife
-  - group: گروه D
-    team1: ايتاليا
-    team2: اروگوئه
-    flag1: assets/img/flags/ita.png
-    flag2: assets/img/flags/uru.png
-    pts1: "0"
-    pts2: "1"
-    goal1: ""
-    goal2: "ديگو گودين ('81)"
-    yellow1: "ماريو بالوتلی ('22), ماتيا ديشيليو ('77)"
-    yellow2: "اجيديو آروالو ('46), فرناندو موسلرا ('90 +)"
-    red1: "کلوديو مارکيزيو ('59)"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio das Dunas
-    city: Natal
-  - group: گروه D
-    team1: کاستاريکا
-    team2: انگليس
-    flag1: assets/img/flags/crc.png
-    flag2: assets/img/flags/eng.png
-    pts1: "0"
-    pts2: "0"
-    goal1: ""
-    goal2: ""
-    yellow1: "جانکارلو گونزالز ('60)"
-    yellow2: "روز بارکلی ('53), آدام لالانا ('57)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Mineirao
-    city: Belo Horizonte
-
-- date: چهارشنبه 04 تير
-  groups:
-  - group: گروه C
-    team1: ژاپن
-    team2: كلمبيا
-    flag1: assets/img/flags/jpn.png
-    flag2: assets/img/flags/col.png
-    pts1: "1"
-    pts2: "4"
-    goal1: "شينجی اوکازاکی ('45 +)"
-    goal2: "خوان کودرادو ('17 P), جکسون مارتينز ('55, '82'), جيمز رودريگز ('90)"
-    yellow1: "ياسويوکی کونو ('16)"
-    yellow2: "فردي گوآرين ('63)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Pantanal
-    city: Cuiaba
-  - group: گروه C
-    team1: يونان
-    team2: ساحل عاج
-    flag1: assets/img/flags/gre.png
-    flag2: assets/img/flags/civ.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "آندرس ساماريس ('42), گئورگيوس ساماراس ('90 + P)"
-    goal2: "ويلفرد بونی ('74)"
-    yellow1: "0"
-    yellow2: "ديديه دروگبا ('37), سالومون کالو ('62), دای سری ('70)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Estadio Castelao
-    city: Fortaleza
-  - group: گروه F
-    team1: نيجريه
-    team2: آرژانتين
-    flag1: assets/img/flags/nga.png
-    flag2: assets/img/flags/arg.png
-    pts1: "2"
-    pts2: "3"
-    goal1: "احمد موسی ('4, '47)"
-    goal2: "ليونل مسی ('3, '45 +), مارکوس روخو ('50)"
-    yellow1: "کنيث اومرو ('49), جوون اوشانيوا ('51)"
-    yellow2: "0"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Beira-Rio
-    city: Porto Alegre
-  - group: گروه F
-    team1: بوسني هرزگوين
-    team2: ايران
-    flag1: assets/img/flags/bih.png
-    flag2: assets/img/flags/irn.png
-    pts1: "3"
-    pts2: "1"
-    goal1: "ادين ژکو ('23), ميرالم پيانيچ ('59), آوديجا ورساجوييچ ('83)"
-    goal2: "رضا قوچان نژاد ('82)"
-    yellow1: "محمد بسيچ ('77)"
-    yellow2: "کريم انصاری فرد ('88)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena Fonte Nova
-    city: Salvador
-
-- date: پنج‌شنبه 05 تير
-  groups:
-  - group: گروه E
-    team1: هندوراس
-    team2: سوئيس
-    flag1: assets/img/flags/hon.png
-    flag2: assets/img/flags/sui.png
-    pts1: "0"
-    pts2: "3"
-    goal1: ""
-    goal2: "ژردان شقيری ('6, '31, '71)"
-    yellow1: "جری پالاسيوس ('66)"
-    yellow2: "0"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Amazonia
-    city: Manaus
-  - group: گروه E
-    team1: اكوادور
-    team2: فرانسه
-    flag1: assets/img/flags/ecu.png
-    flag2: assets/img/flags/fra.png
-    pts1: "0"
-    pts2: "0"
-    goal1: ""
-    goal2: ""
-    yellow1: "فريکسون ارازو ('83)"
-    yellow2: "0"
-    red1: "آنتونيو والنسيا ('50)"
-    red2: "0"
-    time: "00:30"
-    stadium: Maracanã - Estádio Jornalista Mário Filho
-    city: Rio De Janeiro
-  - group: گروه G
+    id: pormar
+    label: porvsmar
+    dates: چهارشنبه ۳۰ خرداد - ساعت ۱۶:۳۰
     team1: پرتغال
-    team2: غنا
+    team2: مراکش
     flag1: assets/img/flags/por.png
-    flag2: assets/img/flags/gha.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "جان بويه ('31 OG), کريستيانو رونالدو ('80)"
-    goal2: "آساموآ جيان ('57)"
-    yellow1: "ژائو موتينيو ('90 +)"
-    yellow2: "هريسون آفول ('39), مجيد واريس ('55), جوردن آيه وو ('78)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Nacional
-    city: Brasilia
-  - group: گروه G
-    team1: آمريكا
-    team2: آلمان
-    flag1: assets/img/flags/usa.png
-    flag2: assets/img/flags/ger.png
-    pts1: "0"
-    pts2: "1"
+    flag2: assets/img/flags/mar.png
+    pts1: "zero"
+    pts2: "zero"
     goal1: ""
-    goal2: "توماس مولر ('55)"
-    yellow1: "عمر گونزالز ('37), کايل بکرمن ('62)"
-    yellow2: "بنديکت هاودز ('11)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena Pernambuco
-    city: Recife
-
-- date: جمعه 06 تير
-  groups:
-  - group: گروه H
-    team1: كره جنوبي
-    team2: بلژیک
-    flag1: assets/img/flags/kor.png
-    flag2: assets/img/flags/bel.png
-    pts1: "0"
-    pts2: "1"
-    goal1: ""
-    goal2: "يان فرتونگن ('78)"
-    yellow1: "هونگ زئونگ هو ('35)"
-    yellow2: "موسی دمبل ('50)"
-    red1: "0"
-    red2: "استيون ديفور ('45)"
-    time: "00:30"
-    stadium: Arena de Sao Paulo
-    city: Sao Paulo
-  - group: گروه H
-    team1: الجزاير
-    team2: روسيه
-    flag1: assets/img/flags/alg.png
-    flag2: assets/img/flags/rus.png
-    pts1: "1"
-    pts2: "1"
-    goal1: "اسلام السليمانی ('60)"
-    goal2: "الکساندر کوکورين ('6)"
-    yellow1: "جمال مصباح ('39), نبيل قيلاس ('87), لياشين کادامورو ('90 +)"
-    yellow2: "ديميتری کومباروف ('57), الکسی کوزلوف ('59)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena da Baixada
-    city: Curitiba
-
-- date: شنبه 07 تیر
-  level: secondstage
-  groups:
-  - group: يک هشتم نهايي
-    team1: "برزیل"
-    team2: "شيلي"
-    flag1: assets/img/flags/bra.png
-    flag2: assets/img/flags/chi.png
-    pts1: "1 (3)"
-    pts2: "(2) 1"
-    goal1: "داويد لوئيز ('18)"
-    goal2: "الكسيس سانچز ('32)"
-    yellow1: "هالک ('55), لوئيز گوستاوو ('60), جو ('93), دنی آلوز ('105)"
-    yellow2: "اگنيو منا ('17), فرانچسکو سيلوا ('40), مائوريسيو پينيا ('102)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Mineirao
-    city: Belo Horizonte
-
-- date: یکشنبه 08 تیر
-  level: secondstage
-  groups:
-  - group: يک هشتم نهايي
-    team1: "کلمبیا"
-    team2: "اروگوئه"
-    flag1: assets/img/flags/col.png
-    flag2: assets/img/flags/uru.png
-    pts1: "2"
-    pts2: "0"
-    goal1: "جيمز رودريگز ('28, '50)"
     goal2: ""
-    yellow1: "پابلو آرمه رو ('78)"
-    yellow2: "خوزه گيمنز ('55), ديگو لوگانو ('77)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Maracanã - Estádio Jornalista Mário Filho
-    city: Rio De Janeiro
-  - group: يک هشتم نهايي
-    team1: "هلند"
-    team2: "مکزیک"
-    flag1: assets/img/flags/ned.png
-    flag2: assets/img/flags/mex.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "وسلی اسنايدر ('88), کلاوس يان هونتلار ('90 + P)"
-    goal2: "جيووانی دوس سانتوس ('48)"
     yellow1: "0"
-    yellow2: "پاول آگويلار ('69), رافائل مارکز ('90 +), آندرس گواردادو ('90 +)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Estadio Castelao
-    city: Fortaleza
-
-- date: دوشنبه 09 تیر
-  level: secondstage
-  groups:
-  - group: يک هشتم نهايي
-    team1: "کاستاريکا"
-    team2: "یونان"
-    flag1: assets/img/flags/crc.png
-    flag2: assets/img/flags/gre.png
-    pts1: "1 (5)"
-    pts2: "(3) 1"
-    goal1: "برايان رويز ('52)"
-    goal2: "سقراطيس پاپاستاسوپولوس ('90 +)"
-    yellow1: "اسکار دوارته ('42, '66), يلستين تجدا ('48), اوسکار گرانادوس ('57), برايان رويز ('70), کيلور ناواس ('90)"
-    yellow2: "آندرس ساماريس ('36), كوشتاس مانولاس ('72)"
-    red1: "اسکار دوارته ('66)"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Pernambuco
-    city: Recife
-  - group: يک هشتم نهايي
-    team1: "فرانسه"
-    team2: "نیجریه"
-    flag1: assets/img/flags/fra.png
-    flag2: assets/img/flags/nga.png
-    pts1: "2"
-    pts2: "0"
-    goal1: "پاول پوگبا ('79), جوزف يوبو ('90 + OG)"
-    goal2: ""
-    yellow1: "بليز ماتوئيدی ('54)"
     yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "20:30"
-    stadium: Estadio Nacional
-    city: Brasilia
-
-- date: سه‌شنبه 10 تیر
-  level: secondstage
-  groups:
-  - group: يک هشتم نهايي
-    team1: "آلمان"
-    team2: "الجزایر"
-    flag1: assets/img/flags/ger.png
-    flag2: assets/img/flags/alg.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "آندره شورله ('92), مسوت اوزيل ('120 +)"
-    goal2: "عبدالمومن دابو ('120 +)"
-    yellow1: "فيليپ لام ('107)"
-    yellow2: "رفيق هليچه ('42)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Estadio Beira-Rio
-    city: Porto Alegre
-  - group: يک هشتم نهايي
-    team1: "آرژانتین"
-    team2: "سوئیس"
-    flag1: assets/img/flags/arg.png
-    flag2: assets/img/flags/sui.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "آنخل دی ماريا ('118)"
-    goal2: ""
-    yellow1: "مارکوس روخو ('90), آنخل دی ماريا ('120), اسکوئيل گارای ('120 +)"
-    yellow2: "گرانيت ژاکا ('36), گلسون فرناندز ('73)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Arena de Sao Paulo
-    city: Sao Paulo
-
-- date: چهارشنبه 11 تیر
-  level: secondstage
-  groups:
-  - group: يک هشتم نهايي
-    team1: "بلژیک"
-    team2: "آمریکا"
-    flag1: assets/img/flags/bel.png
-    flag2: assets/img/flags/usa.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "کوين دی بروين ('93), روملو لوکاکو ('105)"
-    goal2: "جوليان گرين ('107)"
-    yellow1: "وينسنت کمپانی ('42)"
-    yellow2: "ژئوف کامرون ('18)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Fonte Nova
-    city: Salvador
-
-- date: جمعه 13 تیر
-  level: secondstage
-  groups:
-  - group: يک چهارم نهايي
-    team1: "فرانسه"
-    team2: "آلمان"
-    flag1: assets/img/flags/fra.png
-    flag2: assets/img/flags/ger.png
-    pts1: "0"
-    pts2: "1"
+    time: "۱۶:۳۰"
+    stadium: لوژنیکی
+    city: مسکو
+  - group: گروه A
+    id: uruksa
+    label: uruvsksa
+    dates: چهارشنبه ۳۰ خرداد - ساعت ۱۹:۳۰
+    team1: اروگوئه
+    team2: عربستان
+    flag1: assets/img/flags/uru.png
+    flag2: assets/img/flags/ksa.png
+    pts1: "zero"
+    pts2: "zero"
     goal1: ""
-    goal2: "متس هوملز ('13)"
-    yellow1: "0"
-    yellow2: "سامی خديرا ('54), باستين شواين اشتايگر ('80)"
-    red1: "0"
-    red2: "0"
-    time: "20:30"
-    stadium: Maracanã - Estádio Jornalista Mário Filho
-    city: Rio De Janeiro
-
-- date: شنبه 14 تیر
-  level: secondstage
-  groups:
-  - group: يک چهارم نهايي
-    team1: "برزیل"
-    team2: "کلمبیا"
-    flag1: assets/img/flags/bra.png
-    flag2: assets/img/flags/col.png
-    pts1: "2"
-    pts2: "1"
-    goal1: "تياگو سيلوا ('7), داويد لوئيز ('69)"
-    goal2: "جيمز رودريگز ('78 P)"
-    yellow1: "تياگو سيلوا ('64), ژوليو سزار ('78)"
-    yellow2: "جيمز رودريگز ('67), ماريو يپس ('69)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Estadio Castelao
-    city: Fortaleza
-  - group: يک چهارم نهايي
-    team1: "آرژانتین"
-    team2: "بلژیک"
-    flag1: assets/img/flags/arg.png
-    flag2: assets/img/flags/bel.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "گونزالو هيگواين ('8)"
     goal2: ""
-    yellow1: "لوکاس بيگليا ('75)"
-    yellow2: "ادن هازارد ('53), توبی آلدرويرلد ('68)"
+    yellow1: "0"
+    yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "20:30"
-    stadium: Estadio Nacional
-    city: Brasilia
+    time: "۱۹:۳۰"
+    stadium: روستوف
+    city: روستوف-نا-دونو
+  - group: گروه B
+    id: irnesp
+    label: irnvsesp
+    dates: چهارشنبه ۳۰ خرداد - ساعت ۲۲:۳۰
+    team1: ایران
+    team2: اسپانیا
+    flag1: assets/img/flags/irn.png
+    flag2: assets/img/flags/esp.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کازان
+    city: کازان
 
-- date: یکشنبه 15 تیر
-  level: secondstage
+- date: پنجشنبه ۳۱ خرداد
   groups:
-  - group: يک چهارم نهايي
-    team1: "هلند"
-    team2: "کاستاريکا"
-    flag1: assets/img/flags/ned.png
+  - group: گروه C
+    id: denaus
+    label: denvsaus
+    dates: پنجشنبه ۳۱ خرداد - ساعت ۱۶:۳۰
+    team1: دانمارک
+    team2: استرالیا
+    flag1: assets/img/flags/den.png
+    flag2: assets/img/flags/aus.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۶:۳۰"
+    stadium: سامارا
+    city: سامارا
+  - group: گروه C
+    id: fraper
+    label: fravsper
+    dates: پنجشنبه ۳۱ خرداد - ساعت ۱۹:۳۰
+    team1: فرانسه
+    team2: پرو
+    flag1: assets/img/flags/fra.png
+    flag2: assets/img/flags/per.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۹:۳۰"
+    stadium: یکاترینبورگ
+    city: یکاترینبورگ
+  - group: گروه D
+    id: argcro
+    label: argvscro
+    dates: پنجشنبه ۳۱ خرداد - ساعت ۲۲:۳۰
+    team1: آرژانتین
+    team2: کرواسی
+    flag1: assets/img/flags/arg.png
+    flag2: assets/img/flags/cro.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: نیژنی نووگورود
+    city: نیژنی نووگورود
+
+- date: جمعه ۱ تیر
+  groups:
+  - group: گروه E
+    id: bracrc
+    label: bravscrc
+    dates: جمعه ۱ تیر - ساعت ۱۶:۳۰
+    team1: برزیل
+    team2: کاستاریکا
+    flag1: assets/img/flags/bra.png
     flag2: assets/img/flags/crc.png
-    pts1: "0 (4)"
-    pts2: "(3) 0"
+    pts1: "zero"
+    pts2: "zero"
     goal1: ""
     goal2: ""
-    yellow1: "برونو مارتينز ايندی ('64), کلاوس يان هونتلار ('111)"
-    yellow2: "جونيور دياز ('37), ميشل اومانا ('52), جانکارلو گونزالز ('81), جانی آکوستا ('106)"
-    red1: "0"
-    red2: "0"
-    time: "00:30"
-    stadium: Arena Fonte Nova
-    city: Salvador
-
-- date: چهارشنبه 18 تیر
-  level: secondstage
-  groups:
-  - group: نيمه نهايي
-    team1: "برزیل"
-    team2: "آلمان"
-    flag1: assets/img/flags/bra.png
-    flag2: assets/img/flags/ger.png
-    pts1: "1"
-    pts2: "7"
-    goal1: "اسکار ('90)"
-    goal2: "توماس مولر ('11), ميروسلاو کلوزه ('23), تونی کروس ('24, '26), سامى خديرا ('29), آندره شورله ('69, '79)"
-    yellow1: "دانته ('68)"
+    yellow1: "0"
     yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "00:30"
-    stadium: Estadio Mineirao
-    city: Belo Horizonte
-
-- date: پنجشنبه 19 تیر
-  level: secondstage
-  groups:
-  - group: نيمه نهايي
-    team1: "هلند"
-    team2: "آرژانتین"
-    flag1: assets/img/flags/ned.png
-    flag2: assets/img/flags/arg.png
-    pts1: "0 (2)"
-    pts2: "(4) 0"
+    time: "۱۶:۳۰"
+    stadium: سنت پترزبورگ
+    city: سنت پترزبورگ
+  - group: گروه D
+    id: ngaisl
+    label: ngavsisl
+    dates: جمعه ۱ تیر - ساعت ۱۹:۳۰
+    team1: نیجریه
+    team2: ایسلند
+    flag1: assets/img/flags/nga.png
+    flag2: assets/img/flags/isl.png
+    pts1: "zero"
+    pts2: "zero"
     goal1: ""
     goal2: ""
-    yellow1: "برونو مارتینز ایندی ('45), کلاوس يان هونتلار ('105)"
-    yellow2: "مارتين دميکليس ('49)"
+    yellow1: "0"
+    yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "00:30"
-    stadium: Arena de Sao Paulo
-    city: Sao Paulo
+    time: "۱۹:۳۰"
+    stadium: ولگوگراد
+    city: ولگوگراد
+  - group: گروه E
+    id: srbsui
+    label: srbvssui
+    dates: جمعه ۱ تیر - ساعت ۲۲:۳۰
+    team1: صربستان
+    team2: سوئیس
+    flag1: assets/img/flags/srb.png
+    flag2: assets/img/flags/sui.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کالینینگراد
+    city: کالینینگراد
 
-- date: یکشنبه 22 تیر
+- date: شنبه ۲ تير
+  groups:
+  - group: گروه G
+    id: beltun
+    label: belvstun
+    dates: شنبه ۲ تیر - ساعت ۱۶:۳۰
+    team1: بلژیک
+    team2: تونس
+    flag1: assets/img/flags/bel.png
+    flag2: assets/img/flags/tun.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۶:۳۰"
+    stadium: اسپارتاک
+    city: مسکو
+  - group: گروه F
+    id: kormex
+    label: korvsmex
+    dates: شنبه ۲ تیر - ساعت ۱۹:۳۰
+    team1: کره‌جنوبی
+    team2: مکزیک
+    flag1: assets/img/flags/kor.png
+    flag2: assets/img/flags/mex.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۹:۳۰"
+    stadium: روستوف
+    city: روستوف-نا-دونو
+  - group: گروه F
+    id: gerswe
+    label: gervsswe
+    dates: شنبه ۲ تیر - ساعت ۲۲:۳۰
+    team1: آلمان
+    team2: سوئد
+    flag1: assets/img/flags/ger.png
+    flag2: assets/img/flags/swe.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: فیشت
+    city: سوچی
+
+- date: یکشنبه ۳ تير
+  groups:
+  - group: گروه G
+    id: engpan
+    label: engvspan
+    dates: یکشنبه ۳ تیر - ساعت ۱۶:۳۰
+    team1: انگلیس
+    team2: پاناما
+    flag1: assets/img/flags/eng.png
+    flag2: assets/img/flags/pan.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۶:۳۰"
+    stadium: نیژنی نووگورود
+    city: نیژنی نووگورود
+  - group: گروه H
+    id: jpnsen
+    label: jpnvssen
+    dates: یکشنبه ۳ تیر - ساعت ۱۹:۳۰
+    team1: ژاپن
+    team2: سنگال
+    flag1: assets/img/flags/jpn.png
+    flag2: assets/img/flags/sen.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۹:۳۰"
+    stadium: یکاترینبورگ
+    city: یکاترینبورگ
+  - group: گروه H
+    id: polcol
+    label: polvscol
+    dates: یکشنبه ۳ تیر - ساعت ۲۲:۳۰
+    team1: هلند
+    team2: کلمبیا
+    flag1: assets/img/flags/pol.png
+    flag2: assets/img/flags/col.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کازان
+    city: کازان
+
+- date: دوشنبه ۴ تير
+  groups:
+  - group: گروه A
+    id: ururus
+    label: uruvsrus
+    dates: دوشنبه ۴ تیر - ساعت ۱۸:۳۰
+    team1: اروگوئه
+    team2: روسیه
+    flag1: assets/img/flags/uru.png
+    flag2: assets/img/flags/rus.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سامارا
+    city: سامارا
+  - group: گروه A
+    id: ksaegy
+    label: ksavsegy
+    dates: دوشنبه ۴ تیر - ساعت ۱۸:۳۰
+    team1: عربستان
+    team2: مصر
+    flag1: assets/img/flags/ksa.png
+    flag2: assets/img/flags/egy.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: ولگوگراد
+    city: ولگوگراد
+  - group: گروه B
+    id: irnpor
+    label: irnvspor
+    dates: دوشنبه ۴ تیر - ساعت ۲۲:۳۰
+    team1: ایران
+    team2: پرتغال
+    flag1: assets/img/flags/irn.png
+    flag2: assets/img/flags/por.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: موردوویا
+    city: موردوویا
+  - group: گروه B
+    id: espmar
+    label: espvsmar
+    dates: دوشنبه ۴ تیر - ساعت ۲۲:۳۰
+    team1: اسپانیا
+    team2: مراکش
+    flag1: assets/img/flags/esp.png
+    flag2: assets/img/flags/mar.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کالینینگراد
+    city: کالینینگراد
+
+- date: سه‌شنبه ۵ تير
+  groups:
+  - group: گروه C
+    id: denfra
+    label: denvsfra
+    dates: سه‌شنبه ۵ تیر - ساعت ۱۸:۳۰
+    team1: دانمارک
+    team2: فرانسه
+    flag1: assets/img/flags/den.png
+    flag2: assets/img/flags/fra.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: لوژنیکی
+    city: مسکو
+  - group: گروه C
+    id: ausper
+    label: ausvsper
+    dates: سه‌شنبه ۵ تیر - ساعت ۱۸:۳۰
+    team1: استرالیا
+    team2: پرو
+    flag1: assets/img/flags/aus.png
+    flag2: assets/img/flags/per.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: فیشت
+    city: سوچی
+  - group: گروه C
+    id: ngaarg
+    label: ngavsarg
+    dates: سه‌شنبه ۵ تیر - ساعت ۲۲:۳۰
+    team1: نیجریه
+    team2: آرژانتین
+    flag1: assets/img/flags/nga.png
+    flag2: assets/img/flags/arg.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: سنت پترزبورگ
+    city: سنت پترزبورگ
+  - group: گروه C
+    id: islcro
+    label: islvscro
+    dates: سه‌شنبه ۵ تیر - ساعت ۲۲:۳۰
+    team1: ایسلند
+    team2: کرواسی
+    flag1: assets/img/flags/isl.png
+    flag2: assets/img/flags/cro.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: روستوف
+    city: روستوف-نا-دونو
+
+- date: چهارشنبه ۶ تير
+  groups:
+  - group: گروه F
+    id: mexswe
+    label: mexvsswe
+    dates: چهارشنبه ۶ تیر - ساعت ۱۸:۳۰
+    team1: مکزیک
+    team2: سوئد
+    flag1: assets/img/flags/mex.png
+    flag2: assets/img/flags/swe.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: یکاترینبورگ
+    city: یکاترینبورگ
+  - group: گروه F
+    id: korger
+    label: korvsger
+    dates: چهارشنبه ۶ تیر - ساعت ۱۸:۳۰
+    team1: کره‌جنوبی
+    team2: آلمان
+    flag1: assets/img/flags/kor.png
+    flag2: assets/img/flags/ger.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: کازان
+    city: کازان
+  - group: گروه E
+    id: srbbra
+    label: srbvsbra
+    dates: چهارشنبه ۶ تیر - ساعت ۲۲:۳۰
+    team1: صربستان
+    team2: برزیل
+    flag1: assets/img/flags/srb.png
+    flag2: assets/img/flags/bra.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: اسپارتاک
+    city: مسکو
+  - group: گروه E
+    id: suicrc
+    label: suivscrc
+    dates: چهارشنبه ۶ تیر - ساعت ۲۲:۳۰
+    team1: سوئیس
+    team2: کاستاریکا
+    flag1: assets/img/flags/sui.png
+    flag2: assets/img/flags/crc.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: نیژنی نووگورود
+    city: نیژنی نووگورود
+
+- date: پنجشنبه ۷ تير
+  groups:
+  - group: گروه H
+    id: jpnpol
+    label: jpnvspol
+    dates: پنجشنبه ۷ تیر - ساعت ۱۸:۳۰
+    team1: ژاپن
+    team2: هلند
+    flag1: assets/img/flags/jpn.png
+    flag2: assets/img/flags/pol.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: ولگوگراد
+    city: ولگوگراد
+  - group: گروه H
+    id: sencol
+    label: senvscol
+    dates: پنجشنبه ۷ تیر - ساعت ۱۸:۳۰
+    team1: سنگال
+    team2: کلمبیا
+    flag1: assets/img/flags/sen.png
+    flag2: assets/img/flags/col.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سامارا
+    city: سامارا
+  - group: گروه G
+    id: pantun
+    label: panvstun
+    dates: پنجشنبه ۷ تیر - ساعت ۲۲:۳۰
+    team1: پاناما
+    team2: تونس
+    flag1: assets/img/flags/pan.png
+    flag2: assets/img/flags/tun.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: موردوویا
+    city: سارانسک
+  - group: گروه G
+    id: engbel
+    label: engvsbel
+    dates: پنجشنبه ۷ تیر - ساعت ۲۲:۳۰
+    team1: انگلیس
+    team2: بلژیک
+    flag1: assets/img/flags/eng.png
+    flag2: assets/img/flags/bel.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کالینینگراد
+    city: کالینینگراد
+
+- date: شنبه ۹ تیر
   level: secondstage
   groups:
-  - group: رده بندی
-    team1: "برزیل"
-    team2: "هلند"
-    flag1: assets/img/flags/bra.png
-    flag2: assets/img/flags/ned.png
-    pts1: "0"
-    pts2: "3"
+  - group: يک هشتم نهایی
+    id: 1c2d
+    label: 1cvs2d
+    dates: شنبه ۹ تیر - ساعت ۱۸:۳۰
+    team1: "[1C]"
+    team2: "[2D]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
     goal1: ""
-    goal2: "روبين فان‌پرسی ('3 P), دالی بليند ('17), جورجينيو وينالدام ('90+)"
-    yellow1: "تياگو سيلوا ('2), فرناندينيو ('54), اسکار ('68)"
-    yellow2: "آرين روبن ('9), جاناتان دِگوژمان ('36)"
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "00:30"
-    stadium: Estadio Nacional
-    city: Brasilia
+    time: "۱۸:۳۰"
+    stadium: کازان
+    city: کازان
+  - group: يک هشتم نهایی
+    id: 1a2b
+    label: 1avs2b
+    dates: شنبه ۹ تیر - ساعت ۲۲:۳۰
+    team1: "[1A]"
+    team2: "[2B]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: فیشت
+    city: سوچی
 
-- date: یکشنبه 22 تیر
+- date: یکشنبه ۱۰ تیر
+  level: secondstage
+  groups:
+  - group: يک هشتم نهایی
+    id: 1b2a
+    label: 1bvs2a
+    dates: یکشنبه ۱۰ تیر - ساعت ۱۸:۳۰
+    team1: "[1B]"
+    team2: "[2A]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: لوژنیکی
+    city: مسکو
+  - group: يک هشتم نهایی
+    id: 1d2c
+    label: 1dvs2c
+    dates: یکشنبه ۱۰ تیر - ساعت ۲۲:۳۰
+    team1: "[1D]"
+    team2: "[2C]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: نیژنی نووگورود
+    city: نیژنی نووگورود
+
+- date: دوشنبه ۱۱ تیر
+  level: secondstage
+  groups:
+  - group: يک هشتم نهایی
+    id: 1e2f
+    label: 1evs2f
+    dates: دوشنبه ۱۱ تیر - ساعت ۱۸:۳۰
+    team1: "[1E]"
+    team2: "[2F]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سامارا
+    city: سامارا
+  - group: يک هشتم نهایی
+    id: 1g2h
+    label: 1gvs2h
+    dates: دوشنبه ۱۱ تیر - ساعت ۲۲:۳۰
+    team1: "[1G]"
+    team2: "[2H]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: روستوف
+    city: روستوف-نا-دونو
+
+- date: سه‌شنبه ۱۲ تیر
+  level: secondstage
+  groups:
+  - group: يک هشتم نهایی
+    id: 1f2e
+    label: 1fvs2e
+    dates: سه‌شنبه ۱۲ تیر - ساعت ۱۸:۳۰
+    team1: "[1F]"
+    team2: "[2E]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سنت پترزبورگ
+    city: سنت پترزبورگ
+  - group: يک هشتم نهایی
+    id: 1h2g
+    label: 1hvs2g
+    dates: سه‌شنبه ۱۲ تیر - ساعت ۲۲:۳۰
+    team1: "[1H]"
+    team2: "[2G]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: اسپارتاک
+    city: مسکو
+
+- date: جمعه ۱۵ تیر
+  level: secondstage
+  groups:
+  - group: يک چهارم نهایی
+    id: W49W50
+    label: W49vsW50
+    dates: جمعه ۱۵ تیر - ساعت ۱۸:۳۰
+    team1: "[W49]"
+    team2: "[W50]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: نیژنی نووگورود
+    city: نیژنی نووگورود
+  - group: يک چهارم نهایی
+    id: W53W54
+    label: W53vsW54
+    dates: جمعه ۱۵ تیر - ساعت ۲۲:۳۰
+    team1: "[W53]"
+    team2: "[W54]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: کازان
+    city: کازان
+
+- date: شنبه ۱۶ تیر
+  level: secondstage
+  groups:
+  - group: يک چهارم نهایی
+    id: W55W56
+    label: W55vsW56
+    dates: شنبه ۱۶ تیر - ساعت ۱۸:۳۰
+    team1: "[W55]"
+    team2: "[W56]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سامارا
+    city: سامارا
+  - group: يک چهارم نهایی
+    id: W51W52
+    label: W51vsW52
+    dates: شنبه ۱۶ تیر - ساعت ۲۲:۳۰
+    team1: "[W51]"
+    team2: "[W52]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: فیشت
+    city: سوچی
+
+- date: سه‌شنبه ۱۹ تیر
+  level: secondstage
+  groups:
+  - group: نیمه‌نهایی
+    id: W57W58
+    label: W57vsW58
+    dates: سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰
+    team1: "[W57]"
+    team2: "[W58]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: سنت پترزبورگ
+    city: سنت پترزبورگ
+
+- date: چهارشنبه ۲۰ تیر
+  level: secondstage
+  groups:
+  - group: نیمه‌نهایی
+    id: W59W60
+    label: W59vsW60
+    dates: چهارشنبه ۲۰ تیر - ساعت ۲۲:۳۰
+    team1: "[W59]"
+    team2: "[W60]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۲۲:۳۰"
+    stadium: لوژنیکی
+    city: مسکو
+
+- date: شنبه ۲۳ تیر
+  level: secondstage
+  groups:
+  - group: رده‌بندی
+    id: L61L62
+    label: L61vsL62
+    dates: شنبه ۲۳ تیر - ساعت ۱۸:۳۰
+    team1: "[L61]"
+    team2: "[L62]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
+    goal2: ""
+    yellow1: "0"
+    yellow2: "0"
+    red1: "0"
+    red2: "0"
+    time: "۱۸:۳۰"
+    stadium: سنت پترزبورگ
+    city: سنت پترزبورگ
+
+- date: یکشنبه ۲۴ تیر
   level: secondstage
   groups:
   - group: فینال
-    team1: "آلمان"
-    team2: "آرژانتین"
-    flag1: assets/img/flags/ger.png
-    flag2: assets/img/flags/arg.png
-    pts1: "1"
-    pts2: "0"
-    goal1: "ماريو گوتزه ('113)"
+    id: W61W62
+    label: W61vsW62
+    dates: یکشنبه ۲۴ تیر - ساعت ۱۹:۳۰
+    team1: "[W61]"
+    team2: "[W62]"
+    flag1: assets/img/flags/blank.png
+    flag2: assets/img/flags/blank.png
+    pts1: "zero"
+    pts2: "zero"
+    goal1: ""
     goal2: ""
-    yellow1: "باستين شواين اشتايگر ('29), بنديکت هوودس ('34)"
-    yellow2: "خاوير ماسکرانو ('64), سرخيو آگوئرو ('65)"
+    yellow1: "0"
+    yellow2: "0"
     red1: "0"
     red2: "0"
-    time: "23:30"
-    stadium: Maracanã - Estádio Jornalista Mário Filho
-    city: Rio De Janeiro
+    time: "۱۹:۳۰"
+    stadium: لوژنیکی
+    city: مسکو

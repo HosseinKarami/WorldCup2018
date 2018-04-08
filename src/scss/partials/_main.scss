@@ -183,44 +183,44 @@
                     }
                     @include tablet{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include desktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include largedesktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include biglargedesktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                   }
                   span{
                     position: absolute;
                     right: 4rem;
-                    top: 2.8rem;
+                    top: 2.9rem;
                     font-size: 1rem;
                     @include phone{
                       right: 4rem;
                       font-size: 1rem;
                     }
                     @include tablet{
-                      right: 6rem;
+                      right: 5rem;
                       font-size: 1rem;
                     }
                     @include desktop{
-                      right: 6rem;
+                      right: 5rem;
                       font-size: 2rem;
                     }
                     @include largedesktop{
-                      right: 6rem;
+                      right: 5rem;
                       font-size: 2rem;
                     }
                     @include biglargedesktop{
-                      right: 6rem;
+                      right: 5rem;
                       font-size: 2rem;
                     }
                   }
@@ -229,7 +229,7 @@
                   text-align: center;
                   width: 100%;
                   position: absolute;
-                  top: 2.8rem;
+                  top: 2.9rem;
                   span{
                     font-size: 1rem;
                     line-height: 26px;
@@ -255,26 +255,26 @@
                   span{
                     position: absolute;
                     left: 4rem;
-                    top: 2.8rem;
+                    top: 2.9rem;
                     font-size: 1rem;
                     @include phone{
                       left: 4rem;
                       font-size: 1rem;
                     }
                     @include tablet{
-                      left: 6rem;
+                      left: 5rem;
                       font-size: 1rem;
                     }
                     @include desktop{
-                      left: 6rem;
+                      left: 5rem;
                       font-size: 2rem;
                     }
                     @include largedesktop{
-                      left: 6rem;
+                      left: 5rem;
                       font-size: 2rem;
                     }
                     @include biglargedesktop{
-                      left: 6rem;
+                      left: 5rem;
                       font-size: 2rem;
                     }
                   }
@@ -290,19 +290,19 @@
                     }
                     @include tablet{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include desktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include largedesktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                     @include biglargedesktop{
                       top: 2rem;
-                      width: 70px;
+                      width: 60px;
                     }
                   }
                 }
