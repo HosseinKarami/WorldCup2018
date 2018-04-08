@@ -2,27 +2,29 @@
   teams:
   - team: بلژیک
     flag: assets/img/flags/bel.png
-  - team: بوسني هرزگوين
-    flag: assets/img/flags/bih.png
   - team: کرواسی
     flag: assets/img/flags/cro.png
+  - team: دانمارک
+    flag: assets/img/flags/den.png
   - team: انگلیس
     flag: assets/img/flags/eng.png
   - team: فرانسه
     flag: assets/img/flags/fra.png
   - team: آلمان
     flag: assets/img/flags/ger.png
-  - team: یونان
-    flag: assets/img/flags/gre.png
-  - team: ایتالیا
-    flag: assets/img/flags/ita.png
+  - team: ایسلند
+    flag: assets/img/flags/isl.png
   - team: هلند
-    flag: assets/img/flags/ned.png
+    flag: assets/img/flags/pol.png
   - team: پرتغال
     flag: assets/img/flags/por.png
   - team: روسیه
     flag: assets/img/flags/rus.png
+  - team: صربستان
+    flag: assets/img/flags/srb.png
   - team: اسپانیا
     flag: assets/img/flags/esp.png
+  - team: سوئد
+    flag: assets/img/flags/swe.png
   - team: سوئیس
     flag: assets/img/flags/sui.png

@@ -4,13 +4,28 @@
   //background-color: #0f4583;
   
   .header-content{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include phone{
+      width: 100%;
+    }
+    @include tablet{
+      width: 100%;
+    }
+    @include desktop{
+      width: 100%;
+    }
+    @include largedesktop{
+      width: 100%;
+    }
+    @include biglargedesktop{
+      width: 1200px;
+    }
     a{
       color: #f9f9f9;
       text-decoration: none;

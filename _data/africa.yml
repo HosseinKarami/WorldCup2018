@@ -1,12 +1,12 @@
 - continent: آفریقا
   teams:
-  - team: الجزایر
-    flag: assets/img/flags/alg.png
-  - team: کامرون
-    flag: assets/img/flags/cmr.png
-  - team: ساحل عاج
-    flag: assets/img/flags/civ.png
-  - team: غنا
-    flag: assets/img/flags/gha.png
+  - team: مصر
+    flag: assets/img/flags/egy.png
+  - team: مراکش
+    flag: assets/img/flags/mar.png
   - team: نیجریه
     flag: assets/img/flags/nga.png
+  - team: سنگال
+    flag: assets/img/flags/sen.png
+  - team: تونس
+    flag: assets/img/flags/tun.png

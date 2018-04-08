@@ -57,8 +57,8 @@
     red1: "مارسلو ('11 OG)"
     red2: "0"
     time: "۱۹:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
   - group: گروه B
     id: poresp
     label: porvsesp
@@ -337,8 +337,8 @@
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
 
 - date: چهارشنبه ۳۰ خرداد
   groups:
@@ -479,8 +479,8 @@
     red1: "0"
     red2: "0"
     time: "۱۶:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
   - group: گروه D
     id: ngaisl
     label: ngavsisl
@@ -776,8 +776,8 @@
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
   - group: گروه C
     id: islcro
     label: islvscro
@@ -1102,8 +1102,8 @@
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
   - group: يک هشتم نهایی
     id: 1h2g
     label: 1hvs2g
@@ -1228,8 +1228,8 @@
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
 
 - date: چهارشنبه ۲۰ تیر
   level: secondstage
@@ -1274,8 +1274,8 @@
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
-    stadium: سنت پترزبورگ
-    city: سنت پترزبورگ
+    stadium: سن پترزبورگ
+    city: سن پترزبورگ
 
 - date: یکشنبه ۲۴ تیر
   level: secondstage

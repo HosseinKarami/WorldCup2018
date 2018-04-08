@@ -1,11 +1,40 @@
 .main{
   padding: 1rem 0;
+  display: flex;
+  justify-content: center;
   .all-matches{
     background: #FFF;
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 1rem;
     border-radius: 5px;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    @include phone{
+      width: 100%;
+      margin: 0 1rem;
+      padding: 2rem 0;
+    }
+    @include tablet{
+      width: 100%;
+      margin: 0 1rem;
+      padding: 2rem 0;
+    }
+    @include desktop{
+      width: 100%;
+      margin: 0 1rem;
+      padding: 2rem 0;
+    }
+    @include largedesktop{
+      width: 100%;
+      margin: 0 1rem;
+      padding: 2rem 1rem;
+    }
+    @include biglargedesktop{
+      width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
     .matches-selection{
       padding: 1rem;
       .nav{
@@ -26,7 +55,22 @@
       }
     }
     .tab-content{
-      padding: 0 1rem;
+      padding: 0;
+      @include phone{
+        padding: 0;
+      }
+      @include tablet{
+        padding: 0;
+      }
+      @include desktop{
+        padding: 0;
+      }
+      @include largedesktop{
+        padding: 0 1rem;
+      }
+      @include biglargedesktop{
+        padding: 0 1rem;
+      }
       #accordion{
         .card{
           .contents{
@@ -140,7 +184,7 @@
                   margin: 0;
                   font-size: 1rem;
                   line-height: 26px;
-                  color: #494949;
+                  color: #474747;
                   font-weight: 400;
                 }
                 h5:first-child{
@@ -201,27 +245,32 @@
                   span{
                     position: absolute;
                     right: 4rem;
-                    top: 2.9rem;
+                    top: 2.2rem;
                     font-size: 1rem;
                     @include phone{
                       right: 4rem;
                       font-size: 1rem;
+                      top: 2.2rem;
                     }
                     @include tablet{
                       right: 5rem;
                       font-size: 1rem;
+                      top: 2.9rem;
                     }
                     @include desktop{
                       right: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                     @include largedesktop{
                       right: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                     @include biglargedesktop{
                       right: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                   }
                 }
@@ -229,7 +278,22 @@
                   text-align: center;
                   width: 100%;
                   position: absolute;
-                  top: 2.9rem;
+                  top: 2.2rem;
+                  @include phone{
+                    top: 2.2rem;
+                  }
+                  @include tablet{
+                    top: 2.9rem;
+                  }
+                  @include desktop{
+                    top: 2.9rem;
+                  }
+                  @include largedesktop{
+                    top: 2.9rem;
+                  }
+                  @include biglargedesktop{
+                    top: 2.9rem;
+                  }
                   span{
                     font-size: 1rem;
                     line-height: 26px;
@@ -255,27 +319,32 @@
                   span{
                     position: absolute;
                     left: 4rem;
-                    top: 2.9rem;
+                    top: 2.2rem;
                     font-size: 1rem;
                     @include phone{
                       left: 4rem;
                       font-size: 1rem;
+                      top: 2.2rem;
                     }
                     @include tablet{
                       left: 5rem;
                       font-size: 1rem;
+                      top: 2.9rem;
                     }
                     @include desktop{
                       left: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                     @include largedesktop{
                       left: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                     @include biglargedesktop{
                       left: 5rem;
                       font-size: 2rem;
+                      top: 2.9rem;
                     }
                   }
                   img{
@@ -308,6 +377,196 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+    .stadium{
+      display: flex;
+      padding: 0 10px;
+      margin-bottom: 1rem;
+      flex-direction: column;
+      @include phone{
+        flex-direction: column;
+      }
+      @include tablet{
+        flex-direction: column;
+      }
+      @include desktop{
+        flex-direction: column;
+      }
+      @include largedesktop{
+        flex-direction: row;
+      }
+      @include biglargedesktop{
+        flex-direction: row;
+      }
+      .info{
+        float: right;
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        @include phone{
+          width: 100%;
+        }
+        @include tablet{
+          width: 100%;
+        }
+        @include desktop{
+          width: 100%;
+        }
+        @include largedesktop{
+          width: 35%;
+        }
+        @include biglargedesktop{
+          width: 35%;
+        }
+        h2{
+          font-size: 1.5rem;
+          line-height: 4rem;
+          font-weight: 400;
+          margin: 0;
+          color: #474747;
+        }
+        h5{
+          @extend h2;
+          font-size: 1.2rem;
+          line-height: 2.5rem;
+        }
+      }
+      .img{
+        float: right;
+        width: 100%;;
+
+        @include phone{
+          width: 100%;
+        }
+        @include tablet{
+          width: 100%;
+        }
+        @include desktop{
+          width: 100%;
+        }
+        @include largedesktop{
+          width: 65%;
+        }
+        @include biglargedesktop{
+          width: 65%;
+        }
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .team{
+      padding: 0 10px;
+      margin-bottom: 1rem;
+      .heads{
+        float: right;
+        width: 100%;
+        transition: 100ms linear 0s;
+        @include phone{
+          width: 100%;
+        }
+        @include tablet{
+          width: 100%;
+        }
+        @include desktop{
+          width: 50%;
+        }
+        @include largedesktop{
+          width: 25%;
+        }
+        @include biglargedesktop{
+          width: 25%;
+        }
+        &:hover{
+          background-color: rgba(0, 0, 0, 0.03);
+        }
+        h4{
+          font-size: 1.5rem;
+          line-height: 14px;
+          vertical-align: middle;
+          height: 30px;
+          text-align: center;
+          font-weight: normal;
+        }
+        .lists{
+          list-style: none;
+          li{
+            height: 70px;
+            position: relative;
+            img{
+              position: absolute;
+              right: 0;
+              top: 0;
+              width: 60px;
+              margin: 7px 10px;
+              border: 1px solid #F5F5F5;
+            }
+            span{
+              font-size: 1.5rem;
+              line-height: 14px;
+              vertical-align: middle;
+              display: table-cell;
+              padding-right: 90px;
+              height: 52px;
+            }
+          }
+        }
+      }
+    }
+    .host{
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #f5f5f5;
+      h4{
+        font-size: 1.2rem;
+        line-height: 50px;
+        height: 50px;
+        padding-right: 10px;
+        border-bottom: 1px solid #474747;
+        color: #474747;
+        font-weight: 400;
+      }
+      p{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-right: 1rem;
+      }
+      .host-team{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        @include phone{
+          justify-content: center;
+        }
+        @include tablet{
+          justify-content: center;
+        }
+        @include desktop{
+          justify-content: flex-start;
+        }
+        @include largedesktop{
+          justify-content: flex-start;
+        }
+        @include biglargedesktop{
+         justify-content: flex-start;
+        }
+        li{
+          display: flex;
+          align-items: center;
+          margin-left: 2rem;
+          img{
+            margin-right: 1rem;
+          }
+          h3{
+            font-size: 1.5rem;
+            font-weight: 300;
+          }
+          .rusflag{
+            border: 1px solid #f5f5f5;
           }
         }
       }

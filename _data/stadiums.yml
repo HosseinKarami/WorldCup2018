@@ -1,72 +1,72 @@
-- stadiums: Arena Amazonia
+- stadiums: کالینینگراد
   stadium:
-  - year: "2013"
-    img: assets/img/destination/ArenaAmazonia.jpg
-    city: "Manaus"
-    capacity: "39118"
-- stadiums: Arena da Baixada
+  - year: "۲۰۱۵"
+    img: assets/img/destination/kaliningrad.jpg
+    city: "کالینینگراد"
+    capacity: "۳۵٫۰۰۰"
+- stadiums: ولگوگراد
   stadium:
-  - year: "1914"
-    img: assets/img/destination/ArenadaBaixada.jpg
-    city: "Curitiba"
-    capacity: "38533"
-- stadiums: Arena de Sao Paulo
+  - year: "۲۰۱۵"
+    img: assets/img/destination/volgograd.jpg
+    city: "ولگوگراد"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: یکاترینبورگ
   stadium:
-  - year: "2014"
-    img: assets/img/destination/ArenadeSaoPaulo.jpg
-    city: "Sao Paulo"
-    capacity: "61606"
-- stadiums: Arena Fonte Nova
+  - year: "۱۹۵۷"
+    img: assets/img/destination/ekaterinburg.jpg
+    city: "یکاترینبورگ"
+    capacity: "۳۵٫۰۰۰"
+- stadiums: فیشت
   stadium:
-  - year: "1951"
-    img: assets/img/destination/ArenaFonteNova.jpg
-    city: "Salvador"
-    capacity: "51708"
-- stadiums: Arena Pantanal
+  - year: "۲۰۱۳"
+    img: assets/img/destination/fisht.jpg
+    city: "سوچی"
+    capacity: "۴۸٫۰۰۰"
+- stadiums: کازان
   stadium:
-  - year: "2014"
-    img: assets/img/destination/ArenaPantanal.jpg
-    city: "Cuiaba"
-    capacity: "39859"
-- stadiums: Arena Pernambuco
+  - year: "۲۰۱۳"
+    img: assets/img/destination/kazan.jpg
+    city: "کازان"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: نیژنی نووگورود
   stadium:
-  - year: "2014"
-    img: assets/img/destination/ArenaPernambuco.jpg
-    city: "Recife"
-    capacity: "42583"
-- stadiums: Estadio Beira-Rio
+  - year: "۲۰۱۵"
+    img: assets/img/destination/nizhi.jpg
+    city: "نیژنی نووگورود"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: لوژنیکی
   stadium:
-  - year: "1969"
-    img: assets/img/destination/EstadioBeira-Rio.jpg
-    city: "Porto Alegre"
-    capacity: "42991"
-- stadiums: Estadio Castelao
+  - year: "۱۹۵۶"
+    img: assets/img/destination/luzhniki.jpg
+    city: "مسکو"
+    capacity: "۸۰٫۰۰۰"
+- stadiums: سامارا
   stadium:
-  - year: "1973"
-    img: assets/img/destination/EstadioCastelao.jpg
-    city: "Fortaleza"
-    capacity: "60348"
-- stadiums: Estadio das Dunas
+  - year: "۲۰۱۴"
+    img: assets/img/destination/samara.jpg
+    city: "سامارا"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: روستوف
   stadium:
-  - year: "1972"
-    img: assets/img/destination/EstadiodasDunas.jpg
-    city: "Natal"
-    capacity: "38958"
-- stadiums: Estadio Mineirao
+  - year: "۲۰۱۴"
+    img: assets/img/destination/rostov.jpg
+    city: "روستوف-نا-دونو"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: اسپارتاک
   stadium:
-  - year: "1965"
-    img: assets/img/destination/EstadioMineirao.jpg
-    city: "Belo Horizonte"
-    capacity: "58259"
-- stadiums: Estadio Nacional de Brasilia
+  - year: "۲۰۱۰"
+    img: assets/img/destination/spartak.jpg
+    city: "مسکو"
+    capacity: "۴۵٫۰۰۰"
+- stadiums: سن پترزبورگ
   stadium:
   - year: "2012"
-    img: assets/img/destination/EstadioNacionalBrasilia.jpg
-    city: "Brasilia"
-    capacity: "69432"
-- stadiums: Estadio Do Maracana
+    img: assets/img/destination/saint.jpg
+    city: "سن پترزبورگ"
+    capacity: "۶۷٫۰۰۰"
+- stadiums: موردوویا
   stadium:
-  - year: "1950"
-    img: assets/img/destination/EstadioDoMaracana.jpg
-    city: "Rio de Janeiro"
-    capacity: "74689"
+  - year: "۲۰۱۰"
+    img: assets/img/destination/mordovia.jpg
+    city: "سارانسک"
+    capacity: "۴۴٫۰۰۰"
