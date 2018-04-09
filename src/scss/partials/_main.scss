@@ -5,34 +5,35 @@
   .all-matches{
     background: #FFF;
     width: 100%;
-    margin: 0 1rem;
-    border-radius: 5px;
-    padding: 2rem 0;
+    margin: 0;
+    border-radius: 0px;
+    padding: 2rem 10px;
     display: flex;
     flex-direction: column;
     @include phone{
       width: 100%;
-      margin: 0 1rem;
-      padding: 2rem 0;
+      margin: 0;
+      padding: 2rem 10px;
     }
     @include tablet{
       width: 100%;
-      margin: 0 1rem;
-      padding: 2rem 0;
+      margin: 0;
+      padding: 2rem 10px;
     }
     @include desktop{
       width: 100%;
-      margin: 0 1rem;
-      padding: 2rem 0;
+      margin: 0;
+      padding: 2rem 10px;
     }
     @include largedesktop{
       width: 100%;
-      margin: 0 1rem;
+      margin: 0;
       padding: 2rem 1rem;
     }
     @include biglargedesktop{
       width: 1200px;
       margin: 0 auto;
+      border-radius: 5px;
       padding: 2rem 1rem;
     }
     .matches-selection{
@@ -568,6 +569,208 @@
           .rusflag{
             border: 1px solid #f5f5f5;
           }
+        }
+      }
+    }
+    .groups{
+      display: table;
+      direction: rtl;
+      margin: 0 auto;
+      width: 100%;
+      padding: 1rem 0;
+
+      h4{
+        text-align: right;
+        font-size: .8rem;
+        line-height: 1.54;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 0 0;
+        color: #494949;
+        @include phone{
+          font-size: .8rem;
+        }
+        @include tablet{
+          font-size: 1rem;
+        }
+        @include desktop{
+          font-size: 1.3875rem;
+        }
+        @include largedesktop{
+          font-size: 1.3875rem;
+        }
+        @include biglargedesktop{
+          font-size: 1.3875rem;
+        }
+      }
+      .head{
+        vertical-align: middle;
+        display: table-row;
+        h4{
+          display: table-cell;
+          border-bottom: 1px solid #494949;
+          padding: 8px 1.6px;
+          padding: .5rem .1rem;
+          font-weight: 300;
+          width: 40px;
+          text-align: center;
+          &:first-child{
+            text-align: right;
+            width: 120px;
+          }
+        }
+      }
+      .rows{
+        display: table-row;
+        -webkit-transition: 100ms linear 0s;
+        -moz-transition: 100ms linear 0s;
+        -o-transition: 100ms linear 0s;
+        transition: 100ms linear 0s;
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.03);
+          }
+        div{
+          display: table-cell;
+          vertical-align: middle;
+          padding: 8px 1.6px;
+          padding: .5rem .1rem;
+          text-align: center;
+          border-bottom: 1px solid #DCDCDC;
+          &:first-child{
+            text-align: right;
+            position: relative;
+            display: block;
+            img{
+              position: relative;
+              top: 3px;
+              margin-left: 1.5rem;
+              width: 32px;
+              border: 1px solid #F5F5F5;
+              @include phone{
+                margin-left: 1.5rem;
+                width: 32px;
+              }
+              @include tablet{
+                margin-left: 0;
+                width: 70px;
+              }
+              @include desktop{
+                margin-left: 0;
+                width: 70px;
+              }
+              @include largedesktop{
+                margin-left: 0;
+                width: 70px;
+              }
+              @include biglargedesktop{
+                margin-left: 0;
+                width: 70px;
+              }
+            }
+            span{
+              position: absolute;
+              top: 14px;
+              right: 36px;
+              font-size: 0.7rem;
+              @include phone{
+                top: 14px;
+                right: 36px;
+                font-size: 0.7rem;
+              }
+              @include tablet{
+                top: 12px;
+                right: 90px;
+                font-size: 1.5rem;
+              }
+              @include desktop{
+                top: 12px;
+                right: 90px;
+                font-size: 1.6875rem;
+              }
+              @include largedesktop{
+                top: 12px;
+                right: 90px;
+                font-size: 1.6875rem;
+              }
+              @include biglargedesktop{
+                top: 12px;
+                right: 90px;
+                font-size: 1.6875rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .link{
+      width: 100%;
+      direction: ltr;
+      padding: .5rem 0 0 0rem;
+      @include phone{
+        padding: .5rem 0 0 0rem;
+      }
+      @include tablet{
+        padding: .5rem 0 0 0rem;
+      }
+      @include desktop{
+        padding: .5rem 0 0 0rem;
+      }
+      @include largedesktop{
+        padding: .5rem 0 0 0rem;
+      }
+      @include biglargedesktop{
+        padding: .5rem 0 0 0rem;
+      }
+      .details{
+        text-decoration: none;
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 38px;
+        line-height: 38px;
+        background-color: #0f4583;
+        color: #FFF;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: normal;
+        font-size: 1.2rem;
+        transition: 100ms linear 0s;
+        position: relative;
+        padding: 0 10px;
+        @include phone{
+          width: 100%;
+          padding: 0 10px;
+          justify-content: space-between;
+        }
+        @include tablet{
+          width: 100%;
+          padding: 0 10px;
+          justify-content: space-between;
+        }
+        @include desktop{
+          width: 10.5rem;
+          padding: 0 10px 0 0;
+          justify-content: flex-start;
+        }
+        @include largedesktop{
+          width: 10.5rem;
+          padding: 0 10px 0 0;
+          justify-content: flex-start;
+        }
+        @include biglargedesktop{
+          width: 10.5rem;
+          padding: 0 10px 0 0;
+          justify-content: flex-start;
+        }
+        &:hover{
+          background-color: lighten(#0f4583 , 10%);
+        }
+        svg{
+          fill: #FFF;
+          width: 18px;
+          margin-right: .5rem;
         }
       }
     }

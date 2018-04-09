@@ -531,9 +531,24 @@ img {
             -ms-flex-align: center;
                 align-items: center; }
         .header .header-content .logo a h4 {
-          font-size: 3rem;
+          font-size: 1.5rem;
           font-weight: 500;
           margin: .5rem 0; }
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .header .header-content .logo a h4 {
+              font-size: 1.5rem; } }
+          @media only screen and (min-width: 481.6px) {
+            .header .header-content .logo a h4 {
+              font-size: 2rem; } }
+          @media only screen and (min-width: 768px) {
+            .header .header-content .logo a h4 {
+              font-size: 3rem; } }
+          @media only screen and (min-width: 1000px) {
+            .header .header-content .logo a h4 {
+              font-size: 3rem; } }
+          @media only screen and (min-width: 1300px) {
+            .header .header-content .logo a h4 {
+              font-size: 3rem; } }
     .header .header-content .nav {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -586,9 +601,9 @@ img {
   .main .all-matches {
     background: #FFF;
     width: 100%;
-    margin: 0 1rem;
-    border-radius: 5px;
-    padding: 2rem 0;
+    margin: 0;
+    border-radius: 0px;
+    padding: 2rem 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -599,27 +614,28 @@ img {
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
       .main .all-matches {
         width: 100%;
-        margin: 0 1rem;
-        padding: 2rem 0; } }
+        margin: 0;
+        padding: 2rem 10px; } }
     @media only screen and (min-width: 481.6px) {
       .main .all-matches {
         width: 100%;
-        margin: 0 1rem;
-        padding: 2rem 0; } }
+        margin: 0;
+        padding: 2rem 10px; } }
     @media only screen and (min-width: 768px) {
       .main .all-matches {
         width: 100%;
-        margin: 0 1rem;
-        padding: 2rem 0; } }
+        margin: 0;
+        padding: 2rem 10px; } }
     @media only screen and (min-width: 1000px) {
       .main .all-matches {
         width: 100%;
-        margin: 0 1rem;
+        margin: 0;
         padding: 2rem 1rem; } }
     @media only screen and (min-width: 1300px) {
       .main .all-matches {
         width: 1200px;
         margin: 0 auto;
+        border-radius: 5px;
         padding: 2rem 1rem; } }
     .main .all-matches .matches-selection {
       padding: 1rem; }
@@ -1144,6 +1160,209 @@ img {
             font-weight: 300; }
           .main .all-matches .host .host-team li .rusflag {
             border: 1px solid #f5f5f5; }
+    .main .all-matches .groups {
+      display: table;
+      direction: rtl;
+      margin: 0 auto;
+      width: 100%;
+      padding: 1rem 0; }
+      .main .all-matches .groups h4 {
+        text-align: right;
+        font-size: .8rem;
+        line-height: 1.54;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 0 0;
+        color: #494949; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .main .all-matches .groups h4 {
+            font-size: .8rem; } }
+        @media only screen and (min-width: 481.6px) {
+          .main .all-matches .groups h4 {
+            font-size: 1rem; } }
+        @media only screen and (min-width: 768px) {
+          .main .all-matches .groups h4 {
+            font-size: 1.3875rem; } }
+        @media only screen and (min-width: 1000px) {
+          .main .all-matches .groups h4 {
+            font-size: 1.3875rem; } }
+        @media only screen and (min-width: 1300px) {
+          .main .all-matches .groups h4 {
+            font-size: 1.3875rem; } }
+      .main .all-matches .groups .head {
+        vertical-align: middle;
+        display: table-row; }
+        .main .all-matches .groups .head h4 {
+          display: table-cell;
+          border-bottom: 1px solid #494949;
+          padding: 8px 1.6px;
+          padding: .5rem .1rem;
+          font-weight: 300;
+          width: 40px;
+          text-align: center; }
+          .main .all-matches .groups .head h4:first-child {
+            text-align: right;
+            width: 120px; }
+      .main .all-matches .groups .rows {
+        display: table-row;
+        -webkit-transition: 100ms linear 0s;
+        -o-transition: 100ms linear 0s;
+        transition: 100ms linear 0s; }
+        .main .all-matches .groups .rows:hover {
+          background-color: rgba(0, 0, 0, 0.03); }
+        .main .all-matches .groups .rows div {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 8px 1.6px;
+          padding: .5rem .1rem;
+          text-align: center;
+          border-bottom: 1px solid #DCDCDC; }
+          .main .all-matches .groups .rows div:first-child {
+            text-align: right;
+            position: relative;
+            display: block; }
+            .main .all-matches .groups .rows div:first-child img {
+              position: relative;
+              top: 3px;
+              margin-left: 1.5rem;
+              width: 32px;
+              border: 1px solid #F5F5F5; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .groups .rows div:first-child img {
+                  margin-left: 1.5rem;
+                  width: 32px; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .groups .rows div:first-child img {
+                  margin-left: 0;
+                  width: 70px; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .groups .rows div:first-child img {
+                  margin-left: 0;
+                  width: 70px; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .groups .rows div:first-child img {
+                  margin-left: 0;
+                  width: 70px; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .groups .rows div:first-child img {
+                  margin-left: 0;
+                  width: 70px; } }
+            .main .all-matches .groups .rows div:first-child span {
+              position: absolute;
+              top: 14px;
+              right: 36px;
+              font-size: 0.7rem; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .groups .rows div:first-child span {
+                  top: 14px;
+                  right: 36px;
+                  font-size: 0.7rem; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .groups .rows div:first-child span {
+                  top: 12px;
+                  right: 90px;
+                  font-size: 1.5rem; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .groups .rows div:first-child span {
+                  top: 12px;
+                  right: 90px;
+                  font-size: 1.6875rem; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .groups .rows div:first-child span {
+                  top: 12px;
+                  right: 90px;
+                  font-size: 1.6875rem; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .groups .rows div:first-child span {
+                  top: 12px;
+                  right: 90px;
+                  font-size: 1.6875rem; } }
+    .main .all-matches .link {
+      width: 100%;
+      direction: ltr;
+      padding: .5rem 0 0 0rem; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .main .all-matches .link {
+          padding: .5rem 0 0 0rem; } }
+      @media only screen and (min-width: 481.6px) {
+        .main .all-matches .link {
+          padding: .5rem 0 0 0rem; } }
+      @media only screen and (min-width: 768px) {
+        .main .all-matches .link {
+          padding: .5rem 0 0 0rem; } }
+      @media only screen and (min-width: 1000px) {
+        .main .all-matches .link {
+          padding: .5rem 0 0 0rem; } }
+      @media only screen and (min-width: 1300px) {
+        .main .all-matches .link {
+          padding: .5rem 0 0 0rem; } }
+      .main .all-matches .link .details {
+        text-decoration: none;
+        direction: rtl;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        height: 38px;
+        line-height: 38px;
+        background-color: #0f4583;
+        color: #FFF;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: normal;
+        font-size: 1.2rem;
+        -webkit-transition: 100ms linear 0s;
+        -o-transition: 100ms linear 0s;
+        transition: 100ms linear 0s;
+        position: relative;
+        padding: 0 10px; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .main .all-matches .link .details {
+            width: 100%;
+            padding: 0 10px;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between; } }
+        @media only screen and (min-width: 481.6px) {
+          .main .all-matches .link .details {
+            width: 100%;
+            padding: 0 10px;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between; } }
+        @media only screen and (min-width: 768px) {
+          .main .all-matches .link .details {
+            width: 10.5rem;
+            padding: 0 10px 0 0;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        @media only screen and (min-width: 1000px) {
+          .main .all-matches .link .details {
+            width: 10.5rem;
+            padding: 0 10px 0 0;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        @media only screen and (min-width: 1300px) {
+          .main .all-matches .link .details {
+            width: 10.5rem;
+            padding: 0 10px 0 0;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        .main .all-matches .link .details:hover {
+          background-color: #145db1; }
+        .main .all-matches .link .details svg {
+          fill: #FFF;
+          width: 18px;
+          margin-right: .5rem; }
 
 /**
 *
