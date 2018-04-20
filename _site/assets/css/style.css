@@ -1617,7 +1617,10 @@ img {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      padding: 2rem 1rem; }
+      padding: 1rem;
+      margin-top: 1rem;
+      border-bottom: 1px solid #dee2e6;
+      border-top: 1px solid #dee2e6; }
       .main .all-matches .viewby .nav-tabs .nav-item {
         width: 100%;
         text-align: center;
@@ -1695,14 +1698,31 @@ footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   background: white;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    footer .wrapper {
+      width: 100%; } }
+  @media only screen and (min-width: 481.6px) {
+    footer .wrapper {
+      width: 100%; } }
+  @media only screen and (min-width: 768px) {
+    footer .wrapper {
+      width: 100%; } }
+  @media only screen and (min-width: 1000px) {
+    footer .wrapper {
+      width: 100%; } }
+  @media only screen and (min-width: 1300px) {
+    footer .wrapper {
+      width: 1200px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; } }
   footer .wrapper p {
     color: #494949;
     display: -webkit-box;
