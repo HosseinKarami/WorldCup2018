@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, minimal-ui">
-  <link href="/assets/css/style.min.css" rel="stylesheet">
+  <link href="http://localhost:3000/assets/css/style.min.css" rel="stylesheet">
   <meta property="og:url" content="http://fifawc.ir/">
   <meta property="og:title" content="FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸">
   <meta property="og:description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
@@ -26,22 +26,22 @@
     <nav class="nav nav-list">
       <ul>
         <li class="selected">
-          <a href="/">
+          <a href="http://localhost:3000">
             <h4>مسابقات</h4>
           </a>
         </li>
         <li class="">
-          <a href="/teams">
+          <a href="http://localhost:3000/teams">
             <h4>تیم‌ها</h4>
           </a>
         </li>
         <li class="">
-          <a href="/groups">
+          <a href="http://localhost:3000/groups">
             <h4>گروه‌ها</h4>
           </a>
         </li>
         <li class="">
-          <a href="/stadiums">
+          <a href="http://localhost:3000/stadiums">
             <h4>ورزشگاه‌ها</h4>
           </a>
         </li>
@@ -54,14 +54,14 @@
     <section class="all-matches">
   <nav class="matches-selection">
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link active show" id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
+      <a class="nav-item nav-link  " id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
         aria-selected="true">مرحله گروهی</a>
-      <a class="nav-item nav-link" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
+      <a class="nav-item nav-link  active show" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
         aria-selected="false">مرحله حذفی</a>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade active show" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
+    <div class="tab-pane fade  " id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
       <div id="accordion">
           
         <div class="card">
@@ -1407,459 +1407,525 @@
                                
       </div>
     </div>
-    <div class="tab-pane fade" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
-      <div id="accordion">
-                                       
-        <div class="card">
-          <h4 class="matches-date">شنبه ۹ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>شنبه ۹ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه کازان</h5>
-                <h6>شهر کازان</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1C]">
-                  <span>[1C]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[2D]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2D]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>شنبه ۹ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه فیشت</h5>
-                <h6>شهر سوچی</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1A]">
-                  <span>[1A]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[2B]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2B]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
+    <div class="tab-pane fade active show" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
+      <section class="viewby">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link  " id="ListView" data-toggle="tab" href="#nav-ListView" role="tab" aria-controls="nav-ListView"
+            aria-selected="true">مشاهده بر اساس لیست</a>
+          <a class="nav-item nav-link  active show" id="BracketView" data-toggle="tab" href="#nav-BracketView" role="tab" aria-controls="nav-BracketView"
+            aria-selected="false">مشاهده بر اساس نمودار حذفی</a>
         </div>
-           
-        <div class="card">
-          <h4 class="matches-date">یکشنبه ۱۰ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>یکشنبه ۱۰ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه لوژنیکی</h5>
-                <h6>شهر مسکو</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1B]">
-                  <span>[1B]</span>
+      </section>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade" id="nav-ListView" role="tabpanel" aria-labelledby="ListView">
+          <div id="accordion">
+                                           
+            <div class="card">
+              <h4 class="matches-date">شنبه ۹ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>شنبه ۹ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه کازان</h5>
+                    <h6>شهر کازان</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1C]">
+                      <span>[1C]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2D]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2D]">
+                    </div>
+                  </article>
                 </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>شنبه ۹ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه فیشت</h5>
+                    <h6>شهر سوچی</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1A]">
+                      <span>[1A]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2B]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2B]">
+                    </div>
+                  </article>
                 </div>
-                <div class="team-b">
-                  <span>[2A]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2A]">
-                </div>
-              </article>
+              </div>
+                
             </div>
-          </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>یکشنبه ۱۰ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه نیژنی نووگورود</h5>
-                <h6>شهر نیژنی نووگورود</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1D]">
-                  <span>[1D]</span>
+              
+            <div class="card">
+              <h4 class="matches-date">یکشنبه ۱۰ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>یکشنبه ۱۰ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه لوژنیکی</h5>
+                    <h6>شهر مسکو</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1B]">
+                      <span>[1B]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2A]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2A]">
+                    </div>
+                  </article>
                 </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>یکشنبه ۱۰ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه نیژنی نووگورود</h5>
+                    <h6>شهر نیژنی نووگورود</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1D]">
+                      <span>[1D]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2C]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2C]">
+                    </div>
+                  </article>
                 </div>
-                <div class="team-b">
-                  <span>[2C]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2C]">
-                </div>
-              </article>
+              </div>
+                
             </div>
+              
+            <div class="card">
+              <h4 class="matches-date">دوشنبه ۱۱ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>دوشنبه ۱۱ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه سامارا</h5>
+                    <h6>شهر سامارا</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1E]">
+                      <span>[1E]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2F]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2F]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>دوشنبه ۱۱ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه روستوف</h5>
+                    <h6>شهر روستوف-نا-دونو</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1G]">
+                      <span>[1G]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2H]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2H]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">سه‌شنبه ۱۲ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>سه‌شنبه ۱۲ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه سن پترزبورگ</h5>
+                    <h6>شهر سن پترزبورگ</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1F]">
+                      <span>[1F]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2E]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2E]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>سه‌شنبه ۱۲ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک هشتم نهایی</h5>
+                    <h5>ورزشگاه اسپارتاک</h5>
+                    <h6>شهر مسکو</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[1H]">
+                      <span>[1H]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[2G]</span>
+                      <img src="assets/img/flags/blank.png" alt="[2G]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">جمعه ۱۵ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>جمعه ۱۵ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک چهارم نهایی</h5>
+                    <h5>ورزشگاه نیژنی نووگورود</h5>
+                    <h6>شهر نیژنی نووگورود</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W49]">
+                      <span>[W49]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W50]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W50]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>جمعه ۱۵ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک چهارم نهایی</h5>
+                    <h5>ورزشگاه کازان</h5>
+                    <h6>شهر کازان</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W53]">
+                      <span>[W53]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W54]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W54]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">شنبه ۱۶ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>شنبه ۱۶ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>يک چهارم نهایی</h5>
+                    <h5>ورزشگاه سامارا</h5>
+                    <h6>شهر سامارا</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W55]">
+                      <span>[W55]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W56]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W56]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>شنبه ۱۶ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>يک چهارم نهایی</h5>
+                    <h5>ورزشگاه فیشت</h5>
+                    <h6>شهر سوچی</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W51]">
+                      <span>[W51]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W52]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W52]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">سه‌شنبه ۱۹ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>نیمه‌نهایی</h5>
+                    <h5>ورزشگاه سن پترزبورگ</h5>
+                    <h6>شهر سن پترزبورگ</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W57]">
+                      <span>[W57]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W58]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W58]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">چهارشنبه ۲۰ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>چهارشنبه ۲۰ تیر - ساعت ۲۲:۳۰</h5>
+                    <h5>نیمه‌نهایی</h5>
+                    <h5>ورزشگاه لوژنیکی</h5>
+                    <h6>شهر مسکو</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W59]">
+                      <span>[W59]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۲۲:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W60]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W60]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">شنبه ۲۳ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>شنبه ۲۳ تیر - ساعت ۱۸:۳۰</h5>
+                    <h5>رده‌بندی</h5>
+                    <h5>ورزشگاه سن پترزبورگ</h5>
+                    <h6>شهر سن پترزبورگ</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[L61]">
+                      <span>[L61]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۸:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[L62]</span>
+                      <img src="assets/img/flags/blank.png" alt="[L62]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+              
+            <div class="card">
+              <h4 class="matches-date">یکشنبه ۲۴ تیر</h4>
+              
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>یکشنبه ۲۴ تیر - ساعت ۱۹:۳۰</h5>
+                    <h5>فینال</h5>
+                    <h5>ورزشگاه لوژنیکی</h5>
+                    <h6>شهر مسکو</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="assets/img/flags/blank.png" alt="[W61]">
+                      <span>[W61]</span>
+                    </div>
+                    <div class="points">
+                      <span> ۱۹:۳۰  </span>
+                    </div>
+                    <div class="team-b">
+                      <span>[W62]</span>
+                      <img src="assets/img/flags/blank.png" alt="[W62]">
+                    </div>
+                  </article>
+                </div>
+              </div>
+                
+            </div>
+             
           </div>
-           
-           
         </div>
-           
-        <div class="card">
-          <h4 class="matches-date">دوشنبه ۱۱ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>دوشنبه ۱۱ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه سامارا</h5>
-                <h6>شهر سامارا</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1E]">
-                  <span>[1E]</span>
+        <div class="tab-pane fade active show" id="nav-BracketView" role="tabpanel" aria-labelledby="BracketView">
+          <div class="bracketTable">
+            <div class="row-eight">
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1A</div>
+                  </div>
+                  <div class="content-date">
+                    <div>شنبه ۹ تیر</div>
+                    <div>۲۲:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2B</div>
+                  </div>
                 </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1C</div>
+                  </div>
+                  <div class="content-date">
+                    <div>شنبه ۹ تیر</div>
+                    <div>۱۸:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2D</div>
+                  </div>
                 </div>
-                <div class="team-b">
-                  <span>[2F]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2F]">
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1E</div>
+                  </div>
+                  <div class="content-date">
+                    <div>دوشنبه ۱۱ تیر</div>
+                    <div>۱۸:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2F</div>
+                  </div>
                 </div>
-              </article>
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1G</div>
+                  </div>
+                  <div class="content-date">
+                    <div>دوشنبه ۱۱ تیر</div>
+                    <div>۲۲:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2H</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>دوشنبه ۱۱ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه روستوف</h5>
-                <h6>شهر روستوف-نا-دونو</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1G]">
-                  <span>[1G]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[2H]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2H]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
         </div>
-           
-        <div class="card">
-          <h4 class="matches-date">سه‌شنبه ۱۲ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>سه‌شنبه ۱۲ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه سن پترزبورگ</h5>
-                <h6>شهر سن پترزبورگ</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1F]">
-                  <span>[1F]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[2E]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2E]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>سه‌شنبه ۱۲ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک هشتم نهایی</h5>
-                <h5>ورزشگاه اسپارتاک</h5>
-                <h6>شهر مسکو</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[1H]">
-                  <span>[1H]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[2G]</span>
-                  <img src="assets/img/flags/blank.png" alt="[2G]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">جمعه ۱۵ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>جمعه ۱۵ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک چهارم نهایی</h5>
-                <h5>ورزشگاه نیژنی نووگورود</h5>
-                <h6>شهر نیژنی نووگورود</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W49]">
-                  <span>[W49]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W50]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W50]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>جمعه ۱۵ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک چهارم نهایی</h5>
-                <h5>ورزشگاه کازان</h5>
-                <h6>شهر کازان</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W53]">
-                  <span>[W53]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W54]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W54]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">شنبه ۱۶ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>شنبه ۱۶ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>يک چهارم نهایی</h5>
-                <h5>ورزشگاه سامارا</h5>
-                <h6>شهر سامارا</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W55]">
-                  <span>[W55]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W56]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W56]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>شنبه ۱۶ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>يک چهارم نهایی</h5>
-                <h5>ورزشگاه فیشت</h5>
-                <h6>شهر سوچی</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W51]">
-                  <span>[W51]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W52]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W52]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">سه‌شنبه ۱۹ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>نیمه‌نهایی</h5>
-                <h5>ورزشگاه سن پترزبورگ</h5>
-                <h6>شهر سن پترزبورگ</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W57]">
-                  <span>[W57]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W58]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W58]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">چهارشنبه ۲۰ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>چهارشنبه ۲۰ تیر - ساعت ۲۲:۳۰</h5>
-                <h5>نیمه‌نهایی</h5>
-                <h5>ورزشگاه لوژنیکی</h5>
-                <h6>شهر مسکو</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W59]">
-                  <span>[W59]</span>
-                </div>
-                <div class="points">
-                  <span> ۲۲:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W60]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W60]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">شنبه ۲۳ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>شنبه ۲۳ تیر - ساعت ۱۸:۳۰</h5>
-                <h5>رده‌بندی</h5>
-                <h5>ورزشگاه سن پترزبورگ</h5>
-                <h6>شهر سن پترزبورگ</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[L61]">
-                  <span>[L61]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۸:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[L62]</span>
-                  <img src="assets/img/flags/blank.png" alt="[L62]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-           
-        <div class="card">
-          <h4 class="matches-date">یکشنبه ۲۴ تیر</h4>
-          
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>یکشنبه ۲۴ تیر - ساعت ۱۹:۳۰</h5>
-                <h5>فینال</h5>
-                <h5>ورزشگاه لوژنیکی</h5>
-                <h6>شهر مسکو</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="assets/img/flags/blank.png" alt="[W61]">
-                  <span>[W61]</span>
-                </div>
-                <div class="points">
-                  <span> ۱۹:۳۰  </span>
-                </div>
-                <div class="team-b">
-                  <span>[W62]</span>
-                  <img src="assets/img/flags/blank.png" alt="[W62]">
-                </div>
-              </article>
-            </div>
-          </div>
-           
-           
-        </div>
-          
       </div>
     </div>
   </div>
@@ -1871,15 +1937,19 @@
 <footer>
   <div class="wrapper">
     <p>
-      &copy; 2018 Hossein Karami.
-      Built on <a href="//jekyllrb.com">Jekyll</a>.
-      Hosted on <a href="//github.com/HosseinKarami/fifawc">GitHub</a>.
-      and Data from <a href="//fifa.com">FIFA</a>.
+      ساخته شده با <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" width="14" xml:space="preserve">
+        <path style="fill:#C03A2B;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
+      	c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+      	c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z" />
+        <path style="fill:#ED7161;" d="M6,18.078c-0.553,0-1-0.447-1-1c0-5.514,4.486-10,10-10c0.553,0,1,0.447,1,1s-0.447,1-1,1
+      	c-4.411,0-8,3.589-8,8C7,17.631,6.553,18.078,6,18.078z" /></svg> ۱۳۹۷ &copy;
+      
     </p>
   </div>
 </footer>
 
-  <script src="/assets/js/scripts.min.js"></script>
+  <script src="http://localhost:3000/assets/js/scripts.min.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

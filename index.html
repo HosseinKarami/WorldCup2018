@@ -5,14 +5,14 @@ layout: default
 <section class="all-matches">
   <nav class="matches-selection">
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link active show" id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
+      <a class="nav-item nav-link  " id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
         aria-selected="true">مرحله گروهی</a>
-      <a class="nav-item nav-link" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
+      <a class="nav-item nav-link  active show" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
         aria-selected="false">مرحله حذفی</a>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade active show" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
+    <div class="tab-pane fade  " id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
       <div id="accordion">
          {% for item in site.data.matches %} {% if item.level != 'secondstage' %}
         <div class="card">
@@ -90,82 +90,163 @@ layout: default
          {% endif %} {% endfor %} 
       </div>
     </div>
-    <div class="tab-pane fade" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
-      <div id="accordion">
-        {% for item in site.data.matches %} {% if item.level == 'secondstage' %}
-        <div class="card">
-          <h4 class="matches-date">{{ item.date }}</h4>
-          {% for itm in item.groups %}
-          <div class="card-header" id="game1">
-            <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
-              <article class="info">
-                <h5>{{itm.dates}}</h5>
-                <h5>{{ itm.group }}</h5>
-                <h5>ورزشگاه {{ itm.stadium }}</h5>
-                <h6>شهر {{ itm.city }}</h6>
-              </article>
-              <article class="content">
-                <div class="team-a">
-                  <img src="{{ itm.flag1}}" alt="{{ itm.team1 }}">
-                  <span>{{ itm.team1 }}</span>
+    <div class="tab-pane fade active show" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
+      <section class="viewby">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link  " id="ListView" data-toggle="tab" href="#nav-ListView" role="tab" aria-controls="nav-ListView"
+            aria-selected="true">مشاهده بر اساس لیست</a>
+          <a class="nav-item nav-link  active show" id="BracketView" data-toggle="tab" href="#nav-BracketView" role="tab" aria-controls="nav-BracketView"
+            aria-selected="false">مشاهده بر اساس نمودار حذفی</a>
+        </div>
+      </section>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade" id="nav-ListView" role="tabpanel" aria-labelledby="ListView">
+          <div id="accordion">
+            {% for item in site.data.matches %} {% if item.level == 'secondstage' %}
+            <div class="card">
+              <h4 class="matches-date">{{ item.date }}</h4>
+              {% for itm in item.groups %}
+              <div class="card-header" id="game1">
+                <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#rusksa" aria-expanded="false" aria-controls="rusksa">
+                  <article class="info">
+                    <h5>{{itm.dates}}</h5>
+                    <h5>{{ itm.group }}</h5>
+                    <h5>ورزشگاه {{ itm.stadium }}</h5>
+                    <h6>شهر {{ itm.city }}</h6>
+                  </article>
+                  <article class="content">
+                    <div class="team-a">
+                      <img src="{{ itm.flag1}}" alt="{{ itm.team1 }}">
+                      <span>{{ itm.team1 }}</span>
+                    </div>
+                    <div class="points">
+                      <span> {% if itm.pts1 == 'zero' %}{{ itm.time }} {% else %} {{ itm.pts1 }} - {{ itm.pts2 }} {% endif %} </span>
+                    </div>
+                    <div class="team-b">
+                      <span>{{ itm.team2 }}</span>
+                      <img src="{{ itm.flag2}}" alt="{{ itm.team2 }}">
+                    </div>
+                  </article>
                 </div>
-                <div class="points">
-                  <span> {% if itm.pts1 == 'zero' %}{{ itm.time }} {% else %} {{ itm.pts1 }} - {{ itm.pts2 }} {% endif %} </span>
+              </div>
+              {% if itm.pts1 == 'zero' %} {% else %}
+              <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion" style="">
+                <div class="team-a">
+                  <ul>
+                    {% if itm.pts1 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                      <span>{{ itm.goal1 }}</span>
+                    </li>
+                    {% endif %} {% if itm.yellow1 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                      <span>{{ itm.yellow1 }}</span>
+                    </li>
+                    {% endif %} {% if itm.red1 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                      <span>{{ itm.red1 }}</span>
+                    </li>
+                    {% endif %}
+                  </ul>
                 </div>
                 <div class="team-b">
-                  <span>{{ itm.team2 }}</span>
-                  <img src="{{ itm.flag2}}" alt="{{ itm.team2 }}">
+                  <ul>
+                    {% if itm.pts2 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/goal.png" alt="">
+                      <span>{{ itm.goal2 }}</span>
+                    </li>
+                    {% endif %} {% if itm.yellow2 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
+                      <span>{{ itm.yellow2 }}</span>
+                    </li>
+                    {% endif %} {% if itm.red2 == '0' %} {% else %}
+                    <li>
+                      <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
+                      <span>{{ itm.red2 }}</span>
+                    </li>
+                    {% endif %}
+                  </ul>
                 </div>
-              </article>
+              </div>
+              {% endif %} {% endfor %}
             </div>
+            {% endif %} {% endfor %}
           </div>
-          {% if itm.pts1 == 'zero' %} {% else %}
-          <div id="rusksa" class="contents collapse" aria-labelledby="game1" data-parent="#accordion" style="">
-            <div class="team-a">
-              <ul>
-                {% if itm.pts1 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
-                  <span>{{ itm.goal1 }}</span>
-                </li>
-                {% endif %} {% if itm.yellow1 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
-                  <span>{{ itm.yellow1 }}</span>
-                </li>
-                {% endif %} {% if itm.red1 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
-                  <span>{{ itm.red1 }}</span>
-                </li>
-                {% endif %}
-              </ul>
-            </div>
-            <div class="team-b">
-              <ul>
-                {% if itm.pts2 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/goal.png" alt="">
-                  <span>{{ itm.goal2 }}</span>
-                </li>
-                {% endif %} {% if itm.yellow2 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/YellowCard.png" alt="">
-                  <span>{{ itm.yellow2 }}</span>
-                </li>
-                {% endif %} {% if itm.red2 == '0' %} {% else %}
-                <li>
-                  <img src="{{ site.url }}/assets/img/RedCard.png" alt="">
-                  <span>{{ itm.red2 }}</span>
-                </li>
-                {% endif %}
-              </ul>
-            </div>
-          </div>
-          {% endif %}
-           {% endfor %}
         </div>
-         {% endif %} {% endfor %}
+        <div class="tab-pane fade active show" id="nav-BracketView" role="tabpanel" aria-labelledby="BracketView">
+          <div class="bracketTable">
+            <div class="row-eight">
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1A</div>
+                  </div>
+                  <div class="content-date">
+                    <div>شنبه ۹ تیر</div>
+                    <div>۲۲:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2B</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1C</div>
+                  </div>
+                  <div class="content-date">
+                    <div>شنبه ۹ تیر</div>
+                    <div>۱۸:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2D</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1E</div>
+                  </div>
+                  <div class="content-date">
+                    <div>دوشنبه ۱۱ تیر</div>
+                    <div>۱۸:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2F</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-eight-body">
+                <div class="row-content">
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>1G</div>
+                  </div>
+                  <div class="content-date">
+                    <div>دوشنبه ۱۱ تیر</div>
+                    <div>۲۲:۳۰</div>
+                  </div>
+                  <div class="content-team">
+                    <div><img src="assets/img/flags/blank.png" alt=""></div>
+                    <div>2H</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

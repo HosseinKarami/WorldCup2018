@@ -1,4 +1,5 @@
 - group: A
+  id: AGroup
   teams:
   - team: روسیه
     flag: assets/img/flags/rus.png
@@ -38,6 +39,7 @@
     points: "۰"
 
 - group: B
+  id: BGroup
   teams:
   - team: پرتغال
     flag: assets/img/flags/por.png
@@ -77,6 +79,7 @@
     points: "۰"
 
 - group: C
+  id: CGroup
   teams:
   - team: فرانسه
     flag: assets/img/flags/fra.png
@@ -116,6 +119,7 @@
     points: "۰"
 
 - group: D
+  id: DGroup
   teams:
   - team: آرژانتین
     flag: assets/img/flags/arg.png
@@ -155,6 +159,7 @@
     points: "۰"
 
 - group: E
+  id: EGroup
   teams:
   - team: برزیل
     flag: assets/img/flags/bra.png
@@ -194,6 +199,7 @@
     points: "۰"
 
 - group: F
+  id: FGroup
   teams:
   - team: آلمان
     flag: assets/img/flags/ger.png
@@ -233,6 +239,7 @@
     points: "۰"
 
 - group: G
+  id: GGroup
   teams:
   - team: بلژیک
     flag: assets/img/flags/bel.png
@@ -272,6 +279,7 @@
     points: "۰"
 
 - group: H
+  id: HGroup
   teams:
   - team: هلند
     flag: assets/img/flags/pol.png

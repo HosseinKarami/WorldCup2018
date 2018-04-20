@@ -806,57 +806,56 @@ img {
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
               position: absolute;
               right: 0;
-              top: 1.5rem;
-              width: 53px;
-              border: 1px solid #e2e2e2; }
+              top: 2rem;
+              width: 53px; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
-                  top: 1.5rem;
+                  top: 2rem;
                   width: 53px; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
               position: absolute;
-              right: 4rem;
+              right: 5rem;
               top: 2.2rem;
               font-size: 1rem; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 4rem;
+                  right: 5rem;
                   font-size: 1rem;
                   top: 2.2rem; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 5rem;
+                  right: 6rem;
                   font-size: 1rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 5rem;
+                  right: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 5rem;
+                  right: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-a span {
-                  right: 5rem;
+                  right: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .points {
@@ -900,60 +899,59 @@ img {
                     font-size: 27px; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
               position: absolute;
-              left: 4rem;
+              left: 5rem;
               top: 2.2rem;
               font-size: 1rem; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 4rem;
+                  left: 5rem;
                   font-size: 1rem;
                   top: 2.2rem; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 5rem;
+                  left: 6rem;
                   font-size: 1rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 5rem;
+                  left: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 5rem;
+                  left: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b span {
-                  left: 5rem;
+                  left: 6rem;
                   font-size: 2rem;
                   top: 2.9rem; } }
             .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
               position: absolute;
               left: 0;
-              top: 1.5rem;
-              width: 53px;
-              border: 1px solid #e2e2e2; }
+              top: 2rem;
+              width: 53px; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
-                  top: 1.5rem;
+                  top: 2rem;
                   width: 53px; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .tab-content #accordion .card .card-header .row .content .team-b img {
-                  top: 2rem;
-                  width: 60px; } }
+                  top: 2.5rem;
+                  width: 70px; } }
     .main .all-matches .stadium {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1086,18 +1084,16 @@ img {
               right: 0;
               top: 0;
               width: 60px;
-              margin: 7px 10px;
-              border: 1px solid #F5F5F5; }
+              margin: 7px 10px; }
             .main .all-matches .team .heads .lists li span {
               font-size: 1.5rem;
               line-height: 14px;
               vertical-align: middle;
               display: table-cell;
               padding-right: 90px;
-              height: 52px; }
+              height: 44px; }
     .main .all-matches .host {
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #f5f5f5; }
+      padding-bottom: 1rem; }
       .main .all-matches .host h4 {
         font-size: 1.2rem;
         line-height: 50px;
@@ -1159,7 +1155,7 @@ img {
             font-size: 1.5rem;
             font-weight: 300; }
           .main .all-matches .host .host-team li .rusflag {
-            border: 1px solid #f5f5f5; }
+            width: 70px; }
     .main .all-matches .groups {
       display: table;
       direction: rtl;
@@ -1219,14 +1215,11 @@ img {
           border-bottom: 1px solid #DCDCDC; }
           .main .all-matches .groups .rows div:first-child {
             text-align: right;
-            position: relative;
-            display: block; }
+            position: relative; }
             .main .all-matches .groups .rows div:first-child img {
               position: relative;
-              top: 3px;
               margin-left: 1.5rem;
-              width: 32px;
-              border: 1px solid #F5F5F5; }
+              width: 32px; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .groups .rows div:first-child img {
                   margin-left: 1.5rem;
@@ -1249,32 +1242,32 @@ img {
                   width: 70px; } }
             .main .all-matches .groups .rows div:first-child span {
               position: absolute;
-              top: 14px;
+              top: 9px;
               right: 36px;
               font-size: 0.7rem; }
               @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
                 .main .all-matches .groups .rows div:first-child span {
-                  top: 14px;
+                  top: 9px;
                   right: 36px;
                   font-size: 0.7rem; } }
               @media only screen and (min-width: 481.6px) {
                 .main .all-matches .groups .rows div:first-child span {
-                  top: 12px;
+                  top: 5px;
                   right: 90px;
                   font-size: 1.5rem; } }
               @media only screen and (min-width: 768px) {
                 .main .all-matches .groups .rows div:first-child span {
-                  top: 12px;
+                  top: 5px;
                   right: 90px;
                   font-size: 1.6875rem; } }
               @media only screen and (min-width: 1000px) {
                 .main .all-matches .groups .rows div:first-child span {
-                  top: 12px;
+                  top: 5px;
                   right: 90px;
                   font-size: 1.6875rem; } }
               @media only screen and (min-width: 1300px) {
                 .main .all-matches .groups .rows div:first-child span {
-                  top: 12px;
+                  top: 5px;
                   right: 90px;
                   font-size: 1.6875rem; } }
     .main .all-matches .link {
@@ -1363,6 +1356,111 @@ img {
           fill: #FFF;
           width: 18px;
           margin-right: .5rem; }
+    .main .all-matches .bracketTable {
+      margin-top: 40px; }
+      .main .all-matches .bracketTable .row-eight {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin: 0 -0.7%; }
+        .main .all-matches .bracketTable .row-eight .row-eight-body {
+          width: 23.5%; }
+          .main .all-matches .bracketTable .row-eight .row-eight-body .row-content {
+            position: relative;
+            background-color: #F3F3F3;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 1rem 16px;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            text-align: center;
+            margin: 10px 0; }
+            .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-team {
+              margin-top: 15px;
+              width: 47%;
+              display: block;
+              text-align: center;
+              padding: 0;
+              position: relative; }
+              .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-team div:first-child {
+                max-width: 48px;
+                margin: 0 auto;
+                margin-bottom: 5px; }
+              .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-team img {
+                width: 48px; }
+            .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+              -webkit-box-ordinal-group: 5;
+                  -ms-flex-order: 4;
+                      order: 4;
+              width: 100%;
+              font-size: 11px; }
+              @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+                  -webkit-box-ordinal-group: 5;
+                      -ms-flex-order: 4;
+                          order: 4;
+                  width: 100%;
+                  font-size: 11px; } }
+              @media only screen and (min-width: 481.6px) {
+                .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+                  -webkit-box-ordinal-group: 5;
+                      -ms-flex-order: 4;
+                          order: 4;
+                  width: 100%;
+                  font-size: 11px; } }
+              @media only screen and (min-width: 768px) {
+                .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+                  -webkit-box-ordinal-group: 1;
+                      -ms-flex-order: 0;
+                          order: 0;
+                  width: 25%;
+                  font-size: 11px; } }
+              @media only screen and (min-width: 1000px) {
+                .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+                  -webkit-box-ordinal-group: 1;
+                      -ms-flex-order: 0;
+                          order: 0;
+                  width: 25%;
+                  font-size: 11px; } }
+              @media only screen and (min-width: 1300px) {
+                .main .all-matches .bracketTable .row-eight .row-eight-body .row-content .content-date {
+                  -webkit-box-ordinal-group: 1;
+                      -ms-flex-order: 0;
+                          order: 0;
+                  width: 25%;
+                  font-size: 11px; } }
+
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  footer .wrapper p {
+    color: #494949;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .wrapper p svg {
+      margin: 0 .5rem; }
 
 /**
 *
