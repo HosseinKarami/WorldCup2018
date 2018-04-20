@@ -1,12 +1,29 @@
 footer{
   .wrapper{
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     background: white;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     justify-content: center;
+    @include phone{
+      width: 100%;
+    }
+    @include tablet{
+      width: 100%;
+    }
+    @include desktop{
+      width: 100%;
+    }
+    @include largedesktop{
+      width: 100%;
+    }
+    @include biglargedesktop{
+      width: 1200px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
     p{
       color: #494949;
       display: flex;
