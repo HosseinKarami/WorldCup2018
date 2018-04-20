@@ -1640,7 +1640,23 @@ img {
         outline: none;
         -webkit-transition: 100ms linear 0s;
         -o-transition: 100ms linear 0s;
-        transition: 100ms linear 0s; }
+        transition: 100ms linear 0s;
+        font-size: .9rem; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: .9rem; } }
+        @media only screen and (min-width: 481.6px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: .9rem; } }
+        @media only screen and (min-width: 768px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
+        @media only screen and (min-width: 1000px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
+        @media only screen and (min-width: 1300px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
         .main .all-matches .viewby .nav-tabs .nav-item:hover {
           color: #dd4606;
           border: none; }
@@ -1658,7 +1674,22 @@ img {
               fill: #dd4606; }
         .main .all-matches .viewby .nav-tabs .nav-item svg {
           width: 20px;
-          margin-left: 2rem; }
+          margin-left: .5rem; }
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: .5rem; } }
+          @media only screen and (min-width: 481.6px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: .5rem; } }
+          @media only screen and (min-width: 768px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
+          @media only screen and (min-width: 1000px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
+          @media only screen and (min-width: 1300px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
 
 footer .wrapper {
   display: -webkit-box;

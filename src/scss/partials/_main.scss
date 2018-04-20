@@ -1059,6 +1059,22 @@
           text-decoration: none;
           outline: none;
           transition: 100ms linear 0s;
+          font-size: .9rem;
+          @include phone{
+            font-size: .9rem;
+          }
+          @include tablet{
+            font-size: .9rem;
+          }
+          @include desktop{
+            font-size: 1rem;
+          }
+          @include largedesktop{
+            font-size: 1rem;
+          }
+          @include biglargedesktop{
+            font-size: 1rem;
+          }
           &:hover{
             color: #dd4606;
             border: none;
@@ -1079,8 +1095,22 @@
           }
           svg{
             width: 20px;
-            margin-left: 2rem;
-
+            margin-left: .5rem;
+            @include phone{
+              margin-left: .5rem;
+            }
+            @include tablet{
+              margin-left: .5rem;
+            }
+            @include desktop{
+              margin-left: 2rem;
+            }
+            @include largedesktop{
+              margin-left: 2rem;
+            }
+            @include biglargedesktop{
+              margin-left: 2rem;
+            }
           }
         }
       }

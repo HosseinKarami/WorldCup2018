@@ -1637,17 +1637,59 @@ img {
         color: #494949;
         padding: 1rem 0;
         text-decoration: none;
-        outline: none; }
+        outline: none;
+        -webkit-transition: 100ms linear 0s;
+        -o-transition: 100ms linear 0s;
+        transition: 100ms linear 0s;
+        font-size: .9rem; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: .9rem; } }
+        @media only screen and (min-width: 481.6px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: .9rem; } }
+        @media only screen and (min-width: 768px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
+        @media only screen and (min-width: 1000px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
+        @media only screen and (min-width: 1300px) {
+          .main .all-matches .viewby .nav-tabs .nav-item {
+            font-size: 1rem; } }
         .main .all-matches .viewby .nav-tabs .nav-item:hover {
-          color: #dd4606; }
-        .main .all-matches .viewby .nav-tabs .nav-item.nav-link.active {
-          border: none;
-          color: #dd4606; }
-          .main .all-matches .viewby .nav-tabs .nav-item.nav-link.active svg {
+          color: #dd4606;
+          border: none; }
+          .main .all-matches .viewby .nav-tabs .nav-item:hover svg {
             fill: #dd4606; }
+        .main .all-matches .viewby .nav-tabs .nav-item.nav-link {
+          border: none;
+          -webkit-transition: 100ms linear 0s;
+          -o-transition: 100ms linear 0s;
+          transition: 100ms linear 0s; }
+          .main .all-matches .viewby .nav-tabs .nav-item.nav-link.active {
+            border: none;
+            color: #dd4606; }
+            .main .all-matches .viewby .nav-tabs .nav-item.nav-link.active svg {
+              fill: #dd4606; }
         .main .all-matches .viewby .nav-tabs .nav-item svg {
           width: 20px;
-          margin-left: 2rem; }
+          margin-left: .5rem; }
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: .5rem; } }
+          @media only screen and (min-width: 481.6px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: .5rem; } }
+          @media only screen and (min-width: 768px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
+          @media only screen and (min-width: 1000px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
+          @media only screen and (min-width: 1300px) {
+            .main .all-matches .viewby .nav-tabs .nav-item svg {
+              margin-left: 2rem; } }
 
 footer .wrapper {
   display: -webkit-box;
