@@ -31,6 +31,7 @@
       text-decoration: none;
       outline: none;
     }
+
     .logo{
       padding: 1rem 0;
       a{
@@ -70,23 +71,34 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        background: #00000036;
-        border-radius: 5px;
+        background: #FFF;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
         li{
           width: 100%;
           transition: .2s linear 0s;
           a{
             display: flex;
             justify-content: center;
+            color: #474747;
+            text-decoration: none;
+            outline: none;
             h4{
               font-weight: 300;
             }
           }
           &.selected{
-            background: #0f3e7966;
+            border-bottom: 2px solid #0f4583;
+            a{
+              color: #0f4583;
+              h4{
+                
+                font-weight: 500;
+              }
+            }
           }
           &:hover{
-            background: #0f3e7966;
+            background: #f7f7f7;
           }
         }
       }

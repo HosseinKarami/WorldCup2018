@@ -1,5 +1,35 @@
+.head-titles{
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #474747;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 2rem;
+  width: 100%;
+  align-items: center;
+  @include phone{
+    width: 100%;
+  }
+  @include tablet{
+    width: 100%;
+  }
+  @include desktop{
+    width: 100%;
+  }
+  @include largedesktop{
+    width: 100%;
+  }
+  @include biglargedesktop{
+    width: 1200px;
+  }
+  svg{
+    margin-left: .5rem;
+  }
+}
 .main{
-  padding: 1rem 0;
+  padding: 0 0 1rem;
   display: flex;
   justify-content: center;
   .all-matches{
@@ -10,6 +40,7 @@
     padding: 2rem 10px;
     display: flex;
     flex-direction: column;
+        box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
     @include phone{
       width: 100%;
       margin: 0;
@@ -33,7 +64,8 @@
     @include biglargedesktop{
       width: 1200px;
       margin: 0 auto;
-      border-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
       padding: 2rem 1rem;
     }
     .matches-selection{
