@@ -9,6 +9,7 @@
   padding: 2rem;
   width: 100%;
   align-items: center;
+  border-bottom: 1px solid #dee2e6;
   @include phone{
     width: 100%;
   }
@@ -50,7 +51,85 @@
   padding: 0 0 1rem;
   display: flex;
   justify-content: center;
-  
+  flex-direction: column;
+  .viewbys{
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    transition: all ease-out 300ms;
+    @include phone{
+      display: none;
+      width: 100%;
+    }
+    @include tablet{
+      display: none;
+      width: 100%;
+    }
+    @include desktop{
+      display: flex;
+      width: 100%;
+    }
+    @include largedesktop{
+      display: flex;
+      width: 100%;
+    }
+    @include biglargedesktop{
+      display: flex;
+      width: 1200px;
+    }
+    &.fixedView{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 15.4rem;
+      z-index: 9;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      @include phone{
+        top: 15.4rem;
+      }
+      @include tablet{
+        top: 15.4rem;
+      }
+      @include desktop{
+        top: 15.4rem;
+      }
+      @include largedesktop{
+        top: 15.4rem;
+      }
+      @include biglargedesktop{
+        top: 6.5rem;
+      }
+      .gotoGroup{
+        margin: 0;
+      }
+    }
+    .gotoGroup{
+      display: flex;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-bottom: 1px solid #dee2e6;
+      border-top: 1px solid #dee2e6;
+      justify-content: space-around;
+      list-style: none;
+      width: 100%;
+      background: white;
+      li{
+        a{
+          text-decoration: none;
+          outline: none;
+          color: #494949;
+          &:hover{
+            color: #0f4583;
+          }
+          &.current{
+            color: #0f4583;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
   .all-matches{
     background: #FFF;
     width: 100%;
@@ -59,7 +138,7 @@
     padding: 2rem 10px;
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #dee2e6;
+    //border-top: 1px solid #dee2e6;
     //box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
     @include phone{
       width: 100%;
@@ -87,6 +166,9 @@
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
       padding: 2rem 1rem;
+    }
+    .group-list{
+      padding: 3rem 0 7rem;
     }
     .matches-selection{
       padding: 1rem;
@@ -629,7 +711,7 @@
       margin: 0 auto;
       width: 100%;
       padding: 1rem 0;
-
+      outline: none;
       h4{
         text-align: right;
         font-size: .8rem;

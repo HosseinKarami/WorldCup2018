@@ -873,7 +873,8 @@ img {
   background: #f9f9f9;
   padding: 2rem;
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 1px solid #dee2e6; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .head-titles {
       width: 100%; } }
@@ -916,7 +917,92 @@ img {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .main .viewbys {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    -webkit-transition: all ease-out 300ms;
+    -o-transition: all ease-out 300ms;
+    transition: all ease-out 300ms; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      .main .viewbys {
+        display: none;
+        width: 100%; } }
+    @media only screen and (min-width: 481.6px) {
+      .main .viewbys {
+        display: none;
+        width: 100%; } }
+    @media only screen and (min-width: 768px) {
+      .main .viewbys {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%; } }
+    @media only screen and (min-width: 1000px) {
+      .main .viewbys {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%; } }
+    @media only screen and (min-width: 1300px) {
+      .main .viewbys {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 1200px; } }
+    .main .viewbys.fixedView {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 15.4rem;
+      z-index: 9;
+      -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+              box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .main .viewbys.fixedView {
+          top: 15.4rem; } }
+      @media only screen and (min-width: 481.6px) {
+        .main .viewbys.fixedView {
+          top: 15.4rem; } }
+      @media only screen and (min-width: 768px) {
+        .main .viewbys.fixedView {
+          top: 15.4rem; } }
+      @media only screen and (min-width: 1000px) {
+        .main .viewbys.fixedView {
+          top: 15.4rem; } }
+      @media only screen and (min-width: 1300px) {
+        .main .viewbys.fixedView {
+          top: 6.5rem; } }
+      .main .viewbys.fixedView .gotoGroup {
+        margin: 0; }
+    .main .viewbys .gotoGroup {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-bottom: 1px solid #dee2e6;
+      border-top: 1px solid #dee2e6;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      list-style: none;
+      width: 100%;
+      background: white; }
+      .main .viewbys .gotoGroup li a {
+        text-decoration: none;
+        outline: none;
+        color: #494949; }
+        .main .viewbys .gotoGroup li a:hover {
+          color: #0f4583; }
+        .main .viewbys .gotoGroup li a.current {
+          color: #0f4583;
+          font-weight: 500; }
   .main .all-matches {
     background: #FFF;
     width: 100%;
@@ -929,8 +1015,7 @@ img {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-    border-top: 1px solid #dee2e6; }
+            flex-direction: column; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
       .main .all-matches {
         width: 100%;
@@ -958,6 +1043,8 @@ img {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         padding: 2rem 1rem; } }
+    .main .all-matches .group-list {
+      padding: 3rem 0 7rem; }
     .main .all-matches .matches-selection {
       padding: 1rem; }
       .main .all-matches .matches-selection .nav {
@@ -1482,7 +1569,8 @@ img {
       direction: rtl;
       margin: 0 auto;
       width: 100%;
-      padding: 1rem 0; }
+      padding: 1rem 0;
+      outline: none; }
       .main .all-matches .groups h4 {
         text-align: right;
         font-size: .8rem;

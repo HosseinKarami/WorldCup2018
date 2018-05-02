@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, minimal-ui">
-  <link href="http://192.168.1.9:3000/assets/css/style.min.css" rel="stylesheet">
+  <link href="http://localhost:3000/assets/css/style.min.css" rel="stylesheet">
   <meta property="og:url" content="http://fifawc.ir/">
   <meta property="og:title" content="FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸">
   <meta property="og:description" content="آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید.">
@@ -27,29 +27,29 @@
   <div class="header-content">
     <div class="logo">
       <a href="/">
-        <img src="http://192.168.1.9:3000/assets/img/logo.png" alt="2018 FIFA World Cup Russia" width="100">
+        <img src="http://localhost:3000/assets/img/logo.png" alt="2018 FIFA World Cup Russia" width="100">
         <h4>جام جهانی روسیه ۲۰۱۸</h4>
       </a>
     </div>
     <nav class="nav nav-list">
       <ul>
         <li class="">
-          <a href="http://192.168.1.9:3000">
+          <a href="http://localhost:3000">
             <h4>مسابقات</h4>
           </a>
         </li>
         <li class="">
-          <a href="http://192.168.1.9:3000/teams">
+          <a href="http://localhost:3000/teams">
             <h4>تیم‌ها</h4>
           </a>
         </li>
         <li class="selected">
-          <a href="http://192.168.1.9:3000/groups">
+          <a href="http://localhost:3000/groups">
             <h4>گروه‌ها</h4>
           </a>
         </li>
         <li class="">
-          <a href="http://192.168.1.9:3000/stadiums">
+          <a href="http://localhost:3000/stadiums">
             <h4>ورزشگاه‌ها</h4>
           </a>
         </li>
@@ -131,670 +131,723 @@
   </div>
 
   <main class="main" role="main">
-    <section class="all-matches">
+    <section class="viewbys">
+  <ul class="gotoGroup">
+    
+    <li>
+      <a href="#" data-scroll="AGroup">گروه A</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="BGroup">گروه B</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="CGroup">گروه C</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="DGroup">گروه D</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="EGroup">گروه E</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="FGroup">گروه F</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="GGroup">گروه G</a>
+    </li>
+    
+    <li>
+      <a href="#" data-scroll="HGroup">گروه H</a>
+    </li>
+    
+  </ul>
+</section>
+<section class="all-matches">
+  
+  <section class="group-list" data-anchor="AGroup">
+    <div class="groups" id="AGroup" >
+      <h4>گروه A</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
       
-  <section class="groups">
-    <h4>گروه A</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/rus.png" alt="روسیه">
+          <span>روسیه</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/ksa.png" alt="عربستان">
+          <span>عربستان</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/egy.png" alt="مصر">
+          <span>مصر</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/uru.png" alt="اروگوئه">
+          <span>اروگوئه</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/rus.png" alt="روسیه">
-        <span>روسیه</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/ksa.png" alt="عربستان">
-        <span>عربستان</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/egy.png" alt="مصر">
-        <span>مصر</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/uru.png" alt="اروگوئه">
-        <span>اروگوئه</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/A" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
-  </section>
-    
-  <section class="groups">
-    <h4>گروه B</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+    <div class="link">
+      <a href="http://localhost:3000/groups/A" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/por.png" alt="پرتغال">
-        <span>پرتغال</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/esp.png" alt="اسپانیا">
-        <span>اسپانیا</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/mar.png" alt="مراکش">
-        <span>مراکش</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/irn.png" alt="ایران">
-        <span>ایران</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/B" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
   </section>
     
-  <section class="groups">
-    <h4>گروه C</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+  <section class="group-list" data-anchor="BGroup">
+    <div class="groups" id="BGroup" >
+      <h4>گروه B</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/por.png" alt="پرتغال">
+          <span>پرتغال</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/esp.png" alt="اسپانیا">
+          <span>اسپانیا</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/mar.png" alt="مراکش">
+          <span>مراکش</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/irn.png" alt="ایران">
+          <span>ایران</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/fra.png" alt="فرانسه">
-        <span>فرانسه</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/aus.png" alt="استرالیا">
-        <span>استرالیا</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/per.png" alt="پرو">
-        <span>پرو</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/den.png" alt="دانمارک">
-        <span>دانمارک</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/C" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
-  </section>
-    
-  <section class="groups">
-    <h4>گروه D</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+    <div class="link">
+      <a href="http://localhost:3000/groups/B" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/arg.png" alt="آرژانتین">
-        <span>آرژانتین</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/isl.png" alt="ایسلند">
-        <span>ایسلند</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/cro.png" alt="کرواسی">
-        <span>کرواسی</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/nga.png" alt="نیجریه">
-        <span>نیجریه</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/D" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
   </section>
     
-  <section class="groups">
-    <h4>گروه E</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+  <section class="group-list" data-anchor="CGroup">
+    <div class="groups" id="CGroup" >
+      <h4>گروه C</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/fra.png" alt="فرانسه">
+          <span>فرانسه</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/aus.png" alt="استرالیا">
+          <span>استرالیا</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/per.png" alt="پرو">
+          <span>پرو</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/den.png" alt="دانمارک">
+          <span>دانمارک</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/bra.png" alt="برزیل">
-        <span>برزیل</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/sui.png" alt="سوئیس">
-        <span>سوئیس</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/crc.png" alt="کاستاریکا">
-        <span>کاستاریکا</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/srb.png" alt="صربستان">
-        <span>صربستان</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/E" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
-  </section>
-    
-  <section class="groups">
-    <h4>گروه F</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+    <div class="link">
+      <a href="http://localhost:3000/groups/C" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/ger.png" alt="آلمان">
-        <span>آلمان</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/mex.png" alt="مکزیک">
-        <span>مکزیک</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/swe.png" alt="سوئد">
-        <span>سوئد</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/kor.png" alt="کره‌جنوبی">
-        <span>کره‌جنوبی</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/F" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
   </section>
     
-  <section class="groups">
-    <h4>گروه G</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+  <section class="group-list" data-anchor="DGroup">
+    <div class="groups" id="DGroup" >
+      <h4>گروه D</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/arg.png" alt="آرژانتین">
+          <span>آرژانتین</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/isl.png" alt="ایسلند">
+          <span>ایسلند</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/cro.png" alt="کرواسی">
+          <span>کرواسی</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/nga.png" alt="نیجریه">
+          <span>نیجریه</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/bel.png" alt="بلژیک">
-        <span>بلژیک</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/pan.png" alt="پاناما">
-        <span>پاناما</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/tun.png" alt="تونس">
-        <span>تونس</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/eng.png" alt="انگلیس">
-        <span>انگلیس</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-  </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/G" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
-  </section>
-    
-  <section class="groups">
-    <h4>گروه H</h4>
-    <div class="head">
-      <h4>تیم‌ها</h4>
-      <h4>بازی‌ها</h4>
-      <h4>برد</h4>
-      <h4>مساوی</h4>
-      <h4>باخت</h4>
-      <h4>گل زده</h4>
-      <h4>گل خورده</h4>
-      <h4>امتياز</h4>
+    <div class="link">
+      <a href="http://localhost:3000/groups/D" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
     </div>
-    
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/pol.png" alt="هلند">
-        <span>هلند</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/sen.png" alt="سنگال">
-        <span>سنگال</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/col.png" alt="کلمبیا">
-        <span>کلمبیا</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
-    <article class="rows">
-      <div>
-        <img src="../assets/img/flags/jpn.png" alt="ژاپن">
-        <span>ژاپن</span>
-      </div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-      <div>۰</div>
-    </article>
-      
   </section>
-  <section class="link">
-    <a href="http://192.168.1.9:3000/groups/H" class="details">
-    مشخصات گروه
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-      style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
-      <g>
-        <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
-        />
-      </g>
-    </svg>
-    </a>
+    
+  <section class="group-list" data-anchor="EGroup">
+    <div class="groups" id="EGroup" >
+      <h4>گروه E</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/bra.png" alt="برزیل">
+          <span>برزیل</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/sui.png" alt="سوئیس">
+          <span>سوئیس</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/crc.png" alt="کاستاریکا">
+          <span>کاستاریکا</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/srb.png" alt="صربستان">
+          <span>صربستان</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+    </div>
+    <div class="link">
+      <a href="http://localhost:3000/groups/E" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </section>
+    
+  <section class="group-list" data-anchor="FGroup">
+    <div class="groups" id="FGroup" >
+      <h4>گروه F</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/ger.png" alt="آلمان">
+          <span>آلمان</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/mex.png" alt="مکزیک">
+          <span>مکزیک</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/swe.png" alt="سوئد">
+          <span>سوئد</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/kor.png" alt="کره‌جنوبی">
+          <span>کره‌جنوبی</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+    </div>
+    <div class="link">
+      <a href="http://localhost:3000/groups/F" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </section>
+    
+  <section class="group-list" data-anchor="GGroup">
+    <div class="groups" id="GGroup" >
+      <h4>گروه G</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/bel.png" alt="بلژیک">
+          <span>بلژیک</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/pan.png" alt="پاناما">
+          <span>پاناما</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/tun.png" alt="تونس">
+          <span>تونس</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/eng.png" alt="انگلیس">
+          <span>انگلیس</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+    </div>
+    <div class="link">
+      <a href="http://localhost:3000/groups/G" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </section>
+    
+  <section class="group-list" data-anchor="HGroup">
+    <div class="groups" id="HGroup" >
+      <h4>گروه H</h4>
+      <div class="head">
+        <h4>تیم‌ها</h4>
+        <h4>بازی‌ها</h4>
+        <h4>برد</h4>
+        <h4>مساوی</h4>
+        <h4>باخت</h4>
+        <h4>گل زده</h4>
+        <h4>گل خورده</h4>
+        <h4>امتياز</h4>
+      </div>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/pol.png" alt="هلند">
+          <span>هلند</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/sen.png" alt="سنگال">
+          <span>سنگال</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/col.png" alt="کلمبیا">
+          <span>کلمبیا</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+      <article class="rows">
+        <div>
+          <img src="../assets/img/flags/jpn.png" alt="ژاپن">
+          <span>ژاپن</span>
+        </div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+        <div>۰</div>
+      </article>
+      
+    </div>
+    <div class="link">
+      <a href="http://localhost:3000/groups/H" class="details">
+        مشخصات گروه
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+          style="enable-background:new 0 0 100 100;" width="25" xml:space="preserve">
+          <g>
+            <path d="M68.9,8.9c-1.2,0-2.4,0.5-3.3,1.3L27.8,46.5c-0.9,0.9-1.5,2.2-1.5,3.5s0.5,2.6,1.5,3.5l37.8,36.3   c0.9,0.9,2.1,1.3,3.3,1.3c1.3,0,2.6-0.5,3.5-1.5c0.9-0.9,1.4-2.1,1.3-3.4c0-1.3-0.5-2.5-1.5-3.4L38.1,50l34.2-32.8   c1.9-1.8,2-4.9,0.1-6.8C71.5,9.4,70.3,8.9,68.9,8.9C68.9,8.9,68.9,8.9,68.9,8.9z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
   </section>
     
 </section>
@@ -818,7 +871,7 @@
   </div>
 </footer>
 
-  <script src="http://192.168.1.9:3000/assets/js/scripts.min.js"></script>
+  <script src="http://localhost:3000/assets/js/scripts.min.js"></script>
 
   </body>
 </html>
