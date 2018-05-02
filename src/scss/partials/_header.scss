@@ -1,8 +1,100 @@
 .header{
   position: relative;
   overflow: hidden;
+  width: 100%;
   //background-color: #0f4583;
-  
+  transition: all ease-out 300ms;
+  &.fixed-header{
+    position: fixed;
+    top: 0;
+    height: auto;
+    border-top: 3px solid goldenrod;
+    z-index: 999;
+    background: url(../img/darkbg.png) repeat;
+    background-color: #0f4583;
+    box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+    @include phone{
+      height: auto;
+    }
+    @include tablet{
+      height: auto;
+    }
+    @include desktop{
+      height: auto;
+    }
+    @include largedesktop{
+      height: auto;
+    }
+    @include biglargedesktop{
+      height: 88px;
+    }
+    .header-content{
+      justify-content: flex-start;
+      flex-direction: column;
+      @include phone{
+        flex-direction: column;
+      }
+      @include tablet{
+        flex-direction: column;
+      }
+      @include desktop{
+        flex-direction: column;
+      }
+      @include largedesktop{
+        flex-direction: column;
+      }
+      @include biglargedesktop{
+        flex-direction: row;
+      }
+      .logo{
+        padding: 1rem;
+        width: auto;
+        @include phone{
+          width: auto;
+        }
+        @include tablet{
+          width: auto;
+        }
+        @include desktop{
+          width: auto;
+        }
+        @include largedesktop{
+          width: auto;
+        }
+        @include biglargedesktop{
+          width: 600px;
+        }
+        a{
+          flex-direction: column;
+          @include phone{
+            flex-direction: column;
+          }
+          @include tablet{
+            flex-direction: column;
+          }
+          @include desktop{
+            flex-direction: column;
+          }
+          @include largedesktop{
+            flex-direction: column;
+          }
+          @include biglargedesktop{
+            flex-direction: row;
+          }
+          img{
+            width: 60px;
+          }
+          h4{
+            font-size: 2rem;
+            font-weight: 300;
+          }
+        }
+      }
+      .nav{
+        
+      }
+    }
+  }
   .header-content{
     width: 100%;
     margin: 0 auto;
@@ -10,21 +102,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     @include phone{
       width: 100%;
+      flex-direction: column;
     }
     @include tablet{
       width: 100%;
+      flex-direction: column;
     }
     @include desktop{
       width: 100%;
+      flex-direction: column;
     }
     @include largedesktop{
       width: 100%;
+      flex-direction: column;
     }
     @include biglargedesktop{
       width: 1200px;
+      flex-direction: row;
     }
     a{
       color: #f9f9f9;
@@ -33,15 +130,51 @@
     }
 
     .logo{
-      padding: 1rem 0;
+      padding: 1rem;
+      transition: all ease-out 300ms;
+      width: auto;
+      @include phone{
+        width: auto;
+      }
+      @include tablet{
+        width: auto;
+      }
+      @include desktop{
+        width: auto;
+      }
+      @include largedesktop{
+        width: auto;
+      }
+      @include biglargedesktop{
+        width: 600px;
+      }
       a{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        @include phone{
+          flex-direction: column;
+        }
+        @include tablet{
+          flex-direction: column;
+        }
+        @include desktop{
+          flex-direction: column;
+        }
+        @include largedesktop{
+          flex-direction: column;
+        }
+        @include biglargedesktop{
+          flex-direction: row;
+        }
+        img{
+          transition: all ease-out 300ms;
+        }
         h4{
           font-size: 1.5rem;
-          font-weight: 500;
+          font-weight: 400;
           margin: .5rem 0;
+          //transition: all ease-out 300ms;
           @include phone{
             font-size: 1.5rem;
           }
@@ -49,13 +182,13 @@
             font-size: 2rem;
           }
           @include desktop{
-            font-size: 3rem;
+            font-size: 2rem;
           }
           @include largedesktop{
-            font-size: 3rem;
+            font-size: 2rem;
           }
           @include biglargedesktop{
-            font-size: 3rem;
+            font-size: 2rem;
           }
         }
       }
@@ -69,36 +202,89 @@
       }
       ul{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
-        background: #FFF;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+        padding: 1rem;
+        @include phone{
+          justify-content: center;
+        }
+        @include tablet{
+          justify-content: center;
+        }
+        @include desktop{
+          justify-content: center;
+        }
+        @include largedesktop{
+          justify-content: center;
+        }
+        @include biglargedesktop{
+          justify-content: flex-end;
+        }
         li{
-          width: 100%;
+          //width: 100%;
           transition: .2s linear 0s;
+          margin: 0 .1rem;
+          border-radius: 8px;
+          @include phone{
+            margin: 0 .1rem;
+          }
+          @include tablet{
+            margin: 0 .5rem;
+          }
+          @include desktop{
+            margin: 0 .5rem;
+          }
+          @include largedesktop{
+            margin: 0 .5rem;
+          }
+          @include biglargedesktop{
+            margin: 0 .5rem;
+          }
           a{
             display: flex;
             justify-content: center;
-            color: #474747;
+            color: #fff;
             text-decoration: none;
             outline: none;
+            height: 35px;
+            align-items: center;
+            width: 90px;
+            @include phone{
+              width: 90px;
+            }
+            @include tablet{
+              width: 100px;
+            }
+            @include desktop{
+              width: 150px;
+            }
+            @include largedesktop{
+              width: 200px;
+            }
+            @include biglargedesktop{
+              width: 150px;
+            }
             h4{
               font-weight: 300;
+              margin: 0;
             }
           }
           &.selected{
-            border-bottom: 2px solid #0f4583;
+            background: #0000003d;
+            
             a{
-              color: #0f4583;
+              color: #FFF;
               h4{
                 
-                font-weight: 500;
+                font-weight: 300;
               }
             }
           }
           &:hover{
-            background: #f7f7f7;
+            background: #0000003d;
+            a{
+              color: #fff;
+            }
           }
         }
       }
