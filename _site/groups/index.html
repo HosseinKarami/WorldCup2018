@@ -132,45 +132,46 @@
 
   <main class="main" role="main">
     <section class="viewbys">
-  <ul class="gotoGroup">
+  <ul id="group-name" class="gotoGroup">
     
     <li>
-      <a href="#" data-scroll="AGroup">گروه A</a>
+      <a class="list-group-item " href="#AGroup">گروه A</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="BGroup">گروه B</a>
+      <a class="list-group-item " href="#BGroup">گروه B</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="CGroup">گروه C</a>
+      <a class="list-group-item " href="#CGroup">گروه C</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="DGroup">گروه D</a>
+      <a class="list-group-item " href="#DGroup">گروه D</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="EGroup">گروه E</a>
+      <a class="list-group-item " href="#EGroup">گروه E</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="FGroup">گروه F</a>
+      <a class="list-group-item " href="#FGroup">گروه F</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="GGroup">گروه G</a>
+      <a class="list-group-item " href="#GGroup">گروه G</a>
     </li>
     
     <li>
-      <a href="#" data-scroll="HGroup">گروه H</a>
+      <a class="list-group-item " href="#HGroup">گروه H</a>
     </li>
     
   </ul>
 </section>
 <section class="all-matches">
+  <div data-spy="scroll" data-target="#group-name" data-offset="347" class="scrollspy-example">
   
-  <section class="group-list" data-anchor="AGroup">
+  <section class="group-list" id="AGroup">
     <div class="groups" id="AGroup" >
       <h4>گروه A</h4>
       <div class="head">
@@ -255,7 +256,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="BGroup">
+  <section class="group-list" id="BGroup">
     <div class="groups" id="BGroup" >
       <h4>گروه B</h4>
       <div class="head">
@@ -340,7 +341,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="CGroup">
+  <section class="group-list" id="CGroup">
     <div class="groups" id="CGroup" >
       <h4>گروه C</h4>
       <div class="head">
@@ -425,7 +426,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="DGroup">
+  <section class="group-list" id="DGroup">
     <div class="groups" id="DGroup" >
       <h4>گروه D</h4>
       <div class="head">
@@ -510,7 +511,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="EGroup">
+  <section class="group-list" id="EGroup">
     <div class="groups" id="EGroup" >
       <h4>گروه E</h4>
       <div class="head">
@@ -595,7 +596,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="FGroup">
+  <section class="group-list" id="FGroup">
     <div class="groups" id="FGroup" >
       <h4>گروه F</h4>
       <div class="head">
@@ -680,7 +681,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="GGroup">
+  <section class="group-list" id="GGroup">
     <div class="groups" id="GGroup" >
       <h4>گروه G</h4>
       <div class="head">
@@ -765,7 +766,7 @@
     </div>
   </section>
     
-  <section class="group-list" data-anchor="HGroup">
+  <section class="group-list" id="HGroup">
     <div class="groups" id="HGroup" >
       <h4>گروه H</h4>
       <div class="head">
@@ -850,6 +851,7 @@
     </div>
   </section>
     
+  </div>
 </section>
 
 

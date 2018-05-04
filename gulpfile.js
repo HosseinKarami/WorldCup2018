@@ -14,7 +14,7 @@ var gulp = require('gulp'),
     package = require('./package.json');
 
 var paths = {
-    scripts: ['node_modules/jquery/dist/jquery.min.js', 'src/js/util.js', 'src/js/tab.js', 'src/js/collapse.js', 'src/js/scripts.js']
+    scripts: ['node_modules/jquery/dist/jquery.min.js', 'src/js/util.js', 'src/js/tab.js', 'src/js/collapse.js', 'src/js/scrollspy.js', 'src/js/scripts.js']
 };
 var banner = [
   '/*!\n' +

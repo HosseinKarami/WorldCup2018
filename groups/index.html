@@ -2,17 +2,18 @@
 layout: default
 ---
 <section class="viewbys">
-  <ul class="gotoGroup">
+  <ul id="group-name" class="gotoGroup">
     {% for itms in site.data.groups %}
     <li>
-      <a href="#" data-scroll="{{itms.id}}">گروه {{itms.group}}</a>
+      <a class="list-group-item " href="#{{itms.id}}">گروه {{itms.group}}</a>
     </li>
     {% endfor %}
   </ul>
 </section>
 <section class="all-matches">
+  <div data-spy="scroll" data-target="#group-name" data-offset="347" class="scrollspy-example">
   {% for item in site.data.groups %}
-  <section class="group-list" data-anchor="{{item.id}}">
+  <section class="group-list" id="{{item.id}}">
     <div class="groups" id="{{item.id}}" >
       <h4>گروه {{ item.group }}</h4>
       <div class="head">
@@ -55,5 +56,6 @@ layout: default
     </div>
   </section>
     {% endfor %}
+  </div>
 </section>
 

@@ -73,7 +73,8 @@ body {
   -webkit-animation: fadeDown 1s ease;
           animation: fadeDown 1s ease;
   background: url(../img/darkbg.png) repeat;
-  background-color: #0f4583; }
+  background-color: #0f4583;
+  position: relative; }
 
 body, html {
   overflow-x: hidden; }
@@ -1000,7 +1001,7 @@ img {
         color: #494949; }
         .main .viewbys .gotoGroup li a:hover {
           color: #0f4583; }
-        .main .viewbys .gotoGroup li a.current {
+        .main .viewbys .gotoGroup li a.active {
           color: #0f4583;
           font-weight: 500; }
   .main .all-matches {
@@ -1043,8 +1044,10 @@ img {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         padding: 2rem 1rem; } }
+    .main .all-matches.fixed-padding {
+      padding: 8rem 1rem 2rem; }
     .main .all-matches .group-list {
-      padding: 3rem 0 7rem; }
+      padding: 3rem 0; }
     .main .all-matches .matches-selection {
       padding: 1rem; }
       .main .all-matches .matches-selection .nav {

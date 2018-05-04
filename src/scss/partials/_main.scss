@@ -122,7 +122,7 @@
           &:hover{
             color: #0f4583;
           }
-          &.current{
+          &.active{
             color: #0f4583;
             font-weight: 500;
           }
@@ -167,8 +167,11 @@
       border-bottom-right-radius: 5px;
       padding: 2rem 1rem;
     }
+    &.fixed-padding{
+      padding: 8rem 1rem 2rem;
+    }
     .group-list{
-      padding: 3rem 0 7rem;
+      padding: 3rem 0;
     }
     .matches-selection{
       padding: 1rem;
