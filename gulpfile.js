@@ -18,12 +18,12 @@ var paths = {
 };
 var banner = [
   '/*!\n' +
-  ' +----------------------------------------------------+\n' +
-  ' * <%= package.title %>                         *\n' +
+  ' +-------------------------------------+\n' +
+  ' * <%= package.title %>          *\n' +
   ' * @authors <%= package.author %> *\n' +
-  ' * <%= package.url %>                                  *\n' +
-  ' * Copyright ' + new Date().getFullYear() + '. <%= package.license %> licensed.                      *\n' +
-  ' +----------------------------------------------------+\n' +
+  ' * <%= package.url %>                   *\n' +
+  ' * Copyright ' + new Date().getFullYear() + '. <%= package.license %> licensed.       *\n' +
+  ' +-------------------------------------+\n' +
   ' */',
   '\n'
 ].join('');

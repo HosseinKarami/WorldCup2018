@@ -1,10 +1,10 @@
 /*!
- +----------------------------------------------------+
- * 2018 FIFA WORLD CUP Russia                         *
- * @authors Hossein Karami (@_Karamii), Kousha Nakhai *
- * http://fifawc.ir/                                  *
- * Copyright 2018. MIT licensed.                      *
- +----------------------------------------------------+
+ +-------------------------------------+
+ * 2018 FIFA WORLD CUP Russia          *
+ * @authors Hossein Karami (@_Karamii) *
+ * http://fifawc.ir/                   *
+ * Copyright 2018. MIT licensed.       *
+ +-------------------------------------+
  */
 .clear:after,.clear:before{content:" ";display:table}.clear{*zoom:1}.clear:after{clear:both}*{box-sizing:border-box;font-smoothing:antialiased;text-rendering:optimizeLegibility}@keyframes a{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}html{font-size:85%;direction:rtl}body{font:400 1em/1.6 IRANSans;color:#292929;transition:all .6s ease-out;animation:a 1s ease;background:url(../img/darkbg.png) repeat;background-color:#0f4583;position:relative}body,html{overflow-x:hidden}
 
