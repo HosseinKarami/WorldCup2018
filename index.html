@@ -4,14 +4,14 @@ layout: default
 <section class="all-matches">
   <nav class="matches-selection">
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link  " id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
+      <a class="nav-item nav-link  active show" id="FirstStage" data-toggle="tab" href="#nav-FirstStage" role="tab" aria-controls="nav-FirstStage"
         aria-selected="true">مرحله گروهی</a>
-      <a class="nav-item nav-link  active show" id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
+      <a class="nav-item nav-link  " id="SecondStage" data-toggle="tab" href="#nav-SecondStage" role="tab" aria-controls="nav-SecondStage"
         aria-selected="false">مرحله حذفی</a>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade  " id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
+    <div class="tab-pane fade  active show" id="nav-FirstStage" role="tabpanel" aria-labelledby="FirstStage">
       <div id="accordion">
          {% for item in site.data.matches %} {% if item.level != 'secondstage' %}
         <div class="card">
@@ -89,7 +89,7 @@ layout: default
          {% endif %} {% endfor %} 
       </div>
     </div>
-    <div class="tab-pane fade active show" id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
+    <div class="tab-pane fade " id="nav-SecondStage" role="tabpanel" aria-labelledby="SecondStage">
       <section class="viewby">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <a class="nav-item nav-link  " id="ListView" data-toggle="tab" href="#nav-ListView" role="tab" aria-controls="nav-ListView"
