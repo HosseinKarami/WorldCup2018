@@ -1144,11 +1144,11 @@ $(window).scroll(function () {
 $(window).scroll(function () {
   if ($(window).scrollTop() >= 150) {
     $('.viewbys').addClass('fixedView');
-    $('.all-matches').addClass('fixed-padding');
+    $('.all-matches.all-matches-group').addClass('fixed-padding');
   }
   else {
     $('.viewbys').removeClass('fixedView');
-    $('.all-matches').removeClass('fixed-padding');
+    $('.all-matches.all-matches-group').removeClass('fixed-padding');
   }
 });
 $('.gotoGroup li a')

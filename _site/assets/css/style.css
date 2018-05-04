@@ -1044,11 +1044,10 @@ img {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         padding: 2rem 1rem; } }
-    .main .all-matches.fixed-padding {
+    .main .all-matches.all-matches-group.fixed-padding {
       padding: 8rem 1rem 2rem; }
     .main .all-matches .group-list {
-      padding: 3rem 0;
-      height: 100%; }
+      padding: 3rem 0; }
     .main .all-matches .matches-selection {
       padding: 1rem; }
       .main .all-matches .matches-selection .nav {

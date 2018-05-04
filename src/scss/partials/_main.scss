@@ -130,6 +130,7 @@
       }
     }
   }
+  
   .all-matches{
     background: #FFF;
     width: 100%;
@@ -167,12 +168,13 @@
       border-bottom-right-radius: 5px;
       padding: 2rem 1rem;
     }
-    &.fixed-padding{
-      padding: 8rem 1rem 2rem;
+    &.all-matches-group{
+      &.fixed-padding{
+        padding: 8rem 1rem 2rem;
+      }
     }
     .group-list{
       padding: 3rem 0;
-      height: 100%;
     }
     .matches-selection{
       padding: 1rem;
