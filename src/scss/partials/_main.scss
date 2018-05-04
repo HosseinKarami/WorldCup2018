@@ -870,7 +870,7 @@
         width: 100%;
         cursor: pointer;
         border-radius: 4px;
-        font-weight: normal;
+        font-weight: 200;
         font-size: 1.2rem;
         transition: 100ms linear 0s;
         position: relative;
@@ -901,7 +901,7 @@
           justify-content: flex-start;
         }
         &:hover{
-          background-color: lighten(#0f4583 , 10%);
+          background-color: lighten(#dd4606 , 10%);
         }
         svg{
           fill: #FFF;

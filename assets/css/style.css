@@ -1720,7 +1720,7 @@ img {
         width: 100%;
         cursor: pointer;
         border-radius: 4px;
-        font-weight: normal;
+        font-weight: 200;
         font-size: 1.2rem;
         -webkit-transition: 100ms linear 0s;
         -o-transition: 100ms linear 0s;
@@ -1763,7 +1763,7 @@ img {
                 -ms-flex-pack: start;
                     justify-content: flex-start; } }
         .main .all-matches .link .details:hover {
-          background-color: #145db1; }
+          background-color: #f95f1d; }
         .main .all-matches .link .details svg {
           fill: #FFF;
           width: 18px;
