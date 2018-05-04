@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <section class="viewbys">
   <ul id="group-name" class="gotoGroup">
@@ -11,7 +11,7 @@ layout: default
   </ul>
 </section>
 <section class="all-matches">
-  <div data-spy="scroll" data-target="#group-name" data-offset="347">
+  <div >
   {% for item in site.data.groups %}
   <section class="group-list" id="{{item.id}}">
     <div class="groups" id="{{item.id}}" >

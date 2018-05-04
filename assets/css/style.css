@@ -1047,7 +1047,8 @@ img {
     .main .all-matches.fixed-padding {
       padding: 8rem 1rem 2rem; }
     .main .all-matches .group-list {
-      padding: 3rem 0; }
+      padding: 3rem 0;
+      height: 100%; }
     .main .all-matches .matches-selection {
       padding: 1rem; }
       .main .all-matches .matches-selection .nav {
