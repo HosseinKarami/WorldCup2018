@@ -1000,9 +1000,9 @@ img {
         outline: none;
         color: #494949; }
         .main .viewbys .gotoGroup li a:hover {
-          color: #0f4583; }
+          color: #dd4606; }
         .main .viewbys .gotoGroup li a.active {
-          color: #0f4583;
+          color: #dd4606;
           font-weight: 500; }
   .main .all-matches {
     background: #FFF;
