@@ -2,8 +2,8 @@
 title: FIFA World Cup Russia 2018 | جام جهانی روسیه ۲۰۱۸
 email: hi@fifawc.ir
 description: "آخرین نتایج مسابقات در جام جهانی روسیه ۲۰۱۸ را می توانید از این وبسایت دنبال کنید."
-baseurl: "https://hosseinkarami.com/WorldCup2018"
-url: "https://hosseinkarami.com/WorldCup2018"
+baseurl: "http://fifawc.ir"
+url: "http://fifawc.ir"
 
 # Build settings
 markdown: kramdown
