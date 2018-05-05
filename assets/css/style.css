@@ -2117,7 +2117,14 @@ footer .wrapper {
   border-top-left-radius: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     footer .wrapper {
       width: 100%; } }
@@ -2135,6 +2142,8 @@ footer .wrapper {
       width: 1200px;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px; } }
+  footer .wrapper .social {
+    padding-top: 1rem; }
   footer .wrapper p {
     color: #494949;
     display: -webkit-box;
@@ -2142,9 +2151,21 @@ footer .wrapper {
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    margin-top: .1rem;
+    font-size: .9rem; }
     footer .wrapper p svg {
       margin: 0 .5rem; }
+    footer .wrapper p a {
+      margin: 0 .3rem;
+      text-decoration: none;
+      color: #494949;
+      outline: none;
+      -webkit-transition: .1s linear 0s;
+      -o-transition: .1s linear 0s;
+      transition: .1s linear 0s; }
+      footer .wrapper p a:hover {
+        color: #dd4606; }
 
 /**
 *
@@ -2160,7 +2181,7 @@ footer .wrapper {
 --------------------------------------------------------------------------------------
 IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
 --------------------------------------------------------------------------------------
-This set of fonts are used in this project under the license: (.....)
+This set of fonts are used in this project under the license: (Z3FTA)
 --------------------------------------------------------------------------------------
 *	
 **/
