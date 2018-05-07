@@ -1625,6 +1625,8 @@ img {
           padding: .5rem .1rem;
           text-align: center;
           border-bottom: 1px solid #DCDCDC; }
+          .main .all-matches .groups .rows div:last-child {
+            font-weight: 500; }
           .main .all-matches .groups .rows div:first-child {
             text-align: right;
             position: relative; }
