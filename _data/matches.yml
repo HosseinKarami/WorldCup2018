@@ -305,7 +305,7 @@
     id: polsen
     label: polvssen
     dates: سه‌شنبه ۲۹ خرداد - ساعت ۱۹:۳۰
-    team1: هلند
+    team1: لهستان
     team2: سنگال
     flag1: assets/img/flags/pol.png
     flag2: assets/img/flags/sen.png
@@ -624,7 +624,7 @@
     id: polcol
     label: polvscol
     dates: یکشنبه ۳ تیر - ساعت ۲۲:۳۰
-    team1: هلند
+    team1: لهستان
     team2: کلمبیا
     flag1: assets/img/flags/pol.png
     flag2: assets/img/flags/col.png
@@ -884,7 +884,7 @@
     label: jpnvspol
     dates: پنجشنبه ۷ تیر - ساعت ۱۸:۳۰
     team1: ژاپن
-    team2: هلند
+    team2: لهستان
     flag1: assets/img/flags/jpn.png
     flag2: assets/img/flags/pol.png
     pts1: "zero"
