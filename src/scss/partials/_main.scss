@@ -1242,6 +1242,7 @@
           svg{
             width: 20px;
             margin-left: .5rem;
+            transition: .1s linear 0s;
             @include phone{
               margin-left: .5rem;
             }

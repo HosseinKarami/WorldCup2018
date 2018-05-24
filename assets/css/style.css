@@ -2091,7 +2091,10 @@ img {
               fill: #dd4606; }
         .main .all-matches .viewby .nav-tabs .nav-item svg {
           width: 20px;
-          margin-left: .5rem; }
+          margin-left: .5rem;
+          -webkit-transition: .1s linear 0s;
+          -o-transition: .1s linear 0s;
+          transition: .1s linear 0s; }
           @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
             .main .all-matches .viewby .nav-tabs .nav-item svg {
               margin-left: .5rem; } }
