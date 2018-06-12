@@ -53,7 +53,7 @@ gulp.task('css', function () {
     .pipe(cssnano())
     .pipe(rename({ suffix: '.min' }))
     .pipe(header(banner, { package : package }))
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/css'))
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}));
@@ -69,7 +69,7 @@ gulp.task('js',function(){
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(header(banner, { package : package }))
     .pipe(concat('scripts.min.js'))
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/js'))
     .pipe(gulp.dest('_site/assets/js'))
     .pipe(browserSync.reload({stream:true, once: true}));
