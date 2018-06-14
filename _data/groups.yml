@@ -7,7 +7,7 @@
     won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۳"
+    GF: "۵"
     GA: "۰"
     points: "۳"
   - team: مصر
@@ -35,7 +35,7 @@
     draw: "۰"
     lost: "۱"
     GF: "۰"
-    GA: "۳"
+    GA: "۵"
     points: "۰"
 
 - group: B
