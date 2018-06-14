@@ -55,7 +55,12 @@ layout: default
               <span>{{ itm.team1 }}</span>
             </div>
             <div class="points">
-              <span> {% if itm.pts1 == 'zero' %}{{ itm.time }} {% else %} {{ itm.pts1 }} - {{ itm.pts2 }} {% endif %} </span>
+               {% if itm.pts1 == 'zero' %}
+              <span>{{ itm.time }}</span>
+              {% else %}
+              <div class="timer" data-round1start="{{itm.round1start}}" data-round1total="{{itm.round1total}}" data-round2total="{{itm.round2total}}"></div>
+              <span>{{ itm.pts1 }} - {{ itm.pts2 }}</span>
+              {% endif %}
             </div>
             <div class="team-b">
               <span>{{ itm.team2 }}</span>

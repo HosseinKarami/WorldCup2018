@@ -3,6 +3,9 @@
   - group: گروه A
     id: rusksa
     label: rusvsksa
+    round1start: "2018-06-14T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۲۴ خرداد - ساعت ۱۹:۳۰
     team1: روسیه
     team2: عربستان
@@ -24,6 +27,9 @@
   - group: گروه A
     id: egyuru
     label: egyvauru
+    round1start: "2018-06-15T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۲۵ خرداد - ساعت ۱۶:۳۰
     team1: مصر
     team2: اروگوئه
@@ -43,6 +49,9 @@
   - group: گروه B
     id: marirn
     label: marvsirn
+    round1start: "2018-06-15T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۲۵ خرداد - ساعت ۱۹:۳۰
     team1: مراکش
     team2: ایران
@@ -62,6 +71,9 @@
   - group: گروه B
     id: poresp
     label: porvsesp
+    round1start: "2018-06-15T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۲۵ خرداد - ساعت ۲۲:۳۰
     team1: پرتغال
     team2: اسپانیا
@@ -84,6 +96,9 @@
   - group: گروه C
     id: fraaus
     label: fravsaus
+    round1start: "2018-06-16T10:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲۶ خرداد - ساعت ۱۴:۳۰
     team1: فرانسه
     team2: استرالیا
@@ -103,6 +118,9 @@
   - group: گروه D
     id: argisl
     label: argvsisl
+    round1start: "2018-06-16T01:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲۶ خرداد - ساعت ۱۷:۳۰
     team1: آرژانتین
     team2: ایسلند
@@ -122,6 +140,9 @@
   - group: گروه C
     id: perden
     label: pervsden
+    round1start: "2018-06-16T04:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲۶ خرداد - ساعت ۲۰:۳۰
     team1: پرو
     team2: دانمارک
@@ -141,6 +162,9 @@
   - group: گروه D
     id: cronga
     label: crovsnga
+    round1start: "2018-06-16T07:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲۶ خرداد - ساعت ۲۳:۳۰
     team1: کرواسی
     team2: نیجریه
@@ -164,6 +188,9 @@
   - group: گروه E
     id: crcsrb
     label: crcvasrb
+    round1start: "2018-06-17T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۲۷ خرداد - ساعت ۱۶:۳۰
     team1: کاستاریکا
     team2: صربستان
@@ -183,6 +210,9 @@
   - group: گروه F
     id: germex
     label: gervsmex
+    round1start: "2018-06-17T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۲۷ خرداد - ساعت ۱۹:۳۰
     team1: آلمان
     team2: مکزیک
@@ -202,6 +232,9 @@
   - group: گروه E
     id: brasui
     label: bravssui
+    round1start: "2018-06-17T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۲۷ خرداد - ساعت ۲۲:۳۰
     team1: برزیل
     team2: سوئیس
@@ -225,6 +258,9 @@
   - group: گروه F
     id: swekor
     label: swevskor
+    round1start: "2018-06-18T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۲۸ خرداد - ساعت ۱۶:۳۰
     team1: سوئد
     team2: کره‌جنوبی
@@ -244,6 +280,9 @@
   - group: گروه G
     id: belpan
     label: belvspan
+    round1start: "2018-06-18T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۲۸ خرداد - ساعت ۱۹:۳۰
     team1: بلژیک
     team2: پاناما
@@ -263,6 +302,9 @@
   - group: گروه G
     id: tuneng
     label: eunvseng
+    round1start: "2018-06-18T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۲۸ خرداد - ساعت ۲۲:۳۰
     team1: تونس
     team2: انگلیس
@@ -285,6 +327,9 @@
   - group: گروه H
     id: coljpn
     label: colvsjpn
+    round1start: "2018-06-19T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۲۹ خرداد - ساعت ۱۶:۳۰
     team1: کلمبیا
     team2: ژاپن
@@ -304,6 +349,9 @@
   - group: گروه H
     id: polsen
     label: polvssen
+    round1start: "2018-06-19T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۲۹ خرداد - ساعت ۱۹:۳۰
     team1: لهستان
     team2: سنگال
@@ -323,6 +371,9 @@
   - group: گروه A
     id: rusegy
     label: rusvsegy
+    round1start: "2018-06-19T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۲۹ خرداد - ساعت ۲۲:۳۰
     team1: روسیه
     team2: مصر
@@ -345,6 +396,9 @@
   - group: گروه B
     id: pormar
     label: porvsmar
+    round1start: "2018-06-20T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۳۰ خرداد - ساعت ۱۶:۳۰
     team1: پرتغال
     team2: مراکش
@@ -364,6 +418,9 @@
   - group: گروه A
     id: uruksa
     label: uruvsksa
+    round1start: "2018-06-20T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۳۰ خرداد - ساعت ۱۹:۳۰
     team1: اروگوئه
     team2: عربستان
@@ -383,6 +440,9 @@
   - group: گروه B
     id: irnesp
     label: irnvsesp
+    round1start: "2018-06-20T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۳۰ خرداد - ساعت ۲۲:۳۰
     team1: ایران
     team2: اسپانیا
@@ -405,6 +465,9 @@
   - group: گروه C
     id: denaus
     label: denvsaus
+    round1start: "2018-06-21T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۳۱ خرداد - ساعت ۱۶:۳۰
     team1: دانمارک
     team2: استرالیا
@@ -424,6 +487,9 @@
   - group: گروه C
     id: fraper
     label: fravsper
+    round1start: "2018-06-21T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۳۱ خرداد - ساعت ۱۹:۳۰
     team1: فرانسه
     team2: پرو
@@ -443,6 +509,9 @@
   - group: گروه D
     id: argcro
     label: argvscro
+    round1start: "2018-06-21T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۳۱ خرداد - ساعت ۲۲:۳۰
     team1: آرژانتین
     team2: کرواسی
@@ -465,6 +534,9 @@
   - group: گروه E
     id: bracrc
     label: bravscrc
+    round1start: "2018-06-22T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۱ تیر - ساعت ۱۶:۳۰
     team1: برزیل
     team2: کاستاریکا
@@ -484,6 +556,9 @@
   - group: گروه D
     id: ngaisl
     label: ngavsisl
+    round1start: "2018-06-22T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۱ تیر - ساعت ۱۹:۳۰
     team1: نیجریه
     team2: ایسلند
@@ -503,6 +578,9 @@
   - group: گروه E
     id: srbsui
     label: srbvssui
+    round1start: "2018-06-22T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۱ تیر - ساعت ۲۲:۳۰
     team1: صربستان
     team2: سوئیس
@@ -525,6 +603,9 @@
   - group: گروه G
     id: beltun
     label: belvstun
+    round1start: "2018-06-23T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲ تیر - ساعت ۱۶:۳۰
     team1: بلژیک
     team2: تونس
@@ -544,6 +625,9 @@
   - group: گروه F
     id: kormex
     label: korvsmex
+    round1start: "2018-06-23T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲ تیر - ساعت ۱۹:۳۰
     team1: کره‌جنوبی
     team2: مکزیک
@@ -563,6 +647,9 @@
   - group: گروه F
     id: gerswe
     label: gervsswe
+    round1start: "2018-06-23T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲ تیر - ساعت ۲۲:۳۰
     team1: آلمان
     team2: سوئد
@@ -585,6 +672,9 @@
   - group: گروه G
     id: engpan
     label: engvspan
+    round1start: "2018-06-24T12:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۳ تیر - ساعت ۱۶:۳۰
     team1: انگلیس
     team2: پاناما
@@ -604,6 +694,9 @@
   - group: گروه H
     id: jpnsen
     label: jpnvssen
+    round1start: "2018-06-24T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۳ تیر - ساعت ۱۹:۳۰
     team1: ژاپن
     team2: سنگال
@@ -623,6 +716,9 @@
   - group: گروه H
     id: polcol
     label: polvscol
+    round1start: "2018-06-24T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۳ تیر - ساعت ۲۲:۳۰
     team1: لهستان
     team2: کلمبیا
@@ -645,6 +741,9 @@
   - group: گروه A
     id: ururus
     label: uruvsrus
+    round1start: "2018-06-25T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۴ تیر - ساعت ۱۸:۳۰
     team1: اروگوئه
     team2: روسیه
@@ -664,6 +763,9 @@
   - group: گروه A
     id: ksaegy
     label: ksavsegy
+    round1start: "2018-06-25T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۴ تیر - ساعت ۱۸:۳۰
     team1: عربستان
     team2: مصر
@@ -683,6 +785,9 @@
   - group: گروه B
     id: irnpor
     label: irnvspor
+    round1start: "2018-06-25T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۴ تیر - ساعت ۲۲:۳۰
     team1: ایران
     team2: پرتغال
@@ -702,6 +807,9 @@
   - group: گروه B
     id: espmar
     label: espvsmar
+    round1start: "2018-06-25T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۴ تیر - ساعت ۲۲:۳۰
     team1: اسپانیا
     team2: مراکش
@@ -724,6 +832,9 @@
   - group: گروه C
     id: denfra
     label: denvsfra
+    round1start: "2018-06-26T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۵ تیر - ساعت ۱۸:۳۰
     team1: دانمارک
     team2: فرانسه
@@ -743,6 +854,9 @@
   - group: گروه C
     id: ausper
     label: ausvsper
+    round1start: "2018-06-26T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۵ تیر - ساعت ۱۸:۳۰
     team1: استرالیا
     team2: پرو
@@ -762,6 +876,9 @@
   - group: گروه C
     id: ngaarg
     label: ngavsarg
+    round1start: "2018-06-26T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۵ تیر - ساعت ۲۲:۳۰
     team1: نیجریه
     team2: آرژانتین
@@ -781,6 +898,9 @@
   - group: گروه C
     id: islcro
     label: islvscro
+    round1start: "2018-06-26T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۵ تیر - ساعت ۲۲:۳۰
     team1: ایسلند
     team2: کرواسی
@@ -803,6 +923,9 @@
   - group: گروه F
     id: mexswe
     label: mexvsswe
+    round1start: "2018-06-27T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۶ تیر - ساعت ۱۸:۳۰
     team1: مکزیک
     team2: سوئد
@@ -822,6 +945,9 @@
   - group: گروه F
     id: korger
     label: korvsger
+    round1start: "2018-06-27T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۶ تیر - ساعت ۱۸:۳۰
     team1: کره‌جنوبی
     team2: آلمان
@@ -841,6 +967,9 @@
   - group: گروه E
     id: srbbra
     label: srbvsbra
+    round1start: "2018-06-27T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۶ تیر - ساعت ۲۲:۳۰
     team1: صربستان
     team2: برزیل
@@ -860,6 +989,9 @@
   - group: گروه E
     id: suicrc
     label: suivscrc
+    round1start: "2018-06-27T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۶ تیر - ساعت ۲۲:۳۰
     team1: سوئیس
     team2: کاستاریکا
@@ -882,6 +1014,9 @@
   - group: گروه H
     id: jpnpol
     label: jpnvspol
+    round1start: "2018-06-28T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۷ تیر - ساعت ۱۸:۳۰
     team1: ژاپن
     team2: لهستان
@@ -901,6 +1036,9 @@
   - group: گروه H
     id: sencol
     label: senvscol
+    round1start: "2018-06-28T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۷ تیر - ساعت ۱۸:۳۰
     team1: سنگال
     team2: کلمبیا
@@ -920,6 +1058,9 @@
   - group: گروه G
     id: pantun
     label: panvstun
+    round1start: "2018-06-28T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۷ تیر - ساعت ۲۲:۳۰
     team1: پاناما
     team2: تونس
@@ -939,6 +1080,9 @@
   - group: گروه G
     id: engbel
     label: engvsbel
+    round1start: "2018-06-28T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: پنجشنبه ۷ تیر - ساعت ۲۲:۳۰
     team1: انگلیس
     team2: بلژیک
@@ -962,6 +1106,9 @@
   - group: يک هشتم نهایی
     id: 1c2d
     label: 1cvs2d
+    round1start: "2018-06-30T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۹ تیر - ساعت ۱۸:۳۰
     team1: "[1C]"
     team2: "[2D]"
@@ -981,6 +1128,9 @@
   - group: يک هشتم نهایی
     id: 1a2b
     label: 1avs2b
+    round1start: "2018-06-30T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۹ تیر - ساعت ۲۲:۳۰
     team1: "[1A]"
     team2: "[2B]"
@@ -1004,6 +1154,9 @@
   - group: يک هشتم نهایی
     id: 1b2a
     label: 1bvs2a
+    round1start: "2018-07-01T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۱۰ تیر - ساعت ۱۸:۳۰
     team1: "[1B]"
     team2: "[2A]"
@@ -1023,6 +1176,9 @@
   - group: يک هشتم نهایی
     id: 1d2c
     label: 1dvs2c
+    round1start: "2018-07-01T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۱۰ تیر - ساعت ۲۲:۳۰
     team1: "[1D]"
     team2: "[2C]"
@@ -1046,6 +1202,9 @@
   - group: يک هشتم نهایی
     id: 1e2f
     label: 1evs2f
+    round1start: "2018-07-02T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۱۱ تیر - ساعت ۱۸:۳۰
     team1: "[1E]"
     team2: "[2F]"
@@ -1065,6 +1224,9 @@
   - group: يک هشتم نهایی
     id: 1g2h
     label: 1gvs2h
+    round1start: "2018-07-02T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: دوشنبه ۱۱ تیر - ساعت ۲۲:۳۰
     team1: "[1G]"
     team2: "[2H]"
@@ -1088,6 +1250,9 @@
   - group: يک هشتم نهایی
     id: 1f2e
     label: 1fvs2e
+    round1start: "2018-07-03T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۱۲ تیر - ساعت ۱۸:۳۰
     team1: "[1F]"
     team2: "[2E]"
@@ -1107,6 +1272,9 @@
   - group: يک هشتم نهایی
     id: 1h2g
     label: 1hvs2g
+    round1start: "2018-07-03T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۱۲ تیر - ساعت ۲۲:۳۰
     team1: "[1H]"
     team2: "[2G]"
@@ -1130,6 +1298,9 @@
   - group: يک چهارم نهایی
     id: W49W50
     label: W49vsW50
+    round1start: "2018-07-06T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۱۵ تیر - ساعت ۱۸:۳۰
     team1: "[W49]"
     team2: "[W50]"
@@ -1149,6 +1320,9 @@
   - group: يک چهارم نهایی
     id: W53W54
     label: W53vsW54
+    round1start: "2018-07-06T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: جمعه ۱۵ تیر - ساعت ۲۲:۳۰
     team1: "[W53]"
     team2: "[W54]"
@@ -1172,6 +1346,9 @@
   - group: يک چهارم نهایی
     id: W55W56
     label: W55vsW56
+    round1start: "2018-07-07T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۱۶ تیر - ساعت ۱۸:۳۰
     team1: "[W55]"
     team2: "[W56]"
@@ -1191,6 +1368,9 @@
   - group: يک چهارم نهایی
     id: W51W52
     label: W51vsW52
+    round1start: "2018-07-07T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۱۶ تیر - ساعت ۲۲:۳۰
     team1: "[W51]"
     team2: "[W52]"
@@ -1214,6 +1394,9 @@
   - group: نیمه‌نهایی
     id: W57W58
     label: W57vsW58
+    round1start: "2018-07-10T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰
     team1: "[W57]"
     team2: "[W58]"
@@ -1237,6 +1420,9 @@
   - group: نیمه‌نهایی
     id: W59W60
     label: W59vsW60
+    round1start: "2018-07-11T06:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: چهارشنبه ۲۰ تیر - ساعت ۲۲:۳۰
     team1: "[W59]"
     team2: "[W60]"
@@ -1260,6 +1446,9 @@
   - group: رده‌بندی
     id: L61L62
     label: L61vsL62
+    round1start: "2018-07-14T02:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: شنبه ۲۳ تیر - ساعت ۱۸:۳۰
     team1: "[L61]"
     team2: "[L62]"
@@ -1283,6 +1472,9 @@
   - group: فینال
     id: W61W62
     label: W61vsW62
+    round1start: "2018-07-15T03:00:00.000Z"
+    round1total: "45"
+    round2total: "45"
     dates: یکشنبه ۲۴ تیر - ساعت ۱۹:۳۰
     team1: "[W61]"
     team2: "[W62]"

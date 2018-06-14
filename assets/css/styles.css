@@ -2396,3 +2396,14 @@ tbody.collapse.show {
 
 .tab-content > .active {
   display: block; }
+
+.timer {
+  position: absolute;
+  top: -33px;
+  left: 0;
+  right: 0;
+  font-family: IRANSans;
+  font-size: 12px !important;
+  color: #607d8b;
+  font-weight: 500;
+  direction: ltr; }
