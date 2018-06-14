@@ -45,7 +45,7 @@ gulp.task('jekyll-rebuild', ['build'], function () {
 });
 
 gulp.task('css', function () {
-    return gulp.src('src/scss/styles.scss')
+    return gulp.src('src/scss/fwc.scss')
     //.pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 4 version'))
@@ -68,7 +68,7 @@ gulp.task('js',function(){
     .pipe(uglify())
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(header(banner, { package : package }))
-    .pipe(concat('bundle.js'))
+    .pipe(concat('bundle.min.js'))
     //.pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/js'))
     .pipe(gulp.dest('_site/assets/js'))
