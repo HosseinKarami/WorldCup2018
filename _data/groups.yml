@@ -3,22 +3,13 @@
   teams:
   - team: روسیه
     flag: assets/img/flags/rus.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
+    GF: "۳"
     GA: "۰"
-    points: "۰"
-  - team: عربستان
-    flag: assets/img/flags/ksa.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    points: "۰"
+    points: "۳"
   - team: مصر
     flag: assets/img/flags/egy.png
     played: "۰"
@@ -36,6 +27,15 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    points: "۰"
+  - team: عربستان
+    flag: assets/img/flags/ksa.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۰"
+    GA: "۳"
     points: "۰"
 
 - group: B
