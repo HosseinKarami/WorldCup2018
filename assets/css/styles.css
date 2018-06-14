@@ -76,9 +76,6 @@ body {
   background-color: #0f4583;
   position: relative; }
 
-body, html {
-  overflow-x: hidden; }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
