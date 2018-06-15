@@ -14,6 +14,7 @@ layout: default
       <h4>باخت</h4>
       <h4>گل زده</h4>
       <h4>گل خورده</h4>
+      <h4>تفاضل گل</h4>
       <h4>امتياز</h4>
     </div>
     {% for team in item.teams %}
@@ -28,6 +29,7 @@ layout: default
       <div>{{ team.lost }}</div>
       <div>{{ team.GF }}</div>
       <div>{{ team.GA }}</div>
+      <div>{{ team.DG }}</div>
       <div>{{ team.points }}</div>
     </article>
       {% endfor %}

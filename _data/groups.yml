@@ -9,6 +9,7 @@
     lost: "۰"
     GF: "۵"
     GA: "۰"
+    DG: "۵"
     points: "۳"
   - team: مصر
     flag: assets/img/flags/egy.png
@@ -18,6 +19,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: اروگوئه
     flag: assets/img/flags/uru.png
@@ -27,6 +29,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: عربستان
     flag: assets/img/flags/ksa.png
@@ -36,6 +39,7 @@
     lost: "۱"
     GF: "۰"
     GA: "۵"
+    DG: "۵-"
     points: "۰"
 
 - group: B
@@ -49,6 +53,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
@@ -58,6 +63,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: مراکش
     flag: assets/img/flags/mar.png
@@ -67,6 +73,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: ایران
     flag: assets/img/flags/irn.png
@@ -76,6 +83,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: C
@@ -89,6 +97,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: استرالیا
     flag: assets/img/flags/aus.png
@@ -98,6 +107,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: پرو
     flag: assets/img/flags/per.png
@@ -107,6 +117,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: دانمارک
     flag: assets/img/flags/den.png
@@ -116,6 +127,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: D
@@ -129,6 +141,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: ایسلند
     flag: assets/img/flags/isl.png
@@ -138,6 +151,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: کرواسی
     flag: assets/img/flags/cro.png
@@ -147,6 +161,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: نیجریه
     flag: assets/img/flags/nga.png
@@ -156,6 +171,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: E
@@ -169,6 +185,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: سوئیس
     flag: assets/img/flags/sui.png
@@ -178,6 +195,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: کاستاریکا
     flag: assets/img/flags/crc.png
@@ -187,6 +205,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: صربستان
     flag: assets/img/flags/srb.png
@@ -196,6 +215,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: F
@@ -209,6 +229,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: مکزیک
     flag: assets/img/flags/mex.png
@@ -218,6 +239,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: سوئد
     flag: assets/img/flags/swe.png
@@ -227,6 +249,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: کره‌جنوبی
     flag: assets/img/flags/kor.png
@@ -236,6 +259,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: G
@@ -249,6 +273,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: پاناما
     flag: assets/img/flags/pan.png
@@ -258,6 +283,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: تونس
     flag: assets/img/flags/tun.png
@@ -267,6 +293,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: انگلیس
     flag: assets/img/flags/eng.png
@@ -276,6 +303,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
 
 - group: H
@@ -289,6 +317,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: سنگال
     flag: assets/img/flags/sen.png
@@ -298,6 +327,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: کلمبیا
     flag: assets/img/flags/col.png
@@ -307,6 +337,7 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
   - team: ژاپن
     flag: assets/img/flags/jpn.png
@@ -316,4 +347,5 @@
     lost: "۰"
     GF: "۰"
     GA: "۰"
+    DG: "۰"
     points: "۰"
