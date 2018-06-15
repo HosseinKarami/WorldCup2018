@@ -71,7 +71,7 @@
   - group: گروه B
     id: poresp
     label: porvsesp
-    round1start: "2018-06-15T06:00:00.000Z"
+    round1start: "Jun 15 2018 22:31:00 GMT+0430"
     round1total: "45"
     round2total: "45"
     dates: جمعه ۲۵ خرداد - ساعت ۲۲:۳۰
@@ -79,8 +79,8 @@
     team2: اسپانیا
     flag1: assets/img/flags/por.png
     flag2: assets/img/flags/esp.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
