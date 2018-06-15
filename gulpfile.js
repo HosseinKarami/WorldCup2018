@@ -68,7 +68,7 @@ gulp.task('js',function(){
     .pipe(uglify())
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(header(banner, { package : package }))
-    .pipe(concat('bundle.min.js'))
+    .pipe(concat('fwc.min.js'))
     //.pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/js'))
     .pipe(gulp.dest('_site/assets/js'))

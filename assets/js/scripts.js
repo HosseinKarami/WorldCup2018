@@ -1242,13 +1242,21 @@ iterateTimers();
 
 function scrollRecentGame() {
   var hasScrolled = false;
+  var getNext = false;
   $(".card-header.air").each(function (i, ele) {
     if (hasScrolled) return;
     var round1start = new Date($(ele).attr("data-round1start"));
-    if (round1start < new Date())
+
+    if (getNext) {
+      hasScrolled = true;
       $('html, body').animate({
         scrollTop: $(ele).offset().top - 150
       }, 2000);
+    }
+
+    if (round1start < new Date()) {
+      getNext = true;
+    }
   });
 }
 scrollRecentGame();
