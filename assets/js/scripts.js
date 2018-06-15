@@ -1212,7 +1212,7 @@ function timerGo(ele) {
       leftMins = Math.floor((now - round2start) / (1000 * 60));
       leftMins += 45;
       if (leftMins > 90) {
-        leftMins = "90' (+" + (leftMins - 45) + ")";
+        leftMins = "90' (+" + (leftMins - 90) + ")";
       } else {
         leftMins = leftMins + "'";
       }
