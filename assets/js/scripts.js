@@ -1185,7 +1185,6 @@ $('body').scrollspy({ target: '#group-name', offset: 170 });
 
 
 
-
 function timerGo(ele) {
   var round1start = new Date($(ele).attr("data-round1start"));
   var round1total = parseInt($(ele).attr("data-round1total"));
@@ -1217,6 +1216,16 @@ function timerGo(ele) {
         leftMins = leftMins + "'";
       }
     }
+
+
+    var persianNumbers = ['۰', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    var chars = leftMins.split('');
+    for (var i = 0; i < chars.length; i++) {
+      if (/\d/.test(chars[i])) {
+        chars[i] = persianNumbers[chars[i]];
+      }
+    }
+    leftMins = chars.join('');
 
     $(ele).html(leftMins);
   } else {
