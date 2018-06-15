@@ -1266,3 +1266,32 @@ function scrollRecentGame() {
   });
 }
 scrollRecentGame();
+
+hashIt = function (str) {
+  var FNV1_32A_INIT = 0x811c9dc5,
+    hval = FNV1_32A_INIT;
+
+  for (var i = 0; i < str.length; ++i) {
+    hval ^= str.charCodeAt(i);
+    hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
+  }
+  var hash = hval >>> 0;
+
+  return hash.toString(32);
+}
+
+var latestCrc = -1;
+
+function refreshDetector() {
+  $.get("/?" + new Date().getTime(), function (data) {
+    var newCrc = hashIt(data);
+    if (latestCrc !== -1 && latestCrc !== newCrc) {
+      // Updated, need refresh
+      window.location = "/?" + new Date().getTime()
+    } else {
+      latestCrc = newCrc;
+    }
+  });
+}
+setInterval(refreshDetector, 30 * 1000);
+refreshDetector();
