@@ -151,6 +151,7 @@ var latestCrc = -1;
 
 function refreshDetector() {
   $.get("/?" + new Date().getTime(), function (data) {
+    if (!data || data.indexOf("hosseinkarami.com") === -1) return;
     var newCrc = hashIt(data);
     if (latestCrc !== -1 && latestCrc !== newCrc) {
       // Updated, need refresh
