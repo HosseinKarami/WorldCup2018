@@ -17,9 +17,9 @@
     won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
-    GA: "۱"
-    DG: "۰"
+    GF: "۱"
+    GA: "۰"
+    DG: "۱"
     points: "۳"
   - team: مصر
     flag: assets/img/flags/egy.png
