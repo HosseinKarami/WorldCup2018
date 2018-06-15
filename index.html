@@ -17,7 +17,7 @@ layout: default
         <div class="card">
           <h4 class="matches-date">{{ item.date }}</h4>
            {% for itm in item.groups %}
-          <div class="card-header" id="{{itm.label}}">
+          <div class="card-header air" data-round1start="{{itm.round1start}}" id="{{itm.label}}">
             <div class="row btn btn-link collapsed" data-toggle="collapse" data-target="#{{ itm.id }}" aria-expanded="false" aria-controls="{{ itm.id }}">
               <article class="info">
                 <h5>{{itm.dates}}</h5>
