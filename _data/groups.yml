@@ -11,25 +11,25 @@
     GA: "۰"
     DG: "۵"
     points: "۳"
-  - team: مصر
-    flag: assets/img/flags/egy.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
   - team: اروگوئه
     flag: assets/img/flags/uru.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
     GF: "۰"
-    GA: "۰"
+    GA: "۱"
     DG: "۰"
+    points: "۳"
+  - team: مصر
+    flag: assets/img/flags/egy.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۰"
+    GA: "۱"
+    DG: "۱-"
     points: "۰"
   - team: عربستان
     flag: assets/img/flags/ksa.png
