@@ -1254,7 +1254,7 @@ function scrollRecentGame() {
   $(".card-header.air").each(function (i, ele) {
     if (hasScrolled) return;
     var round1start = new Date($(ele).attr("data-round1start"));
-    round1start.setTime(round1start.getTime() + (100 * 60 * 1000));
+    round1start.setTime(round1start.getTime() + (130 * 60 * 1000));
 
 
     if (round1start > new Date()) {
