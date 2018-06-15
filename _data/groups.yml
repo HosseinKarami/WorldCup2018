@@ -57,24 +57,24 @@
     points: "۳"
   - team: پرتغال
     flag: assets/img/flags/por.png
-    played: "۰"
+    played: "۱"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
+    GF: "۳"
+    GA: "۳"
     DG: "۰"
-    points: "۰"
+    points: "۱"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
-    played: "۰"
+    played: "۱"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
+    GF: "۳"
+    GA: "۳"
     DG: "۰"
-    points: "۰"
+    points: "۱"
   - team: مراکش
     flag: assets/img/flags/mar.png
     played: "۱"
