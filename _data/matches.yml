@@ -148,8 +148,8 @@
     team2: دانمارک
     flag1: assets/img/flags/per.png
     flag2: assets/img/flags/den.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
