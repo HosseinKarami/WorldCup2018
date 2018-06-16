@@ -1229,7 +1229,9 @@ function timerGo(ele) {
 
     $(ele).html(leftMins);
   } else {
-    if (round1end < now && now < round2end) {
+    if (now < round1start) {
+      $(ele).html("در انتظار شروع بازی");
+    } else if (round1end < now && now < round2end) {
       $(ele).html("پایان نیمه اول");
     } else if (round2end < now) {
       $(ele).html("نتیجه نهایی");
