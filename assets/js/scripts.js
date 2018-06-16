@@ -1218,7 +1218,7 @@ function timerGo(ele) {
     }
 
 
-    var persianNumbers = ['۰', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    var persianNumbers = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
     var chars = leftMins.split('');
     for (var i = 0; i < chars.length; i++) {
       if (/\d/.test(chars[i])) {
