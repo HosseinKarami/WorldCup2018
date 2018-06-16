@@ -126,8 +126,8 @@
     team2: ایسلند
     flag1: assets/img/flags/arg.png
     flag2: assets/img/flags/isl.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
