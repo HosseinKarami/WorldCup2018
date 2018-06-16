@@ -135,24 +135,24 @@
   teams:
   - team: آرژانتین
     flag: assets/img/flags/arg.png
-    played: "۰"
+    played: "۱"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
+    GF: "۱"
+    GA: "۱"
     DG: "۰"
-    points: "۰"
+    points: "۱"
   - team: ایسلند
     flag: assets/img/flags/isl.png
-    played: "۰"
+    played: "۱"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
+    GF: "۱"
+    GA: "۱"
     DG: "۰"
-    points: "۰"
+    points: "۱"
   - team: کرواسی
     flag: assets/img/flags/cro.png
     played: "۰"
