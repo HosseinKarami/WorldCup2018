@@ -133,6 +133,16 @@
 - group: D
   id: DGroup
   teams:
+  - team: کرواسی
+    flag: assets/img/flags/cro.png
+    played: "۱"
+    won: "۱"
+    draw: "۰"
+    lost: "۰"
+    GF: "۲"
+    GA: "۰"
+    DG: "۲"
+    points: "۳"
   - team: آرژانتین
     flag: assets/img/flags/arg.png
     played: "۱"
@@ -153,25 +163,15 @@
     GA: "۱"
     DG: "۰"
     points: "۱"
-  - team: کرواسی
-    flag: assets/img/flags/cro.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
   - team: نیجریه
     flag: assets/img/flags/nga.png
-    played: "۰"
+    played: "۱"
     won: "۰"
     draw: "۰"
-    lost: "۰"
+    lost: "۱"
     GF: "۰"
-    GA: "۰"
-    DG: "۰"
+    GA: "۲"
+    DG: "۲-"
     points: "۰"
 
 - group: E
