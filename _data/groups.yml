@@ -109,16 +109,6 @@
     GA: "۰"
     DG: "۱"
     points: "۳"
-  - team: پرو
-    flag: assets/img/flags/per.png
-    played: "۱"
-    won: "۰"
-    draw: "۰"
-    lost: "۱"
-    GF: "۰"
-    GA: "۱"
-    DG: "۱-"
-    points: "۰"
   - team: استرالیا
     flag: assets/img/flags/aus.png
     played: "۱"
@@ -127,6 +117,16 @@
     lost: "۱"
     GF: "۱"
     GA: "۲"
+    DG: "۱-"
+    points: "۰"
+  - team: پرو
+    flag: assets/img/flags/per.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۰"
+    GA: "۱"
     DG: "۱-"
     points: "۰"
 
