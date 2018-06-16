@@ -99,25 +99,25 @@
     GA: "۱"
     DG: "۱"
     points: "۳"
-  - team: پرو
-    flag: assets/img/flags/per.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
   - team: دانمارک
     flag: assets/img/flags/den.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
+    GF: "۱"
     GA: "۰"
-    DG: "۰"
+    DG: "۱"
+    points: "۳"
+  - team: پرو
+    flag: assets/img/flags/per.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۰"
+    GA: "۱"
+    DG: "۱-"
     points: "۰"
   - team: استرالیا
     flag: assets/img/flags/aus.png
