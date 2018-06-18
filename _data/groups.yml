@@ -275,25 +275,25 @@
     GA: "۰"
     DG: "۳"
     points: "۳"
-  - team: تونس
-    flag: assets/img/flags/tun.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
   - team: انگلیس
     flag: assets/img/flags/eng.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
+    GF: "۲"
+    GA: "۱"
+    DG: "۱"
+    points: "۳"
+  - team: تونس
+    flag: assets/img/flags/tun.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۱"
+    GA: "۲"
+    DG: "۱-"
     points: "۰"
   - team: پاناما
     flag: assets/img/flags/pan.png
