@@ -310,8 +310,8 @@
     team2: انگلیس
     flag1: assets/img/flags/tun.png
     flag2: assets/img/flags/eng.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
