@@ -266,8 +266,8 @@
     team2: کره‌جنوبی
     flag1: assets/img/flags/swe.png
     flag2: assets/img/flags/kor.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
