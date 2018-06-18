@@ -233,26 +233,26 @@
     points: "۳"
   - team: سوئد
     flag: assets/img/flags/swe.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
+    GF: "۱"
     GA: "۰"
-    DG: "۰"
+    DG: "۱"
+    points: "۳"
+  - team: آلمان
+    flag: assets/img/flags/ger.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۰"
+    GA: "۱"
+    DG: "۱-"
     points: "۰"
   - team: کره‌جنوبی
     flag: assets/img/flags/kor.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
-  - team: آلمان
-    flag: assets/img/flags/ger.png
     played: "۱"
     won: "۰"
     draw: "۰"
