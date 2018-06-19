@@ -3,14 +3,14 @@
   teams:
   - team: روسیه
     flag: assets/img/flags/rus.png
-    played: "۱"
-    won: "۱"
+    played: "۲"
+    won: "۲"
     draw: "۰"
     lost: "۰"
-    GF: "۵"
-    GA: "۰"
-    DG: "۵"
-    points: "۳"
+    GF: "۸"
+    GA: "۱"
+    DG: "۷"
+    points: "۶"
   - team: اروگوئه
     flag: assets/img/flags/uru.png
     played: "۱"
@@ -23,13 +23,13 @@
     points: "۳"
   - team: مصر
     flag: assets/img/flags/egy.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۰"
-    lost: "۱"
-    GF: "۰"
-    GA: "۱"
-    DG: "۱-"
+    lost: "۲"
+    GF: "۱"
+    GA: "۴"
+    DG: "۳-"
     points: "۰"
   - team: عربستان
     flag: assets/img/flags/ksa.png
@@ -319,25 +319,25 @@
     GA: "۱"
     DG: "۱"
     points: "۳"
-  - team: لهستان
-    flag: assets/img/flags/pol.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
   - team: سنگال
     flag: assets/img/flags/sen.png
-    played: "۰"
-    won: "۰"
+    played: "۱"
+    won: "۱"
     draw: "۰"
     lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
+    GF: "۲"
+    GA: "۱"
+    DG: "۱"
+    points: "۳"
+  - team: لهستان
+    flag: assets/img/flags/pol.png
+    played: "۱"
+    won: "۰"
+    draw: "۰"
+    lost: "۱"
+    GF: "۱"
+    GA: "۲"
+    DG: "۱-"
     points: "۰"
   - team: کلمبیا
     flag: assets/img/flags/col.png
