@@ -309,6 +309,16 @@
 - group: H
   id: HGroup
   teams:
+  - team: ژاپن
+    flag: assets/img/flags/jpn.png
+    played: "۱"
+    won: "۱"
+    draw: "۰"
+    lost: "۰"
+    GF: "۲"
+    GA: "۱"
+    DG: "۱"
+    points: "۳"
   - team: لهستان
     flag: assets/img/flags/pol.png
     played: "۰"
@@ -331,21 +341,11 @@
     points: "۰"
   - team: کلمبیا
     flag: assets/img/flags/col.png
-    played: "۰"
+    played: "۱"
     won: "۰"
     draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
-    points: "۰"
-  - team: ژاپن
-    flag: assets/img/flags/jpn.png
-    played: "۰"
-    won: "۰"
-    draw: "۰"
-    lost: "۰"
-    GF: "۰"
-    GA: "۰"
-    DG: "۰"
+    lost: "۱"
+    GF: "۱"
+    GA: "۲"
+    DG: "۱-"
     points: "۰"
