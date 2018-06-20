@@ -45,6 +45,16 @@
 - group: B
   id: BGroup
   teams:
+  - team: پرتغال
+    flag: assets/img/flags/por.png
+    played: "۲"
+    won: "۱"
+    draw: "۱"
+    lost: "۰"
+    GF: "۴"
+    GA: "۳"
+    DG: "۱"
+    points: "۴"
   - team: ایران
     flag: assets/img/flags/irn.png
     played: "۱"
@@ -55,16 +65,6 @@
     GA: "۰"
     DG: "۱"
     points: "۳"
-  - team: پرتغال
-    flag: assets/img/flags/por.png
-    played: "۱"
-    won: "۰"
-    draw: "۱"
-    lost: "۰"
-    GF: "۳"
-    GA: "۳"
-    DG: "۰"
-    points: "۱"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
     played: "۱"
@@ -77,13 +77,13 @@
     points: "۱"
   - team: مراکش
     flag: assets/img/flags/mar.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۰"
-    lost: "۱"
+    lost: "۲"
     GF: "۰"
-    GA: "۱"
-    DG: "۱-"
+    GA: "۲"
+    DG: "۲-"
     points: "۰"
 
 - group: C
