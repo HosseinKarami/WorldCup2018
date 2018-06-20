@@ -404,8 +404,8 @@
     team2: مراکش
     flag1: assets/img/flags/por.png
     flag2: assets/img/flags/mar.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
