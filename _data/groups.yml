@@ -13,14 +13,14 @@
     points: "۶"
   - team: اروگوئه
     flag: assets/img/flags/uru.png
-    played: "۱"
-    won: "۱"
+    played: "۲"
+    won: "۲"
     draw: "۰"
     lost: "۰"
-    GF: "۱"
+    GF: "۲"
     GA: "۰"
-    DG: "۱"
-    points: "۳"
+    DG: "۲"
+    points: "۶"
   - team: مصر
     flag: assets/img/flags/egy.png
     played: "۲"
@@ -33,13 +33,13 @@
     points: "۰"
   - team: عربستان
     flag: assets/img/flags/ksa.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۰"
-    lost: "۱"
+    lost: "۲"
     GF: "۰"
-    GA: "۵"
-    DG: "۵-"
+    GA: "۶"
+    DG: "۶-"
     points: "۰"
 
 - group: B
