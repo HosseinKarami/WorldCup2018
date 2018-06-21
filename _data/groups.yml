@@ -89,6 +89,16 @@
 - group: C
   id: CGroup
   teams:
+  - team: دانمارک
+    flag: assets/img/flags/den.png
+    played: "۲"
+    won: "۱"
+    draw: "۱"
+    lost: "۰"
+    GF: "۲"
+    GA: "۱"
+    DG: "۱"
+    points: "۴"
   - team: فرانسه
     flag: assets/img/flags/fra.png
     played: "۱"
@@ -99,26 +109,16 @@
     GA: "۱"
     DG: "۱"
     points: "۳"
-  - team: دانمارک
-    flag: assets/img/flags/den.png
-    played: "۱"
-    won: "۱"
-    draw: "۰"
-    lost: "۰"
-    GF: "۱"
-    GA: "۰"
-    DG: "۱"
-    points: "۳"
   - team: استرالیا
     flag: assets/img/flags/aus.png
-    played: "۱"
+    played: "۲"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۱"
-    GF: "۱"
-    GA: "۲"
+    GF: "۲"
+    GA: "۳"
     DG: "۱-"
-    points: "۰"
+    points: "۱"
   - team: پرو
     flag: assets/img/flags/per.png
     played: "۱"
