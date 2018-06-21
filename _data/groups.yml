@@ -55,26 +55,26 @@
     GA: "۳"
     DG: "۱"
     points: "۴"
-  - team: ایران
-    flag: assets/img/flags/irn.png
-    played: "۱"
-    won: "۱"
-    draw: "۰"
-    lost: "۰"
-    GF: "۱"
-    GA: "۰"
-    DG: "۱"
-    points: "۳"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
-    played: "۱"
-    won: "۰"
+    played: "۲"
+    won: "۱"
     draw: "۱"
     lost: "۰"
-    GF: "۳"
+    GF: "۴"
     GA: "۳"
+    DG: "۱"
+    points: "۴"
+  - team: ایران
+    flag: assets/img/flags/irn.png
+    played: "۲"
+    won: "۱"
+    draw: "۰"
+    lost: "۱"
+    GF: "۱"
+    GA: "۱"
     DG: "۰"
-    points: "۱"
+    points: "۳"
   - team: مراکش
     flag: assets/img/flags/mar.png
     played: "۲"
