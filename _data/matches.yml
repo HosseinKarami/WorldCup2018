@@ -542,8 +542,8 @@
     team2: کاستاریکا
     flag1: assets/img/flags/bra.png
     flag2: assets/img/flags/crc.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
