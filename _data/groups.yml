@@ -143,15 +143,25 @@
     GA: "۰"
     DG: "۵"
     points: "۶"
+  - team: نیجریه
+    flag: assets/img/flags/nga.png
+    played: "۲"
+    won: "۱"
+    draw: "۰"
+    lost: "۱"
+    GF: "۲"
+    GA: "۲"
+    DG: "۰"
+    points: "۳"
   - team: ایسلند
     flag: assets/img/flags/isl.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۱"
-    lost: "۰"
+    lost: "۱"
     GF: "۱"
-    GA: "۱"
-    DG: "۰"
+    GA: "۳"
+    DG: "۲-"
     points: "۱"
   - team: آرژانتین
     flag: assets/img/flags/arg.png
@@ -163,16 +173,6 @@
     GA: "۴"
     DG: "۳-"
     points: "۱"
-  - team: نیجریه
-    flag: assets/img/flags/nga.png
-    played: "۱"
-    won: "۰"
-    draw: "۰"
-    lost: "۱"
-    GF: "۰"
-    GA: "۲"
-    DG: "۲-"
-    points: "۰"
 
 - group: E
   id: EGroup
