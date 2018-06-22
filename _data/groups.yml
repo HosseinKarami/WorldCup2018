@@ -177,6 +177,16 @@
 - group: E
   id: EGroup
   teams:
+  - team: برزیل
+    flag: assets/img/flags/bra.png
+    played: "۲"
+    won: "۱"
+    draw: "۱"
+    lost: "۰"
+    GF: "۳"
+    GA: "۱"
+    DG: "۲"
+    points: "۴"
   - team: صربستان
     flag: assets/img/flags/srb.png
     played: "۱"
@@ -187,16 +197,6 @@
     GA: "۰"
     DG: "۱"
     points: "۳"
-  - team: برزیل
-    flag: assets/img/flags/bra.png
-    played: "۱"
-    won: "۰"
-    draw: "۱"
-    lost: "۰"
-    GF: "۱"
-    GA: "۱"
-    DG: "۰"
-    points: "۱"
   - team: سوئیس
     flag: assets/img/flags/sui.png
     played: "۱"
@@ -209,13 +209,13 @@
     points: "۱"
   - team: کاستاریکا
     flag: assets/img/flags/crc.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۰"
-    lost: "۱"
+    lost: "۲"
     GF: "۰"
-    GA: "۱"
-    DG: "۱-"
+    GA: "۳"
+    DG: "۳-"
     points: "۰"
 
 - group: F
