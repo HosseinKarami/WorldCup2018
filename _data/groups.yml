@@ -223,14 +223,14 @@
   teams:
   - team: مکزیک
     flag: assets/img/flags/mex.png
-    played: "۱"
-    won: "۱"
+    played: "۲"
+    won: "۲"
     draw: "۰"
     lost: "۰"
-    GF: "۱"
-    GA: "۰"
-    DG: "۱"
-    points: "۳"
+    GF: "۳"
+    GA: "۱"
+    DG: "۲"
+    points: "۶"
   - team: سوئد
     flag: assets/img/flags/swe.png
     played: "۱"
@@ -253,13 +253,13 @@
     points: "۰"
   - team: کره‌جنوبی
     flag: assets/img/flags/kor.png
-    played: "۱"
+    played: "۲"
     won: "۰"
     draw: "۰"
-    lost: "۱"
-    GF: "۰"
-    GA: "۱"
-    DG: "۱-"
+    lost: "۲"
+    GF: "۱"
+    GA: "۳"
+    DG: "۲-"
     points: "۰"
 
 - group: G
