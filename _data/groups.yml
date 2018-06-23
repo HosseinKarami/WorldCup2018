@@ -267,14 +267,14 @@
   teams:
   - team: بلژیک
     flag: assets/img/flags/bel.png
-    played: "۱"
-    won: "۱"
+    played: "۲"
+    won: "۲"
     draw: "۰"
     lost: "۰"
-    GF: "۳"
-    GA: "۰"
-    DG: "۳"
-    points: "۳"
+    GF: "۸"
+    GA: "۲"
+    DG: "۵"
+    points: "۶"
   - team: انگلیس
     flag: assets/img/flags/eng.png
     played: "۱"
@@ -285,16 +285,6 @@
     GA: "۱"
     DG: "۱"
     points: "۳"
-  - team: تونس
-    flag: assets/img/flags/tun.png
-    played: "۱"
-    won: "۰"
-    draw: "۰"
-    lost: "۱"
-    GF: "۱"
-    GA: "۲"
-    DG: "۱-"
-    points: "۰"
   - team: پاناما
     flag: assets/img/flags/pan.png
     played: "۱"
@@ -304,6 +294,16 @@
     GF: "۰"
     GA: "۳"
     DG: "۳-"
+    points: "۰"
+  - team: تونس
+    flag: assets/img/flags/tun.png
+    played: "۲"
+    won: "۰"
+    draw: "۰"
+    lost: "۲"
+    GF: "۳"
+    GA: "۷"
+    DG: "۴-"
     points: "۰"
 
 - group: H
