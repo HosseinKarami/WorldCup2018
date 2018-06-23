@@ -187,26 +187,26 @@
     GA: "۱"
     DG: "۲"
     points: "۴"
-  - team: صربستان
-    flag: assets/img/flags/srb.png
-    played: "۱"
-    won: "۱"
-    draw: "۰"
-    lost: "۰"
-    GF: "۱"
-    GA: "۰"
-    DG: "۱"
-    points: "۳"
-  - team: سوئیس
+    - team: سوئیس
     flag: assets/img/flags/sui.png
-    played: "۱"
-    won: "۰"
+    played: "۲"
+    won: "۱"
     draw: "۱"
     lost: "۰"
-    GF: "۱"
-    GA: "۱"
+    GF: "۳"
+    GA: "۲"
+    DG: "۱"
+    points: "۴"
+  - team: صربستان
+    flag: assets/img/flags/srb.png
+    played: "۲"
+    won: "۱"
+    draw: "۰"
+    lost: "۱"
+    GF: "۲"
+    GA: "۲"
     DG: "۰"
-    points: "۱"
+    points: "۳"
   - team: کاستاریکا
     flag: assets/img/flags/crc.png
     played: "۲"
