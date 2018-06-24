@@ -724,11 +724,11 @@
     team2: کلمبیا
     flag1: assets/img/flags/pol.png
     flag2: assets/img/flags/col.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۳"
     goal1: ""
-    goal2: ""
-    yellow1: "0"
+    goal2: "یری مینا ('۴۰),  رادامل فالکائو ('۷۰), خوان کودرادو ('۷۵)"
+    yellow1: " بدنارک ('۶۱)"
     yellow2: "0"
     red1: "0"
     red2: "0"
