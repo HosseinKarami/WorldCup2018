@@ -702,12 +702,12 @@
     team2: سنگال
     flag1: assets/img/flags/jpn.png
     flag2: assets/img/flags/sen.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    pts1: "۲"
+    pts2: "۲"
+    goal1: " تاکاشی اینوی ('۳۴),  کیسوکه هوندا ('۷۸)"
+    goal2: "سادیو مانه ('۱۲), موسی ویگ ('۷۱)"
+    yellow1: " تاکاشی اینوی ('۶۸)"
+    yellow2: "ام بایه نیانگ ('۵۹), یوسف سابالی ('۹۰), اندوی ('۹۱)"
     red1: "0"
     red2: "0"
     time: "۱۹:۳۰"

@@ -311,24 +311,24 @@
   teams:
   - team: ژاپن
     flag: assets/img/flags/jpn.png
-    played: "۱"
+    played: "۲"
     won: "۱"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۲"
-    GA: "۱"
+    GF: "۴"
+    GA: "۳"
     DG: "۱"
-    points: "۳"
+    points: "۴"
   - team: سنگال
     flag: assets/img/flags/sen.png
     played: "۱"
     won: "۱"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
-    GF: "۲"
-    GA: "۱"
+    GF: "۴"
+    GA: "۳"
     DG: "۱"
-    points: "۳"
+    points: "۴"
   - team: لهستان
     flag: assets/img/flags/pol.png
     played: "۱"
