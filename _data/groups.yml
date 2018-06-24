@@ -265,6 +265,16 @@
 - group: G
   id: GGroup
   teams:
+  - team: انگلیس
+    flag: assets/img/flags/eng.png
+    played: "۲"
+    won: "۲"
+    draw: "۰"
+    lost: "۰"
+    GF: "۸"
+    GA: "۲"
+    DG: "۶"
+    points: "۶"
   - team: بلژیک
     flag: assets/img/flags/bel.png
     played: "۲"
@@ -275,26 +285,6 @@
     GA: "۲"
     DG: "۵"
     points: "۶"
-  - team: انگلیس
-    flag: assets/img/flags/eng.png
-    played: "۱"
-    won: "۱"
-    draw: "۰"
-    lost: "۰"
-    GF: "۲"
-    GA: "۱"
-    DG: "۱"
-    points: "۳"
-  - team: پاناما
-    flag: assets/img/flags/pan.png
-    played: "۱"
-    won: "۰"
-    draw: "۰"
-    lost: "۱"
-    GF: "۰"
-    GA: "۳"
-    DG: "۳-"
-    points: "۰"
   - team: تونس
     flag: assets/img/flags/tun.png
     played: "۲"
@@ -304,6 +294,16 @@
     GF: "۳"
     GA: "۷"
     DG: "۴-"
+    points: "۰"
+  - team: پاناما
+    flag: assets/img/flags/pan.png
+    played: "۲"
+    won: "۰"
+    draw: "۰"
+    lost: "۲"
+    GF: "۱"
+    GA: "۹"
+    DG: "۸-"
     points: "۰"
 
 - group: H
