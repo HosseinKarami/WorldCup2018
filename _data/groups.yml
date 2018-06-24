@@ -329,23 +329,23 @@
     GA: "۳"
     DG: "۱"
     points: "۴"
-  - team: لهستان
-    flag: assets/img/flags/pol.png
-    played: "۱"
-    won: "۰"
-    draw: "۰"
-    lost: "۱"
-    GF: "۱"
-    GA: "۲"
-    DG: "۱-"
-    points: "۰"
   - team: کلمبیا
     flag: assets/img/flags/col.png
-    played: "۱"
-    won: "۰"
+    played: "۲"
+    won: "۱"
     draw: "۰"
     lost: "۱"
-    GF: "۱"
+    GF: "۴"
     GA: "۲"
-    DG: "۱-"
+    DG: "۲"
+    points: "۳"
+  - team: لهستان
+    flag: assets/img/flags/pol.png
+    played: "۲"
+    won: "۰"
+    draw: "۰"
+    lost: "۲"
+    GF: "۱"
+    GA: "۵"
+    DG: "۴-"
     points: "۰"
