@@ -680,12 +680,12 @@
     team2: پاناما
     flag1: assets/img/flags/eng.png
     flag2: assets/img/flags/pan.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    pts1: "۶"
+    pts2: "۱"
+    goal1: "جان استونز ('۴۰ ,'۸), هری کین (P '۲۲, P '۴۶, '۶۲), جسی لینگارد ('۳۶)"
+    goal2: "بالوی ('۷۸)"
+    yellow1: "روبن لوفتوس چیک ('۲۴)"
+    yellow2: " کوپر ('۱۰), اسکوبار ('۴۴), موریلو ('۷۲)"
     red1: "0"
     red2: "0"
     time: "۱۶:۳۰"
