@@ -655,13 +655,13 @@
     team2: سوئد
     flag1: assets/img/flags/ger.png
     flag2: assets/img/flags/swe.png
-    pts1: "۰"
-    pts2: "۰"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
-    red1: "0"
+    pts1: "۲"
+    pts2: "۱"
+    goal1: "مارکو رویس ('۴۸), تونی کروس ('۹۵)"
+    goal2: " اولا تویوونن ('۳۲)"
+    yellow1: "ژروم بواتنگ ('۸۲ ,'۷۱)"
+    yellow2: "آلبین اکدال ('۵۲), سباستین لارسن ('۹۷)"
+    red1: "ژروم بواتنگ ('۸۲)"
     red2: "0"
     time: "۲۲:۳۰"
     stadium: فیشت
