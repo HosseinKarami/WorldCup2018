@@ -15,7 +15,7 @@
     flag: assets/img/flags/rus.png
     played: "۳"
     won: "۲"
-    draw: ""
+    draw: "۰"
     lost: "۱"
     GF: "۸"
     GA: "۴"
