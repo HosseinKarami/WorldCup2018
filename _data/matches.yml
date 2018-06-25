@@ -728,7 +728,7 @@
     pts2: "۳"
     goal1: ""
     goal2: "یری مینا ('۴۰),  رادامل فالکائو ('۷۰), خوان کودرادو ('۷۵)"
-    yellow1: " بدنارک ('۶۱)"
+    yellow1: " بدنارک ('۰۶۱)"
     yellow2: "0"
     red1: "0"
     red2: "0"
@@ -749,8 +749,8 @@
     team2: روسیه
     flag1: assets/img/flags/uru.png
     flag2: assets/img/flags/rus.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
@@ -771,8 +771,8 @@
     team2: مصر
     flag1: assets/img/flags/ksa.png
     flag2: assets/img/flags/egy.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۰"
     goal1: ""
     goal2: ""
     yellow1: "0"
