@@ -47,44 +47,44 @@
   teams:
   - team: پرتغال
     flag: assets/img/flags/por.png
-    played: "۲"
+    played: "۳"
     won: "۱"
-    draw: "۱"
+    draw: "۲"
     lost: "۰"
-    GF: "۴"
-    GA: "۳"
+    GF: "۵"
+    GA: "۴"
     DG: "۱"
-    points: "۴"
+    points: "۵"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
-    played: "۲"
+    played: "۳"
     won: "۱"
-    draw: "۱"
+    draw: "۲"
     lost: "۰"
-    GF: "۴"
-    GA: "۳"
+    GF: "۶"
+    GA: "۵"
     DG: "۱"
-    points: "۴"
+    points: "۵"
   - team: ایران
     flag: assets/img/flags/irn.png
-    played: "۲"
+    played: "۳"
     won: "۱"
-    draw: "۰"
+    draw: "۱"
     lost: "۱"
-    GF: "۱"
-    GA: "۱"
+    GF: "۲"
+    GA: "۲"
     DG: "۰"
-    points: "۳"
+    points: "۴"
   - team: مراکش
     flag: assets/img/flags/mar.png
-    played: "۲"
+    played: "۳"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۲"
-    GF: "۰"
-    GA: "۲"
+    GF: "۲"
+    GA: "۴"
     DG: "۲-"
-    points: "۰"
+    points: "۱"
 
 - group: C
   id: CGroup
