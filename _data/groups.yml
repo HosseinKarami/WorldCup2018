@@ -45,16 +45,6 @@
 - group: B
   id: BGroup
   teams:
-  - team: پرتغال
-    flag: assets/img/flags/por.png
-    played: "۳"
-    won: "۱"
-    draw: "۲"
-    lost: "۰"
-    GF: "۵"
-    GA: "۴"
-    DG: "۱"
-    points: "۵"
   - team: اسپانیا
     flag: assets/img/flags/esp.png
     played: "۳"
@@ -63,6 +53,16 @@
     lost: "۰"
     GF: "۶"
     GA: "۵"
+    DG: "۱"
+    points: "۵"
+  - team: پرتغال
+    flag: assets/img/flags/por.png
+    played: "۳"
+    won: "۱"
+    draw: "۲"
+    lost: "۰"
+    GF: "۵"
+    GA: "۴"
     DG: "۱"
     points: "۵"
   - team: ایران
