@@ -21,26 +21,26 @@
     GA: "۴"
     DG: "۴"
     points: "۶"
+  - team: عربستان
+    flag: assets/img/flags/ksa.png
+    played: "۳"
+    won: "۱"
+    draw: "۰"
+    lost: "۲"
+    GF: "۲"
+    GA: "۷"
+    DG: "۵-"
+    points: "۳"
   - team: مصر
     flag: assets/img/flags/egy.png
     played: "۳"
     won: "۰"
-    draw: "۱"
-    lost: "۲"
+    draw: "۰"
+    lost: "۳"
     GF: "۲"
-    GA: "۵"
-    DG: "۳-"
-    points: "۱"
-  - team: عربستان
-    flag: assets/img/flags/ksa.png
-    played: "۳"
-    won: "۰"
-    draw: "۱"
-    lost: "۲"
-    GF: "۱"
-    GA: "۷"
-    DG: "۶-"
-    points: "۱"
+    GA: "۶"
+    DG: "۴-"
+    points: "۰"
 
 - group: B
   id: BGroup
