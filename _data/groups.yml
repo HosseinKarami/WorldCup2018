@@ -1,46 +1,46 @@
 - group: A
   id: AGroup
   teams:
-  - team: روسیه
-    flag: assets/img/flags/rus.png
-    played: "۲"
-    won: "۲"
-    draw: "۰"
-    lost: "۰"
-    GF: "۸"
-    GA: "۱"
-    DG: "۷"
-    points: "۶"
   - team: اروگوئه
     flag: assets/img/flags/uru.png
-    played: "۲"
-    won: "۲"
+    played: "۳"
+    won: "۳"
     draw: "۰"
     lost: "۰"
-    GF: "۲"
+    GF: "۵"
     GA: "۰"
-    DG: "۲"
+    DG: "۵"
+    points: "۹"
+  - team: روسیه
+    flag: assets/img/flags/rus.png
+    played: "۳"
+    won: "۲"
+    draw: ""
+    lost: "۱"
+    GF: "۸"
+    GA: "۴"
+    DG: "۴"
     points: "۶"
   - team: مصر
     flag: assets/img/flags/egy.png
-    played: "۲"
+    played: "۳"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۲"
-    GF: "۱"
-    GA: "۴"
+    GF: "۲"
+    GA: "۵"
     DG: "۳-"
-    points: "۰"
+    points: "۱"
   - team: عربستان
     flag: assets/img/flags/ksa.png
-    played: "۲"
+    played: "۳"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۲"
-    GF: "۰"
-    GA: "۶"
+    GF: "۱"
+    GA: "۷"
     DG: "۶-"
-    points: "۰"
+    points: "۱"
 
 - group: B
   id: BGroup
