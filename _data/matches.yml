@@ -794,7 +794,7 @@
     flag1: assets/img/flags/irn.png
     flag2: assets/img/flags/por.png
     pts1: "۰"
-    pts2: "۰"
+    pts2: "۱"
     goal1: ""
     goal2: ""
     yellow1: "0"
@@ -815,8 +815,8 @@
     team2: مراکش
     flag1: assets/img/flags/esp.png
     flag2: assets/img/flags/mar.png
-    pts1: "۰"
-    pts2: "۰"
+    pts1: "۱"
+    pts2: "۱"
     goal1: ""
     goal2: ""
     yellow1: "0"
