@@ -1111,9 +1111,9 @@
     round2total: "45"
     dates: شنبه ۹ تیر - ساعت ۱۸:۳۰
     team1: "فرانسه"
-    team2: "[2D]"
+    team2: "آرژانتین"
     flag1: assets/img/flags/fra.png
-    flag2: assets/img/flags/blank.png
+    flag2: assets/img/flags/arg.png
     pts1: "zero"
     pts2: "zero"
     goal1: ""
@@ -1180,7 +1180,7 @@
     round1total: "45"
     round2total: "45"
     dates: یکشنبه ۱۰ تیر - ساعت ۲۲:۳۰
-    team1: "[1D]"
+    team1: "کرواسی"
     team2: "دانمارک"
     flag1: assets/img/flags/blank.png
     flag2: assets/img/flags/den.png
