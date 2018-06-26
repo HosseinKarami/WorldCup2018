@@ -135,42 +135,42 @@
   teams:
   - team: کرواسی
     flag: assets/img/flags/cro.png
-    played: "۲"
-    won: "۲"
+    played: "۳"
+    won: "۳"
     draw: "۰"
     lost: "۰"
-    GF: "۵"
-    GA: "۰"
-    DG: "۵"
-    points: "۶"
+    GF: "۷"
+    GA: "۱"
+    DG: "۶"
+    points: "۹"
+  - team: آرژانتین
+    flag: assets/img/flags/arg.png
+    played: "۳"
+    won: "۱"
+    draw: "۱"
+    lost: "۱"
+    GF: "۳"
+    GA: "۵"
+    DG: "۲-"
+    points: "۴"
   - team: نیجریه
     flag: assets/img/flags/nga.png
-    played: "۲"
+    played: "۳"
     won: "۱"
     draw: "۰"
-    lost: "۱"
-    GF: "۲"
-    GA: "۲"
-    DG: "۰"
+    lost: "۲"
+    GF: "۳"
+    GA: "۴"
+    DG: "۱-"
     points: "۳"
   - team: ایسلند
     flag: assets/img/flags/isl.png
-    played: "۲"
+    played: "۳"
     won: "۰"
     draw: "۱"
-    lost: "۱"
-    GF: "۱"
-    GA: "۳"
-    DG: "۲-"
-    points: "۱"
-  - team: آرژانتین
-    flag: assets/img/flags/arg.png
-    played: "۲"
-    won: "۰"
-    draw: "۱"
-    lost: "۱"
-    GF: "۱"
-    GA: "۴"
+    lost: "۲"
+    GF: "۲"
+    GA: "۵"
     DG: "۳-"
     points: "۱"
 
