@@ -91,44 +91,44 @@
   teams:
   - team: فرانسه
     flag: assets/img/flags/fra.png
-    played: "۲"
+    played: "۳"
     won: "۲"
-    draw: "۰"
+    draw: "۱"
     lost: "۰"
     GF: "۳"
     GA: "۱"
     DG: "۲"
-    points: "۶"
+    points: "۷"
   - team: دانمارک
     flag: assets/img/flags/den.png
-    played: "۲"
+    played: "۳"
     won: "۱"
-    draw: "۱"
+    draw: "۲"
     lost: "۰"
     GF: "۲"
     GA: "۱"
     DG: "۱"
-    points: "۴"
-  - team: استرالیا
-    flag: assets/img/flags/aus.png
-    played: "۲"
-    won: "۰"
-    draw: "۱"
-    lost: "۱"
-    GF: "۲"
-    GA: "۳"
-    DG: "۱-"
-    points: "۱"
+    points: "۵"
   - team: پرو
     flag: assets/img/flags/per.png
-    played: "۲"
-    won: "۰"
+    played: "۳"
+    won: "۱"
     draw: "۰"
     lost: "۲"
-    GF: "۰"
+    GF: "۲"
     GA: "۲"
-    DG: "۲-"
-    points: "۰"
+    DG: "۰"
+    points: "۳"
+  - team: استرالیا
+    flag: assets/img/flags/aus.png
+    played: "۳"
+    won: "۰"
+    draw: "۱"
+    lost: "۲"
+    GF: "۲"
+    GA: "۵"
+    DG: "۳-"
+    points: "۱"
 
 - group: D
   id: DGroup
