@@ -179,44 +179,44 @@
   teams:
   - team: برزیل
     flag: assets/img/flags/bra.png
-    played: "۲"
-    won: "۱"
+    played: "۳"
+    won: "۲"
     draw: "۱"
     lost: "۰"
-    GF: "۳"
+    GF: "۵"
     GA: "۱"
-    DG: "۲"
-    points: "۴"
+    DG: "۴"
+    points: "۷"
   - team: سوئیس
     flag: assets/img/flags/sui.png
-    played: "۲"
+    played: "۳"
     won: "۱"
-    draw: "۱"
+    draw: "۲"
     lost: "۰"
-    GF: "۳"
-    GA: "۲"
+    GF: "۵"
+    GA: "۴"
     DG: "۱"
-    points: "۴"
+    points: "۵"
   - team: صربستان
     flag: assets/img/flags/srb.png
-    played: "۲"
+    played: "۳"
     won: "۱"
     draw: "۰"
-    lost: "۱"
+    lost: "۲"
     GF: "۲"
-    GA: "۲"
-    DG: "۰"
+    GA: "۴"
+    DG: "۲-"
     points: "۳"
   - team: کاستاریکا
     flag: assets/img/flags/crc.png
-    played: "۲"
+    played: "۳"
     won: "۰"
-    draw: "۰"
+    draw: "۱"
     lost: "۲"
-    GF: "۰"
-    GA: "۳"
+    GF: "۲"
+    GA: "۵"
     DG: "۳-"
-    points: "۰"
+    points: "۱"
 
 - group: F
   id: FGroup
