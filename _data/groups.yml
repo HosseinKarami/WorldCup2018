@@ -221,46 +221,46 @@
 - group: F
   id: FGroup
   teams:
-  - team: مکزیک
-    flag: assets/img/flags/mex.png
-    played: "۲"
-    won: "۲"
-    draw: "۰"
-    lost: "۰"
-    GF: "۳"
-    GA: "۱"
-    DG: "۲"
-    points: "۶"
-  - team: آلمان
-    flag: assets/img/flags/ger.png
-    played: "۲"
-    won: "۱"
-    draw: "۰"
-    lost: "۱"
-    GF: "۲"
-    GA: "۲"
-    DG: "۰"
-    points: "۳"
   - team: سوئد
     flag: assets/img/flags/swe.png
-    played: "۲"
-    won: "۱"
+    played: "۳"
+    won: "۲"
     draw: "۰"
     lost: "۱"
-    GF: "۲"
+    GF: "۵"
     GA: "۲"
-    DG: "۰"
-    points: "۳"
+    DG: "۳"
+    points: "۶"
+  - team: مکزیک
+    flag: assets/img/flags/mex.png
+    played: "۳"
+    won: "۲"
+    draw: "۰"
+    lost: "۱"
+    GF: "۳"
+    GA: "۴"
+    DG: "۱-"
+    points: "۶"
   - team: کره‌جنوبی
     flag: assets/img/flags/kor.png
-    played: "۲"
-    won: "۰"
+    played: "۳"
+    won: "۱"
     draw: "۰"
     lost: "۲"
-    GF: "۱"
+    GF: "۳"
     GA: "۳"
+    DG: "۰"
+    points: "۳"
+  - team: آلمان
+    flag: assets/img/flags/ger.png
+    played: "۳"
+    won: "۱"
+    draw: "۰"
+    lost: "۲"
+    GF: "۲"
+    GA: "۴"
     DG: "۲-"
-    points: "۰"
+    points: "۳"
 
 - group: G
   id: GGroup
