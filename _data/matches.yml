@@ -931,12 +931,12 @@
     team2: سوئد
     flag1: assets/img/flags/mex.png
     flag2: assets/img/flags/swe.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۳"
     goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    goal2: " آگوستینسن ('۵۰), آندریاس گرانکوئیست (P '۶۲),  ادسون آلوارز (OG '۷۴)"
+    yellow1: "گایاردو ('۱), هکتور مورنو ('۶۱),  میگوئل لایون ('۸۶)"
+    yellow2: "سباستین لارسن ('۲۶), مایکل لاستیگ ('۸۸)"
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
@@ -953,11 +953,11 @@
     team2: آلمان
     flag1: assets/img/flags/kor.png
     flag2: assets/img/flags/ger.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
+    pts1: "۲"
+    pts2: "۰"
+    goal1: "کیم یونگ وون ('۹۴), سون هیونگ مین ('۹۶)"
     goal2: ""
-    yellow1: "0"
+    yellow1: " جونگ وو یونگ ('۹), لی جائه سونگ ('۲۳), مون سئون مین ('۴۸), سون هیونگ مین ('۶۵)"
     yellow2: "0"
     red1: "0"
     red2: "0"
