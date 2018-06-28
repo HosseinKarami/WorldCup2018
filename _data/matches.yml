@@ -1228,9 +1228,9 @@
     round1total: "45"
     round2total: "45"
     dates: دوشنبه ۱۱ تیر - ساعت ۲۲:۳۰
-    team1: "[1G]"
+    team1: "بلژیک"
     team2: "ژاپن"
-    flag1: assets/img/flags/blank.png
+    flag1: assets/img/flags/bel.png
     flag2: assets/img/flags/jpn.png
     pts1: "zero"
     pts2: "zero"
@@ -1277,9 +1277,9 @@
     round2total: "45"
     dates: سه‌شنبه ۱۲ تیر - ساعت ۲۲:۳۰
     team1: "کلمبیا"
-    team2: "[2G]"
+    team2: "انگلیس"
     flag1: assets/img/flags/col.png
-    flag2: assets/img/flags/blank.png
+    flag2: assets/img/flags/eng.png
     pts1: "zero"
     pts2: "zero"
     goal1: ""
