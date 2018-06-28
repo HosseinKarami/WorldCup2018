@@ -1022,11 +1022,11 @@
     team2: لهستان
     flag1: assets/img/flags/jpn.png
     flag2: assets/img/flags/pol.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۱"
     goal1: ""
-    goal2: ""
-    yellow1: "0"
+    goal2: " بدنارک ('۶۰)"
+    yellow1: " تومواکی ماکینو ('۶۶)"
     yellow2: "0"
     red1: "0"
     red2: "0"
@@ -1044,12 +1044,12 @@
     team2: کلمبیا
     flag1: assets/img/flags/sen.png
     flag2: assets/img/flags/col.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۱"
     goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    goal2: " یری مینا ('۷۴)"
+    yellow1: "ام بایه نیانگ ('۵۱)"
+    yellow2: " موجیکا ('۴۵)"
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
