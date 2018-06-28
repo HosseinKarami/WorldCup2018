@@ -309,43 +309,43 @@
 - group: H
   id: HGroup
   teams:
+  - team: کلمبیا
+    flag: assets/img/flags/col.png
+    played: "۳"
+    won: "۲"
+    draw: "۰"
+    lost: "۱"
+    GF: "۵"
+    GA: "۲"
+    DG: "۳"
+    points: "۶"
   - team: ژاپن
     flag: assets/img/flags/jpn.png
-    played: "۲"
+    played: "۳"
     won: "۱"
     draw: "۱"
-    lost: "۰"
+    lost: "۱"
     GF: "۴"
-    GA: "۳"
-    DG: "۱"
+    GA: "۴"
+    DG: "۰"
     points: "۴"
   - team: سنگال
     flag: assets/img/flags/sen.png
-    played: "۲"
+    played: "۳"
     won: "۱"
     draw: "۱"
-    lost: "۰"
-    GF: "۴"
-    GA: "۳"
-    DG: "۱"
-    points: "۴"
-  - team: کلمبیا
-    flag: assets/img/flags/col.png
-    played: "۲"
-    won: "۱"
-    draw: "۰"
     lost: "۱"
     GF: "۴"
-    GA: "۲"
-    DG: "۲"
-    points: "۳"
+    GA: "۴"
+    DG: "۰"
+    points: "۴"
   - team: لهستان
     flag: assets/img/flags/pol.png
-    played: "۲"
-    won: "۰"
+    played: "۳"
+    won: "۱"
     draw: "۰"
     lost: "۲"
-    GF: "۱"
+    GF: "۲"
     GA: "۵"
-    DG: "۴-"
-    points: "۰"
+    DG: "۳-"
+    points: "۳"
