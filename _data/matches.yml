@@ -1162,8 +1162,8 @@
     team2: "روسیه"
     flag1: assets/img/flags/esp.png
     flag2: assets/img/flags/rus.png
-    pts1: "(۳) ۱"
-    pts2: "۱ (۴)"
+    pts1: "۱ (۳)"
+    pts2: "(۴) ۱"
     goal1: "سرگئی ایگناشویچ (OG '۱۲)"
     goal2: " آرتم زیوبا (P '۴۲)"
     yellow1: " جرارد پیکه ('۴۰)"
@@ -1372,9 +1372,9 @@
     round1total: "45"
     round2total: "45"
     dates: شنبه ۱۶ تیر - ساعت ۲۲:۳۰
-    team1: "[W51]"
+    team1: "روسیه"
     team2: "[W52]"
-    flag1: assets/img/flags/blank.png
+    flag1: assets/img/flags/rus.png
     flag2: assets/img/flags/blank.png
     pts1: "zero"
     pts2: "zero"
