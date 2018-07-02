@@ -1184,12 +1184,12 @@
     team2: "دانمارک"
     flag1: assets/img/flags/cro.png
     flag2: assets/img/flags/den.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
+    pts1: "۱ (۳)"
+    pts2: "(۲) ۱"
+    goal1: "ماریو مانژوکیچ ('۴)"
+    goal2: "یورگنسن ('۱)"
     yellow1: "0"
-    yellow2: "0"
+    yellow2: " یورگنسن ('۱۱۵)"
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
@@ -1373,9 +1373,9 @@
     round2total: "45"
     dates: شنبه ۱۶ تیر - ساعت ۲۲:۳۰
     team1: "روسیه"
-    team2: "[W52]"
+    team2: "کرواسی"
     flag1: assets/img/flags/rus.png
-    flag2: assets/img/flags/blank.png
+    flag2: assets/img/flags/cro.png
     pts1: "zero"
     pts2: "zero"
     goal1: ""
