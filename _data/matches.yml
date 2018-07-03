@@ -1232,12 +1232,12 @@
     team2: "ژاپن"
     flag1: assets/img/flags/bel.png
     flag2: assets/img/flags/jpn.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
+    pts1: "۳"
+    pts2: "۲"
+    goal1: "یان فرتونگن ('۶۴),  مروانه فلینی ('۷۴), ناصر چادلی ('۹۴)"
+    goal2: " گنکی هاراگوچی ('۴۸), تاکاشی اینوی ('۵۲)"
     yellow1: "0"
-    yellow2: "0"
+    yellow2: "شیباساکی ('۴۰)"
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
