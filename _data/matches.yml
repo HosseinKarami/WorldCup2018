@@ -1258,14 +1258,14 @@
     team2: "سوئیس"
     flag1: assets/img/flags/swe.png
     flag2: assets/img/flags/sui.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
+    pts1: "۱"
+    pts2: "۰"
+    goal1: " امیل فورسبرگ ('۶۶)"
     goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    yellow1: "مایکل لوستیگ ('۳۱)"
+    yellow2: "والون بهرامی ('۶۱), گرانیت ژاکا ('۶۸)"
     red1: "0"
-    red2: "0"
+    red2: " مایکل لانگ ('۹۴)"
     time: "۱۸:۳۰"
     stadium: سن پترزبورگ
     city: سن پترزبورگ
@@ -1350,9 +1350,9 @@
     round1total: "45"
     round2total: "45"
     dates: شنبه ۱۶ تیر - ساعت ۱۸:۳۰
-    team1: "[W55]"
+    team1: "سوئد"
     team2: "[W56]"
-    flag1: assets/img/flags/blank.png
+    flag1: assets/img/flags/swe.png
     flag2: assets/img/flags/blank.png
     pts1: "zero"
     pts2: "zero"
