@@ -1328,12 +1328,12 @@
     team2: "بلژیک"
     flag1: assets/img/flags/bra.png
     flag2: assets/img/flags/bel.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    pts1: "۱"
+    pts2: "۲"
+    goal1: "رناتو آگوستو ('۷۶)"
+    goal2: " فرناندینیو (OG '۱۳), کوین دی بروین ('۳۱)"
+    yellow1: "فرناندینیو ('۸۵),  فاگنر ('۹۰)"
+    yellow2: " توبی آلدرویرلد ('۴۷), توماس میونیر ('۷۱)"
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
@@ -1399,9 +1399,9 @@
     round2total: "45"
     dates: سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰
     team1: "فرانسه"
-    team2: "[W58]"
+    team2: "بلژیک"
     flag1: assets/img/flags/fra.png
-    flag2: assets/img/flags/blank.png
+    flag2: assets/img/flags/bel.png
     pts1: "zero"
     pts2: "zero"
     goal1: ""
