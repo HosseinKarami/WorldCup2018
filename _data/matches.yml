@@ -1306,12 +1306,12 @@
     team2: "فرانسه"
     flag1: assets/img/flags/uru.png
     flag2: assets/img/flags/fra.png
-    pts1: "zero"
-    pts2: "zero"
+    pts1: "۰"
+    pts2: "۲"
     goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    goal2: "رافائل واران ('۴۰),  آنتوان گریزمان ('۶۱)"
+    yellow1: "رودریگو بنتانکور ('۳۸), کریستین رودریگز ('۶۹)"
+    yellow2: "لوکاس هرناندز ('۳۳), کیلیان ام باپه ('۶۹)"
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
@@ -1398,9 +1398,9 @@
     round1total: "45"
     round2total: "45"
     dates: سه‌شنبه ۱۹ تیر - ساعت ۲۲:۳۰
-    team1: "[W57]"
+    team1: "فرانسه"
     team2: "[W58]"
-    flag1: assets/img/flags/blank.png
+    flag1: assets/img/flags/fra.png
     flag2: assets/img/flags/blank.png
     pts1: "zero"
     pts2: "zero"
