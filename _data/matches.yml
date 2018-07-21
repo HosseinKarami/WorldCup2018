@@ -1428,12 +1428,12 @@
     team2: "انگلیس"
     flag1: assets/img/flags/cro.png
     flag2: assets/img/flags/eng.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    pts1: "۲"
+    pts2: "۱"
+    goal1: "ایوان پریشیچ ('۶۸), ماریو مانژوکیچ ('۱۰۹)"
+    goal2: " کرین تریپیر ('۵)"
+    yellow1: "ماریو مانژوکیچ ('۴۸),  آنته ربیچ ('۹۶)"
+    yellow2: " کایل واکر ('۵۴)"
     red1: "0"
     red2: "0"
     time: "۲۲:۳۰"
@@ -1451,15 +1451,15 @@
     round2total: "45"
     dates: شنبه ۲۳ تیر - ساعت ۱۸:۳۰
     team1: "بلژیک"
-    team2: "[L62]"
+    team2: "انگلیس"
     flag1: assets/img/flags/bel.png
-    flag2: assets/img/flags/blank.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
+    flag2: assets/img/flags/eng.png
+    pts1: "۲"
+    pts2: "۰"
+    goal1: "توماس میونیر ('۴), ادن هازارد ('۸۲)"
     goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    yellow1: "اکسل ویتسل ('۹۴)"
+    yellow2: " جان استونز ('۵۲), هری مگوایر ('۷۷)"
     red1: "0"
     red2: "0"
     time: "۱۸:۳۰"
@@ -1477,15 +1477,15 @@
     round2total: "45"
     dates: یکشنبه ۲۴ تیر - ساعت ۱۹:۳۰
     team1: "فرانسه"
-    team2: "[W62]"
+    team2: "گرواسی"
     flag1: assets/img/flags/fra.png
-    flag2: assets/img/flags/blank.png
-    pts1: "zero"
-    pts2: "zero"
-    goal1: ""
-    goal2: ""
-    yellow1: "0"
-    yellow2: "0"
+    flag2: assets/img/flags/cro.png
+    pts1: "۴"
+    pts2: "۲"
+    goal1: "ماریو مانژوکیچ (OG '۱۹),  آنتوان گریزمان (P '۳۹),  پل پوگبا ('۵۹), کیلیان ام باپه ('۶۵)"
+    goal2: " ایوان پریشیچ ('۲۸), ماریو مانژوکیچ ('۶۹)"
+    yellow1: " انگولو کانته ('۲۷), لوکاس هرناندز ('۴۱)"
+    yellow2: " سیمه ورسالیکو ('۹۳)"
     red1: "0"
     red2: "0"
     time: "۱۹:۳۰"
